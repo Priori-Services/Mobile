@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\Lab\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-mergeDebugResources-40:\\layout\\activity_frm_config_page.xml",
+        "source": "C:\\Users\\Lab\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-43:\\layout\\activity_frm_config_page.xml"
+    },
+    {
+        "merged": "com.example.prjpriori.app-mergeDebugResources-40:/layout/activity_frm_login.xml",
+        "source": "com.example.prjpriori.app-main-43:/layout/activity_frm_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lab\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-mergeDebugResources-40:\\layout\\activity_frm_perfil_page.xml",
+        "source": "C:\\Users\\Lab\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-43:\\layout\\activity_frm_perfil_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lab\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-mergeDebugResources-40:\\layout\\activity_frm_disponiveis_page.xml",
+        "source": "C:\\Users\\Lab\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-43:\\layout\\activity_frm_disponiveis_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lab\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-mergeDebugResources-40:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Lab\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-43:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lab\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-mergeDebugResources-40:\\layout\\activity_frm_home_page.xml",
+        "source": "C:\\Users\\Lab\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-43:\\layout\\activity_frm_home_page.xml"
+    }
+]
