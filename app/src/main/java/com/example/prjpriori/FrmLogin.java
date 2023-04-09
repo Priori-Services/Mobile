@@ -17,6 +17,7 @@ import java.sql.SQLException;
 
 public class FrmLogin extends AppCompatActivity {
 
+    Acessa obj = new Acessa();
     EditText lblEmail, lblSenha;
     Button btnLogin;
 
@@ -34,31 +35,24 @@ public class FrmLogin extends AppCompatActivity {
     }
 
     public void FazerLogin(View v) {
-        @Nullable
-        ResultSet RS = null;
-        try (
-                Connection con = ConnectionHandler.CreateConnection(getApplicationContext());
-                PreparedStatement stmt = con != null ? con.prepareStatement("SELECT * FROM tblClientes WHERE email=? and senha=?") : null
-        ) {
-            assert stmt != null;
-            stmt.setString(0, lblEmail.getText().toString());
-            stmt.setString(1, lblSenha.getText().toString());
-            RS = stmt.executeQuery();
-        } catch (SQLException ex) {
-            Toast.makeText(getApplicationContext(), "Fudeu bonito, não conectou com o BD: " + ex, Toast.LENGTH_LONG).show();
-        }
+        obj.entBanco(this);
+        String email = lblEmail.getText().toString();
+        String nome = lblSenha.getText().toString();
 
         try {
-            assert RS != null;
-            if (!RS.next()) {
-                Toast.makeText(getApplicationContext(), "Acesso negado.", Toast.LENGTH_SHORT).show();
-                return;
+            obj.RS = obj.stmt.executeQuery
+                    ("select * from tblClientes where email='" + email + "' and nome='" + nome + "'");
+            if (obj.RS.next()) {
+                Toast.makeText(getApplicationContext(), "Aprovado", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(FrmLogin.this, FrmHomePage.class);
+                startActivity(intent);
+                finish();
+            } else {
+                Toast.makeText(getApplicationContext(), "Entrada não aprovada", Toast.LENGTH_SHORT).show();
             }
-
-            startActivity(new Intent(getApplicationContext(), FrmHomePage.class));
-            finish();
-        } catch (SQLException ignored) {
-
+        } catch (SQLException ex) {
+            Toast.makeText(getApplicationContext(), "erro",
+                    Toast.LENGTH_SHORT).show();
         }
     }
 }
