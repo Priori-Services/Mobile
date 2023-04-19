@@ -32,33 +32,24 @@ public class FrmLogin extends AppCompatActivity {
         assert getSupportActionBar() != null;
         getSupportActionBar().hide();
     }
-
-    public void FazerLogin(View v) {
-        @Nullable
-        ResultSet RS = null;
-        try (
-                Connection con = ConnectionHandler.CreateConnection(getApplicationContext());
-                PreparedStatement stmt = con != null ? con.prepareStatement("SELECT * FROM tblClientes WHERE email=? and senha=?") : null
-        ) {
-            assert stmt != null;
-            stmt.setString(0, lblEmail.getText().toString());
-            stmt.setString(1, lblSenha.getText().toString());
-            RS = stmt.executeQuery();
-        } catch (SQLException ex) {
-            Toast.makeText(getApplicationContext(), "Fudeu bonito, não conectou com o BD: " + ex, Toast.LENGTH_LONG).show();
-        }
-
-        try {
-            assert RS != null;
-            if (!RS.next()) {
-                Toast.makeText(getApplicationContext(), "Acesso negado.", Toast.LENGTH_SHORT).show();
-                return;
+    Acessa obj = new Acessa();
+    public void acessabanco(View v){
+        obj.entBanco(this);
+        String email = lblEmail.getText().toString();
+        String senha = lblSenha.getText().toString();
+        try{
+            obj.RS = obj.stmt.executeQuery
+                    ("select * from tblClientes where email='"+email+"'and nome='"+senha+"'");
+            if(obj.RS.next()){
+                Toast.makeText(getApplicationContext(),"Aprovado",Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(FrmLogin.this,FrmHomePage.class);
+                startActivity(intent);
+                finish();
+            }else{
+                Toast.makeText(getApplicationContext(),"Entrada não aprovada",Toast.LENGTH_SHORT).show();
             }
-
-            startActivity(new Intent(getApplicationContext(), FrmHomePage.class));
-            finish();
-        } catch (SQLException ignored) {
-
+        }catch (SQLException ex){
+            Toast.makeText(getApplicationContext(),"erro no acesso",Toast.LENGTH_SHORT).show();
         }
     }
 }

@@ -22,10 +22,10 @@
             android:name=".FrmDisponiveisPage"
             android:exported="false" />
         <activity
-            android:name=".FrmLogin"
+            android:name=".FrmHomePage"
             android:exported="false" />
         <activity
-            android:name=".FrmHomePage"
+            android:name=".FrmLogin"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -37,10 +37,10 @@
             android:name="com.example.prjpriori.FrmDisponiveisPage"
             android:exported="false" />
         <activity
-            android:name="com.example.prjpriori.FrmLogin"
+            android:name="com.example.prjpriori.FrmHomePage"
             android:exported="false" />
         <activity
-            android:name="com.example.prjpriori.FrmHomePage"
+            android:name="com.example.prjpriori.FrmLogin"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -99,7 +99,7 @@
             android:layout_marginEnd="20dp"
             android:layout_marginBottom="20dp"
             android:backgroundTint="#559CD3"
-            android:onClick="entrar"
+            android:onClick="acessabanco"
             android:text="Login"
             android:textSize="16sp" />
 
