@@ -3015,6 +3015,8 @@ id currentState
 id custom
 id customPanel
 id cut
+id data_adesao
+id data_encerramento
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
@@ -3117,6 +3119,7 @@ id line3
 id linear
 id linearLayout
 id linearLayout2
+id linearLayout3
 id listMode
 id list_item
 id locale
@@ -3229,6 +3232,8 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id rentabildade_fixa
+id rentabilidade_variavel
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3237,6 +3242,7 @@ id right_side
 id rounded
 id row_index_key
 id rtl
+id saldo
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -3310,6 +3316,7 @@ id startToEnd
 id startVertical
 id staticLayout
 id staticPostLayout
+id status
 id stop
 id stretch
 id submenuarrow
@@ -3382,6 +3389,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id valor_aplicado
 id vertical_only
 id view_offset_helper
 id view_transition
