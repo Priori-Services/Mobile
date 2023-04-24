@@ -1,5 +1,7 @@
 package com.example.prjpriori;
 
+import static com.example.prjpriori.FrmLogin.idCliente;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -69,7 +71,7 @@ public class FrmDisponiveisPage extends AppCompatActivity {
         objA.entBanco(this);
         try{
             objA.RS = objA.stmt.executeQuery
-                    ("select * from tblCarteiraInvestimentos where id_cliente_carteira = 1");
+                    ("select * from tblCarteiraInvestimentos where id_cliente_carteira ='"+ idCliente +"' ");
         }catch (SQLException ex){
             Toast.makeText(getApplicationContext(),"erro"+ex,Toast.LENGTH_SHORT).show();
         }
