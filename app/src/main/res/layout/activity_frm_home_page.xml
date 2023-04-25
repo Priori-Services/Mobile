@@ -111,7 +111,7 @@
                 android:background="@drawable/bordas">
 
                 <TextView
-                    android:id="@+id/textView3"
+                    android:id="@+id/nome"
                     android:layout_width="match_parent"
                     android:layout_height="25dp"
                     android:gravity="left"
@@ -122,7 +122,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/textView4"
+                    android:id="@+id/rentabildadeFixa"
                     android:layout_marginTop="3dp"
                     android:layout_width="match_parent"
                     android:textColor="#2B2A2A"
@@ -165,7 +165,7 @@
                     android:gravity="left"/>
 
                 <TextView
-                    android:id="@+id/textView6"
+                    android:id="@+id/valorMinimo"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="R$ 36,48"
@@ -191,7 +191,7 @@
                             android:gravity="left"/>
 
                         <TextView
-                            android:id="@+id/textView8"
+                            android:id="@+id/vencimento"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="01/01/2026"

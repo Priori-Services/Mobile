@@ -19,7 +19,7 @@
             android:name=".FrmPerfilPage"
             android:exported="false" />
         <activity
-            android:name=".FrmDisponiveisPage"
+            android:name=".InvestimentosDisponiveis.FrmDisponiveisPage"
             android:exported="false" />
         <activity
             android:name=".FrmHomePage"

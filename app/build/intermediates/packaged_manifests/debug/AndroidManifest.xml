@@ -34,7 +34,7 @@
             android:name="com.example.prjpriori.FrmPerfilPage"
             android:exported="false" />
         <activity
-            android:name="com.example.prjpriori.FrmDisponiveisPage"
+            android:name="com.example.prjpriori.InvestimentosDisponiveis.FrmDisponiveisPage"
             android:exported="false" />
         <activity
             android:name="com.example.prjpriori.FrmHomePage"

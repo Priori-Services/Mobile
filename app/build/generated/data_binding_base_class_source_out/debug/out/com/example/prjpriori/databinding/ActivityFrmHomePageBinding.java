@@ -43,6 +43,12 @@ public final class ActivityFrmHomePageBinding implements ViewBinding {
   public final LinearLayout linearLayout2;
 
   @NonNull
+  public final TextView nome;
+
+  @NonNull
+  public final TextView rentabildadeFixa;
+
+  @NonNull
   public final TextView textVie3;
 
   @NonNull
@@ -64,31 +70,25 @@ public final class ActivityFrmHomePageBinding implements ViewBinding {
   public final TextView textView2;
 
   @NonNull
-  public final TextView textView3;
-
-  @NonNull
-  public final TextView textView4;
-
-  @NonNull
   public final TextView textView5;
-
-  @NonNull
-  public final TextView textView6;
 
   @NonNull
   public final TextView textView7;
 
   @NonNull
-  public final TextView textView8;
+  public final TextView valorMinimo;
+
+  @NonNull
+  public final TextView vencimento;
 
   private ActivityFrmHomePageBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnConfig,
       @NonNull Button btnDisponivel, @NonNull Button btnHome, @NonNull Button btnPerfil,
       @NonNull Button btnPerfil2, @NonNull LinearLayout linearLayout,
-      @NonNull LinearLayout linearLayout2, @NonNull TextView textVie3, @NonNull TextView textVie4,
+      @NonNull LinearLayout linearLayout2, @NonNull TextView nome,
+      @NonNull TextView rentabildadeFixa, @NonNull TextView textVie3, @NonNull TextView textVie4,
       @NonNull TextView textVie5, @NonNull TextView textVie6, @NonNull TextView textVie7,
-      @NonNull TextView textVie8, @NonNull TextView textView2, @NonNull TextView textView3,
-      @NonNull TextView textView4, @NonNull TextView textView5, @NonNull TextView textView6,
-      @NonNull TextView textView7, @NonNull TextView textView8) {
+      @NonNull TextView textVie8, @NonNull TextView textView2, @NonNull TextView textView5,
+      @NonNull TextView textView7, @NonNull TextView valorMinimo, @NonNull TextView vencimento) {
     this.rootView = rootView;
     this.btnConfig = btnConfig;
     this.btnDisponivel = btnDisponivel;
@@ -97,6 +97,8 @@ public final class ActivityFrmHomePageBinding implements ViewBinding {
     this.btnPerfil2 = btnPerfil2;
     this.linearLayout = linearLayout;
     this.linearLayout2 = linearLayout2;
+    this.nome = nome;
+    this.rentabildadeFixa = rentabildadeFixa;
     this.textVie3 = textVie3;
     this.textVie4 = textVie4;
     this.textVie5 = textVie5;
@@ -104,12 +106,10 @@ public final class ActivityFrmHomePageBinding implements ViewBinding {
     this.textVie7 = textVie7;
     this.textVie8 = textVie8;
     this.textView2 = textView2;
-    this.textView3 = textView3;
-    this.textView4 = textView4;
     this.textView5 = textView5;
-    this.textView6 = textView6;
     this.textView7 = textView7;
-    this.textView8 = textView8;
+    this.valorMinimo = valorMinimo;
+    this.vencimento = vencimento;
   }
 
   @Override
@@ -181,6 +181,18 @@ public final class ActivityFrmHomePageBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.nome;
+      TextView nome = ViewBindings.findChildViewById(rootView, id);
+      if (nome == null) {
+        break missingId;
+      }
+
+      id = R.id.rentabildadeFixa;
+      TextView rentabildadeFixa = ViewBindings.findChildViewById(rootView, id);
+      if (rentabildadeFixa == null) {
+        break missingId;
+      }
+
       id = R.id.textVie3;
       TextView textVie3 = ViewBindings.findChildViewById(rootView, id);
       if (textVie3 == null) {
@@ -223,27 +235,9 @@ public final class ActivityFrmHomePageBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView3;
-      TextView textView3 = ViewBindings.findChildViewById(rootView, id);
-      if (textView3 == null) {
-        break missingId;
-      }
-
-      id = R.id.textView4;
-      TextView textView4 = ViewBindings.findChildViewById(rootView, id);
-      if (textView4 == null) {
-        break missingId;
-      }
-
       id = R.id.textView5;
       TextView textView5 = ViewBindings.findChildViewById(rootView, id);
       if (textView5 == null) {
-        break missingId;
-      }
-
-      id = R.id.textView6;
-      TextView textView6 = ViewBindings.findChildViewById(rootView, id);
-      if (textView6 == null) {
         break missingId;
       }
 
@@ -253,16 +247,22 @@ public final class ActivityFrmHomePageBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView8;
-      TextView textView8 = ViewBindings.findChildViewById(rootView, id);
-      if (textView8 == null) {
+      id = R.id.valorMinimo;
+      TextView valorMinimo = ViewBindings.findChildViewById(rootView, id);
+      if (valorMinimo == null) {
+        break missingId;
+      }
+
+      id = R.id.vencimento;
+      TextView vencimento = ViewBindings.findChildViewById(rootView, id);
+      if (vencimento == null) {
         break missingId;
       }
 
       return new ActivityFrmHomePageBinding((ConstraintLayout) rootView, btnConfig, btnDisponivel,
-          btnHome, btnPerfil, btnPerfil2, linearLayout, linearLayout2, textVie3, textVie4, textVie5,
-          textVie6, textVie7, textVie8, textView2, textView3, textView4, textView5, textView6,
-          textView7, textView8);
+          btnHome, btnPerfil, btnPerfil2, linearLayout, linearLayout2, nome, rentabildadeFixa,
+          textVie3, textVie4, textVie5, textVie6, textVie7, textVie8, textView2, textView5,
+          textView7, valorMinimo, vencimento);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

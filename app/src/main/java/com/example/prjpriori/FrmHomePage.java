@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.prjpriori.InvestimentosDisponiveis.FrmDisponiveisPage;
+
 public class FrmHomePage extends AppCompatActivity {
 
     Button btnDisponivel, btnPerfil, btnConfig, btnPerfil2;

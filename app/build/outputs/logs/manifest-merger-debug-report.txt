@@ -128,12 +128,12 @@ ADDED from C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\
 		ADDED from C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:20:13-37
 	android:name
 		ADDED from C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:19:13-42
-activity#com.example.prjpriori.FrmDisponiveisPage
+activity#com.example.prjpriori.InvestimentosDisponiveis.FrmDisponiveisPage
 ADDED from C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:21:9-23:40
 	android:exported
 		ADDED from C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:23:13-37
 	android:name
-		ADDED from C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:22:13-47
+		ADDED from C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:22:13-72
 activity#com.example.prjpriori.FrmHomePage
 ADDED from C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:24:9-26:40
 	android:exported

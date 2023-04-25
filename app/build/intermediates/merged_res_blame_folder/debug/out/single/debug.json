@@ -40,6 +40,10 @@
         "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-7:\\navigation\\nav_graph.xml"
     },
     {
+        "merged": "com.example.prjpriori.app-merged_res-5:/layout_modelo_investimentos.xml.flat",
+        "source": "com.example.prjpriori.app-main-7:/layout/modelo_investimentos.xml"
+    },
+    {
         "merged": "com.example.prjpriori.app-merged_res-5:/layout_activity_frm_disponiveis_page.xml.flat",
         "source": "com.example.prjpriori.app-main-7:/layout/activity_frm_disponiveis_page.xml"
     },
@@ -154,6 +158,10 @@
     {
         "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-merged_res-5:\\mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-7:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.prjpriori.app-merged_res-5:/layout_activity_frm_home_page.xml.flat",
+        "source": "com.example.prjpriori.app-main-7:/layout/activity_frm_home_page.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-merged_res-5:\\mipmap-xxhdpi_ic_launcher.webp.flat",

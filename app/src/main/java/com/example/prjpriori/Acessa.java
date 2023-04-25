@@ -10,9 +10,9 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class Acessa {
-    ResultSet RS;
-    java.sql.Statement stmt;
-    Connection con;
+    public ResultSet RS;
+    public java.sql.Statement stmt;
+    public Connection con;
 
     public Connection entBanco(Context ctx){
 

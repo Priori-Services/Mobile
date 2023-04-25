@@ -6,7 +6,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.LinearLayout;
-import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -34,48 +33,17 @@ public final class ActivityFrmDisponiveisPageBinding implements ViewBinding {
   public final Button btnPerfil;
 
   @NonNull
-  public final TextView dataAdesao;
-
-  @NonNull
-  public final TextView dataEncerramento;
-
-  @NonNull
   public final LinearLayout linearLayout3;
-
-  @NonNull
-  public final TextView rentabildadeFixa;
-
-  @NonNull
-  public final TextView rentabilidadeVariavel;
-
-  @NonNull
-  public final TextView saldo;
-
-  @NonNull
-  public final TextView status;
-
-  @NonNull
-  public final TextView valorAplicado;
 
   private ActivityFrmDisponiveisPageBinding(@NonNull ConstraintLayout rootView,
       @NonNull Button btnConfig, @NonNull Button btnDisponivel, @NonNull Button btnHome,
-      @NonNull Button btnPerfil, @NonNull TextView dataAdesao, @NonNull TextView dataEncerramento,
-      @NonNull LinearLayout linearLayout3, @NonNull TextView rentabildadeFixa,
-      @NonNull TextView rentabilidadeVariavel, @NonNull TextView saldo, @NonNull TextView status,
-      @NonNull TextView valorAplicado) {
+      @NonNull Button btnPerfil, @NonNull LinearLayout linearLayout3) {
     this.rootView = rootView;
     this.btnConfig = btnConfig;
     this.btnDisponivel = btnDisponivel;
     this.btnHome = btnHome;
     this.btnPerfil = btnPerfil;
-    this.dataAdesao = dataAdesao;
-    this.dataEncerramento = dataEncerramento;
     this.linearLayout3 = linearLayout3;
-    this.rentabildadeFixa = rentabildadeFixa;
-    this.rentabilidadeVariavel = rentabilidadeVariavel;
-    this.saldo = saldo;
-    this.status = status;
-    this.valorAplicado = valorAplicado;
   }
 
   @Override
@@ -129,57 +97,14 @@ public final class ActivityFrmDisponiveisPageBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.data_adesao;
-      TextView dataAdesao = ViewBindings.findChildViewById(rootView, id);
-      if (dataAdesao == null) {
-        break missingId;
-      }
-
-      id = R.id.data_encerramento;
-      TextView dataEncerramento = ViewBindings.findChildViewById(rootView, id);
-      if (dataEncerramento == null) {
-        break missingId;
-      }
-
       id = R.id.linearLayout3;
       LinearLayout linearLayout3 = ViewBindings.findChildViewById(rootView, id);
       if (linearLayout3 == null) {
         break missingId;
       }
 
-      id = R.id.rentabildade_fixa;
-      TextView rentabildadeFixa = ViewBindings.findChildViewById(rootView, id);
-      if (rentabildadeFixa == null) {
-        break missingId;
-      }
-
-      id = R.id.rentabilidade_variavel;
-      TextView rentabilidadeVariavel = ViewBindings.findChildViewById(rootView, id);
-      if (rentabilidadeVariavel == null) {
-        break missingId;
-      }
-
-      id = R.id.saldo;
-      TextView saldo = ViewBindings.findChildViewById(rootView, id);
-      if (saldo == null) {
-        break missingId;
-      }
-
-      id = R.id.status;
-      TextView status = ViewBindings.findChildViewById(rootView, id);
-      if (status == null) {
-        break missingId;
-      }
-
-      id = R.id.valor_aplicado;
-      TextView valorAplicado = ViewBindings.findChildViewById(rootView, id);
-      if (valorAplicado == null) {
-        break missingId;
-      }
-
       return new ActivityFrmDisponiveisPageBinding((ConstraintLayout) rootView, btnConfig,
-          btnDisponivel, btnHome, btnPerfil, dataAdesao, dataEncerramento, linearLayout3,
-          rentabildadeFixa, rentabilidadeVariavel, saldo, status, valorAplicado);
+          btnDisponivel, btnHome, btnPerfil, linearLayout3);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -3,6 +3,7 @@ package com.example.prjpriori;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
@@ -16,6 +17,9 @@ public class FrmLogin extends AppCompatActivity {
     Button btnLogin;
 
 
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,7 +28,6 @@ public class FrmLogin extends AppCompatActivity {
         btnLogin = findViewById(R.id.btnLogin);
         lblSenha = findViewById(R.id.lblSenha);
         lblEmail = findViewById(R.id.lblEmail);
-
 
         assert getSupportActionBar() != null;
         getSupportActionBar().hide();
@@ -54,5 +57,4 @@ public class FrmLogin extends AppCompatActivity {
         }
     }
     static String idCliente;
-
 }
