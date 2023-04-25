@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
+import com.example.prjpriori.InvestimentosDisponiveis.Model.Investimentos;
 import com.example.prjpriori.R;
 
 import java.util.ArrayList;

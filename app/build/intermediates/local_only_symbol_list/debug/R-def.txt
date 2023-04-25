@@ -55,6 +55,7 @@ id textVie7
 id textVie8
 id textView
 id textView2
+id textView3
 id textView5
 id textView7
 id txtEsqueceuSenha
