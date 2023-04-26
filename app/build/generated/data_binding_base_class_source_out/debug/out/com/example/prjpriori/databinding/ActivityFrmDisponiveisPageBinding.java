@@ -5,7 +5,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.TextView;
+import android.widget.LinearLayout;
+import android.widget.ListView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -33,17 +34,21 @@ public final class ActivityFrmDisponiveisPageBinding implements ViewBinding {
   public final Button btnPerfil;
 
   @NonNull
-  public final TextView textView;
+  public final LinearLayout linearLayout3;
+
+  @NonNull
+  public final ListView lista;
 
   private ActivityFrmDisponiveisPageBinding(@NonNull ConstraintLayout rootView,
       @NonNull Button btnConfig, @NonNull Button btnDisponivel, @NonNull Button btnHome,
-      @NonNull Button btnPerfil, @NonNull TextView textView) {
+      @NonNull Button btnPerfil, @NonNull LinearLayout linearLayout3, @NonNull ListView lista) {
     this.rootView = rootView;
     this.btnConfig = btnConfig;
     this.btnDisponivel = btnDisponivel;
     this.btnHome = btnHome;
     this.btnPerfil = btnPerfil;
-    this.textView = textView;
+    this.linearLayout3 = linearLayout3;
+    this.lista = lista;
   }
 
   @Override
@@ -97,14 +102,20 @@ public final class ActivityFrmDisponiveisPageBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView;
-      TextView textView = ViewBindings.findChildViewById(rootView, id);
-      if (textView == null) {
+      id = R.id.linearLayout3;
+      LinearLayout linearLayout3 = ViewBindings.findChildViewById(rootView, id);
+      if (linearLayout3 == null) {
+        break missingId;
+      }
+
+      id = R.id.lista;
+      ListView lista = ViewBindings.findChildViewById(rootView, id);
+      if (lista == null) {
         break missingId;
       }
 
       return new ActivityFrmDisponiveisPageBinding((ConstraintLayout) rootView, btnConfig,
-          btnDisponivel, btnHome, btnPerfil, textView);
+          btnDisponivel, btnHome, btnPerfil, linearLayout3, lista);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -4,21 +4,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FrmDisponiveisPage">
+    tools:context=".InvestimentosDisponiveis.FrmDisponiveisPage">
 
+
+    <ListView
+        android:id="@+id/lista"
+        android:layout_width="401dp"
+        android:layout_height="627dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
+        android:id="@+id/linearLayout3"
         android:layout_width="match_parent"
-        android:layout_height="55dp"
+        android:layout_height="0dp"
+        android:background="#5627FD"
         android:orientation="horizontal"
         android:paddingLeft="5dp"
         android:paddingRight="5dp"
-        android:background="#5627FD"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0">
+        app:layout_constraintStart_toStartOf="parent">
 
         <Button
             android:id="@+id/btnHome"
@@ -26,8 +36,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:backgroundTint="#5627FD"
-            android:drawableTop="@drawable/home_white"
-             />
+            android:drawableTop="@drawable/home_white" />
 
         <Space
             android:layout_width="10dp"
@@ -42,9 +51,9 @@
             android:backgroundTint="#A5DDEA"
             android:drawableLeft="@drawable/graph_black"
             android:text="Disponíveis"
-            android:textSize="18sp"
             android:textAllCaps="false"
-            android:textColor="#020F22" />
+            android:textColor="#020F22"
+            android:textSize="18sp" />
 
         <Space
             android:layout_width="10dp"
@@ -56,8 +65,8 @@
             android:layout_width="80dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:drawableTop="@drawable/person"
-            android:backgroundTint="#5627FD"/>
+            android:backgroundTint="#5627FD"
+            android:drawableTop="@drawable/person" />
 
         <Space
             android:layout_width="10dp"
@@ -69,20 +78,8 @@
             android:layout_width="80dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:drawableTop="@drawable/settings"
-            android:backgroundTint="#5627FD" />
+            android:backgroundTint="#5627FD"
+            android:drawableTop="@drawable/settings" />
     </LinearLayout>
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Essa é a DisponivelPage - Investimentos didponíveis aqui"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.393" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

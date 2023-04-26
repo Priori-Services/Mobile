@@ -19,13 +19,13 @@
             android:name=".FrmPerfilPage"
             android:exported="false" />
         <activity
-            android:name=".FrmDisponiveisPage"
+            android:name=".InvestimentosDisponiveis.FrmDisponiveisPage"
+            android:exported="false" />
+        <activity
+            android:name=".InvestimentosRealizados.FrmHomePage"
             android:exported="false" />
         <activity
             android:name=".FrmLogin"
-            android:exported="false" />
-        <activity
-            android:name=".FrmHomePage"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

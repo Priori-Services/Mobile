@@ -34,13 +34,13 @@
             android:name="com.example.prjpriori.FrmPerfilPage"
             android:exported="false" />
         <activity
-            android:name="com.example.prjpriori.FrmDisponiveisPage"
+            android:name="com.example.prjpriori.InvestimentosDisponiveis.FrmDisponiveisPage"
+            android:exported="false" />
+        <activity
+            android:name="com.example.prjpriori.InvestimentosRealizados.FrmHomePage"
             android:exported="false" />
         <activity
             android:name="com.example.prjpriori.FrmLogin"
-            android:exported="false" />
-        <activity
-            android:name="com.example.prjpriori.FrmHomePage"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
