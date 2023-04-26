@@ -1,7 +1,6 @@
 package com.example.prjpriori.InvestimentosDisponiveis;
 
 
-
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -9,6 +8,7 @@ import android.database.Cursor;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -69,38 +69,40 @@ public class FrmDisponiveisPage extends AppCompatActivity {
     ArrayList<Investimentos> investimentos = new ArrayList<Investimentos>();
     Acessa objA = new Acessa();
 
-    public Connection consultar(){
+    public Connection consultar() {
         objA.entBanco(this);
-        try{
+        try {
             objA.RS = objA.stmt.executeQuery
                     ("select * from tblInvestimentos");
-        }catch (SQLException ex){
-            Toast.makeText(getApplicationContext(),"erro"+ex,Toast.LENGTH_SHORT).show();
+        } catch (SQLException ex) {
+            Toast.makeText(getApplicationContext(), "erro" + ex, Toast.LENGTH_SHORT).show();
         }
         return objA.con;
     }
 
     public void preencher() throws SQLException {
 
-               while (objA.RS.next()) {
-                   Investimentos investimento = new Investimentos();
-                   investimento.nome = objA.RS.getString(3);
-                   investimento.rentabilidade_fixa = objA.RS.getString(5);
-                   investimento.valor_minimo = objA.RS.getString(9);
-                   investimento.vencimento = objA.RS.getString(8);
-                   investimentos.add(investimento);
-               }
+        while (objA.RS.next()) {
+            Investimentos investimento = new Investimentos();
+            investimento.nome = objA.RS.getString(3);
+            investimento.rentabilidade_fixa = objA.RS.getString(5);
+            investimento.valor_minimo = objA.RS.getString(9);
+            investimento.vencimento = objA.RS.getString(8);
+            investimentos.add(investimento);
+        }
+        ListView lista = findViewById(R.id.lista);
+        lista.setAdapter(new InvestimentoAdapter(this, investimentos));
     }
 
-    public void entrar(){
+    public void entrar() {
         objA.entBanco(this);
         consultar();
 
-        try{
-            if(objA.RS.next()){
+        try {
+            if (objA.RS.next()) {
                 preencher();
             }
-        }catch (SQLException ex){
+        } catch (SQLException ex) {
             ex.printStackTrace();
         }
     }

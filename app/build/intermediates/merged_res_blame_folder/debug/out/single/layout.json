@@ -12,6 +12,10 @@
         "source": "com.example.prjpriori.app-main-7:/layout/modelo_investimentos.xml"
     },
     {
+        "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-mergeDebugResources-4:\\layout\\modelo_investimentos.xml",
+        "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-7:\\layout\\modelo_investimentos.xml"
+    },
+    {
         "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-mergeDebugResources-4:\\layout\\activity_frm_config_page.xml",
         "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-7:\\layout\\activity_frm_config_page.xml"
     },
@@ -22,13 +26,5 @@
     {
         "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-mergeDebugResources-4:\\layout\\activity_frm_disponiveis_page.xml",
         "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-7:\\layout\\activity_frm_disponiveis_page.xml"
-    },
-    {
-        "merged": "com.example.prjpriori.app-mergeDebugResources-4:/layout/activity_frm_home_page.xml",
-        "source": "com.example.prjpriori.app-main-7:/layout/activity_frm_home_page.xml"
-    },
-    {
-        "merged": "com.example.prjpriori.app-mergeDebugResources-4:/layout/activity_frm_disponiveis_page.xml",
-        "source": "com.example.prjpriori.app-main-7:/layout/activity_frm_disponiveis_page.xml"
     }
 ]

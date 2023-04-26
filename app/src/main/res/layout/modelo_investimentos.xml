@@ -27,6 +27,7 @@
 
 
             <LinearLayout
+                android:id="@+id/cor"
                 android:layout_width="15dp"
                 android:layout_height="match_parent"
                 android:background="@drawable/lateral_red"

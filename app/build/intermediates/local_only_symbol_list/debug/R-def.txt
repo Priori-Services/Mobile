@@ -37,11 +37,13 @@ id btnHome
 id btnLogin
 id btnPerfil
 id btnPerfil2
+id cor
 id lblEmail
 id lblSenha
 id linearLayout
 id linearLayout2
 id linearLayout3
+id lista
 id logo
 id nav_graph
 id nome

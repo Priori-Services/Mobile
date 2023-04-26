@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.LinearLayout;
+import android.widget.ListView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -35,15 +36,19 @@ public final class ActivityFrmDisponiveisPageBinding implements ViewBinding {
   @NonNull
   public final LinearLayout linearLayout3;
 
+  @NonNull
+  public final ListView lista;
+
   private ActivityFrmDisponiveisPageBinding(@NonNull ConstraintLayout rootView,
       @NonNull Button btnConfig, @NonNull Button btnDisponivel, @NonNull Button btnHome,
-      @NonNull Button btnPerfil, @NonNull LinearLayout linearLayout3) {
+      @NonNull Button btnPerfil, @NonNull LinearLayout linearLayout3, @NonNull ListView lista) {
     this.rootView = rootView;
     this.btnConfig = btnConfig;
     this.btnDisponivel = btnDisponivel;
     this.btnHome = btnHome;
     this.btnPerfil = btnPerfil;
     this.linearLayout3 = linearLayout3;
+    this.lista = lista;
   }
 
   @Override
@@ -103,8 +108,14 @@ public final class ActivityFrmDisponiveisPageBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.lista;
+      ListView lista = ViewBindings.findChildViewById(rootView, id);
+      if (lista == null) {
+        break missingId;
+      }
+
       return new ActivityFrmDisponiveisPageBinding((ConstraintLayout) rootView, btnConfig,
-          btnDisponivel, btnHome, btnPerfil, linearLayout3);
+          btnDisponivel, btnHome, btnPerfil, linearLayout3, lista);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
