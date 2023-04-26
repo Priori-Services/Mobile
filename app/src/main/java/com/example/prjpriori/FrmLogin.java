@@ -18,9 +18,7 @@ public class FrmLogin extends AppCompatActivity {
     EditText lblEmail, lblSenha;
     Button btnLogin;
 
-
-
-
+    public static String idCliente;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,5 +56,4 @@ public class FrmLogin extends AppCompatActivity {
             Toast.makeText(getApplicationContext(), "erro no acesso", Toast.LENGTH_SHORT).show();
         }
     }
-    public static String idCliente;
 }
