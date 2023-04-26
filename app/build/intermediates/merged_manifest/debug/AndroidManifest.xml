@@ -37,7 +37,7 @@
             android:name="com.example.prjpriori.InvestimentosDisponiveis.FrmDisponiveisPage"
             android:exported="false" />
         <activity
-            android:name="com.example.prjpriori.FrmHomePage"
+            android:name="com.example.prjpriori.InvestimentosRealizados.FrmHomePage"
             android:exported="false" />
         <activity
             android:name="com.example.prjpriori.FrmLogin"

@@ -3100,6 +3100,7 @@ id immediateStop
 id included
 id indeterminate
 id info
+id investimentosRealizados
 id invisible
 id inward
 id italic
@@ -3341,12 +3342,6 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-id textVie3
-id textVie4
-id textVie5
-id textVie6
-id textVie7
-id textVie8
 id textView
 id textView2
 id textView5
@@ -3551,6 +3546,7 @@ layout material_timepicker
 layout material_timepicker_dialog
 layout material_timepicker_textinput_display
 layout modelo_investimentos
+layout modelo_investimentos_realizados
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title

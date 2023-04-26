@@ -3,12 +3,14 @@ package com.example.prjpriori;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
 import android.view.View;
 import android.widget.Toast;
+
+import com.example.prjpriori.InvestimentosRealizados.FrmHomePage;
+
 import java.sql.SQLException;
 
 public class FrmLogin extends AppCompatActivity {
@@ -56,5 +58,5 @@ public class FrmLogin extends AppCompatActivity {
             Toast.makeText(getApplicationContext(), "erro no acesso", Toast.LENGTH_SHORT).show();
         }
     }
-    static String idCliente;
+    public static String idCliente;
 }

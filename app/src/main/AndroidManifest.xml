@@ -22,7 +22,7 @@
             android:name=".InvestimentosDisponiveis.FrmDisponiveisPage"
             android:exported="false" />
         <activity
-            android:name=".FrmHomePage"
+            android:name=".InvestimentosRealizados.FrmHomePage"
             android:exported="false" />
         <activity
             android:name=".FrmLogin"

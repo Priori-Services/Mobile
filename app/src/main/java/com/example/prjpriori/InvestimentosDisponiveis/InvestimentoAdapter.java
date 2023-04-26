@@ -60,7 +60,7 @@ public class InvestimentoAdapter extends BaseAdapter {
         txtValorMinimo.setText(( itens.valor_minimo));
 
         TextView txtVencimento = LayoutModelo.findViewById(R.id.vencimento);
-        txtVencimento.setText((CharSequence) itens.vencimento);
+        txtVencimento.setText( itens.vencimento);
 
         return LayoutModelo;
     }

@@ -38,6 +38,7 @@ id btnLogin
 id btnPerfil
 id btnPerfil2
 id cor
+id investimentosRealizados
 id lblEmail
 id lblSenha
 id linearLayout
@@ -49,12 +50,6 @@ id nav_graph
 id nome
 id rentabildadeFixa
 id signin
-id textVie3
-id textVie4
-id textVie5
-id textVie6
-id textVie7
-id textVie8
 id textView
 id textView2
 id textView5
@@ -69,6 +64,7 @@ layout activity_frm_home_page
 layout activity_frm_login
 layout activity_frm_perfil_page
 layout modelo_investimentos
+layout modelo_investimentos_realizados
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation nav_graph

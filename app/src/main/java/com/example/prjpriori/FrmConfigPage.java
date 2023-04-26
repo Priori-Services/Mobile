@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.prjpriori.InvestimentosDisponiveis.FrmDisponiveisPage;
+import com.example.prjpriori.InvestimentosRealizados.FrmHomePage;
 
 public class FrmConfigPage extends AppCompatActivity {
 

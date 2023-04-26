@@ -65,8 +65,8 @@
 38-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:23:13-37
 39        <activity
 39-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:24:9-26:40
-40            android:name="com.example.prjpriori.FrmHomePage"
-40-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:25:13-40
+40            android:name="com.example.prjpriori.InvestimentosRealizados.FrmHomePage"
+40-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:25:13-64
 41            android:exported="false" />
 41-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:26:13-37
 42        <activity
