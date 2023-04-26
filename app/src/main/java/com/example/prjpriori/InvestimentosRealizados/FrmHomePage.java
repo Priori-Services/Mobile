@@ -76,7 +76,10 @@ public class FrmHomePage extends AppCompatActivity {
         objA.entBanco(this);
         try {
             objA.RS = objA.stmt.executeQuery
-                    ("select inv.nome,Carteira.* from tblInvestimentos as inv inner join tblCarteiraInvestimentos as Carteira on inv.id_investimento = Carteira.id_investimento where id_cliente_carteira = '" + idCliente + "' ");
+                    ("select inv.nome,Carteira. * from tblInvestimentos as inv" +
+                            " inner join tblCarteiraInvestimentos as Carteira " +
+                            "on inv.id_investimento = Carteira.id_investimento " +
+                            "where id_cliente_carteira = " + idCliente + " ");
         } catch (SQLException ex) {
             Toast.makeText(getApplicationContext(), "erro" + ex, Toast.LENGTH_SHORT).show();
         }
