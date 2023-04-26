@@ -6,11 +6,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Toast;
 
 import com.example.prjpriori.Acessa;
+import com.example.prjpriori.DetalhesInvestimentos.FrmDetalhesInvestimento;
 import com.example.prjpriori.FrmConfigPage;
 import com.example.prjpriori.InvestimentosRealizados.FrmHomePage;
 import com.example.prjpriori.FrmPerfilPage;
@@ -36,7 +38,6 @@ public class FrmDisponiveisPage extends AppCompatActivity {
 
 
         entrar();
-
 
         btnHome.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -64,6 +65,7 @@ public class FrmDisponiveisPage extends AppCompatActivity {
 
     }
 
+
     ArrayList<Investimentos> investimentos = new ArrayList<Investimentos>();
     Acessa objA = new Acessa();
 
@@ -89,6 +91,13 @@ public class FrmDisponiveisPage extends AppCompatActivity {
             investimentos.add(investimento);
         }
         ListView lista = findViewById(R.id.lista);
+        lista.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Intent intent = new Intent(getApplicationContext(), FrmDetalhesInvestimento.class);
+                startActivity(intent);
+            }
+        });
         lista.setAdapter(new InvestimentoAdapter(this, investimentos));
     }
 
