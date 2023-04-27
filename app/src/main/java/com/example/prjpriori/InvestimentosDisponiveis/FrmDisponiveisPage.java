@@ -94,8 +94,10 @@ public class FrmDisponiveisPage extends AppCompatActivity {
         lista.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Intent intent = new Intent(getApplicationContext(), FrmDetalhesInvestimento.class);
-                startActivity(intent);
+               Intent intent = new Intent(getApplicationContext(), FrmDetalhesInvestimento.class);
+               intent.putExtra("id", id);
+               intent.putExtra("position",position);
+               startActivity(intent);
             }
         });
         lista.setAdapter(new InvestimentoAdapter(this, investimentos));

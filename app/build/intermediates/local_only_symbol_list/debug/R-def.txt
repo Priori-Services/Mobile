@@ -44,6 +44,7 @@ id lblSenha
 id linearLayout
 id linearLayout2
 id linearLayout3
+id linearLayout4
 id lista
 id logo
 id nav_graph
