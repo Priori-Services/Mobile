@@ -25,6 +25,7 @@ import java.util.ArrayList;
 public class FrmDisponiveisPage extends AppCompatActivity {
 
     Button btnHome, btnPerfil, btnConfig;
+    public static String idInvestimento;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -89,6 +90,7 @@ public class FrmDisponiveisPage extends AppCompatActivity {
             investimento.valor_minimo = objA.RS.getString(9);
             investimento.vencimento = objA.RS.getString(8);
             investimentos.add(investimento);
+             investimentos.size();
         }
         ListView lista = findViewById(R.id.lista);
         lista.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -96,7 +98,6 @@ public class FrmDisponiveisPage extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                Intent intent = new Intent(getApplicationContext(), FrmDetalhesInvestimento.class);
                intent.putExtra("id", id);
-               intent.putExtra("position",position);
                startActivity(intent);
             }
         });

@@ -2,12 +2,14 @@ package com.example.prjpriori.DetalhesInvestimentos;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.prjpriori.Acessa;
+import com.example.prjpriori.InvestimentosDisponiveis.Investimentos;
 import com.example.prjpriori.R;
 
 import java.sql.Connection;
@@ -27,11 +29,9 @@ public class FrmDetalhesInvestimento extends AppCompatActivity {
         valorMinimo = findViewById(R.id.valorMinimo);
         vencimento = findViewById(R.id.vencimento);
 
-        long idSelected = getIntent().getLongExtra("id",0);
-        long positionSelected = getIntent().getLongExtra("position",0);
-        String id = String.valueOf(idSelected);
+        long idSelected = getIntent().getLongExtra("id", 0);
 
-        entrar(id);
+        entrar(String.valueOf(idSelected));
 
     }
     Acessa objA = new Acessa();
@@ -40,7 +40,7 @@ public class FrmDetalhesInvestimento extends AppCompatActivity {
         objA.entBanco(this);
         try{
             objA.RS = objA.stmt.executeQuery
-                    ("select * from login where id_investimento = " + id +" ");
+                    ("select * from tblInvestimentos where id_investimento = " + id +" ");
         }catch (SQLException ex){
             Toast.makeText(getApplicationContext(),"erro"+ex,Toast.LENGTH_SHORT).show();
         }
