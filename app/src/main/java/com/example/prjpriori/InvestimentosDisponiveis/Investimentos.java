@@ -2,10 +2,11 @@ package com.example.prjpriori.InvestimentosDisponiveis;
 
 import net.sourceforge.jtds.jdbc.DateTime;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.Date;
 
-public class Investimentos {
+public class Investimentos implements Serializable {
 
     public String id_investimento;
     public String id_riscoInvestimento;
@@ -17,4 +18,6 @@ public class Investimentos {
     public String vencimento;
     public String valor_minimo;
     public String tempo_minimo;
+
+
 }

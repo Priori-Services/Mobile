@@ -24,7 +24,7 @@ public class CarteiraInvestimentoAdapter extends BaseAdapter {
 
     @Override
     public int getCount() {
-        return carteira.size();
+        return carteira.size() ;
     }
 
     @Override
