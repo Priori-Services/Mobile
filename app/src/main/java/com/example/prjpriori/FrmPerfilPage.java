@@ -12,7 +12,7 @@ import com.example.prjpriori.InvestimentosRealizados.FrmHomePage;
 
 public class FrmPerfilPage extends AppCompatActivity {
 
-    Button btnHome, btnDisponivel, btnConfig;
+    Button btnHome, btnDisponivel, btnConfig, btnLogout_perfil;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +23,17 @@ public class FrmPerfilPage extends AppCompatActivity {
         btnDisponivel = (Button) findViewById(R.id.btnDisponivel);
         btnHome = (Button) findViewById(R.id.btnHome);
         btnConfig = (Button) findViewById(R.id.btnConfig);
+        btnLogout_perfil = (Button) findViewById(R.id.btnLogout_perfil);
+
+
+        btnLogout_perfil.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(FrmPerfilPage.this, FrmLogin.class);
+                startActivity(intent);
+                finish();
+            }
+        });
 
         btnHome.setOnClickListener(new View.OnClickListener() {
             @Override

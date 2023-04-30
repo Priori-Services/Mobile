@@ -2759,12 +2759,14 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable calendar_black
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable email
+drawable email_black
 drawable graph
 drawable graph_black
 drawable home
@@ -2786,6 +2788,7 @@ drawable ic_mtrl_chip_close_circle
 drawable ic_search_black_24
 drawable lateral_green
 drawable lateral_red
+drawable location_black
 drawable logo
 drawable m3_appbar_background
 drawable m3_avd_hide_password
@@ -2861,6 +2864,7 @@ drawable notify_panel_notification_icon_bg
 drawable perfil
 drawable person
 drawable person_black
+drawable phone_black
 drawable settings
 drawable settings_black
 drawable test_level_drawable
@@ -2974,6 +2978,7 @@ id btnConfig
 id btnDisponivel
 id btnHome
 id btnLogin
+id btnLogout_perfil
 id btnPerfil
 id btnPerfil2
 id buttonPanel
@@ -2999,6 +3004,7 @@ id clip_vertical
 id clockwise
 id closest
 id collapseActionView
+id colsultor_perfil
 id compress
 id confirm_button
 id constraint
@@ -3016,6 +3022,7 @@ id currentState
 id custom
 id customPanel
 id cut
+id dataAdesao_perfil
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
@@ -3051,9 +3058,11 @@ id easeOut
 id east
 id edit_query
 id elastic
+id email_perfil
 id embed
 id end
 id endToStart
+id endereco_perfil
 id enterAlways
 id enterAlwaysCollapsed
 id exitUntilCollapsed
@@ -3073,6 +3082,7 @@ id fixed
 id flip
 id floating
 id forever
+id foto_perfil
 id fragment_container_view_tag
 id frost
 id fullscreen_header
@@ -3203,6 +3213,7 @@ id neverCompleteToStart
 id noScroll
 id noState
 id nome
+id nome_perfil
 id none
 id normal
 id north
@@ -3227,6 +3238,7 @@ id pathRelative
 id peekHeight
 id percent
 id pin
+id pontuacao_perfil
 id position
 id postLayout
 id pressed
@@ -3336,6 +3348,7 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
+id telefone_perfil
 id text
 id text2
 id textEnd
@@ -3357,6 +3370,7 @@ id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
 id time
+id tipo_perfil
 id title
 id titleDividerNoCustom
 id title_template

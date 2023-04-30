@@ -5,10 +5,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.prjpriori.R;
@@ -18,7 +19,7 @@ import java.lang.String;
 
 public final class ActivityFrmPerfilPageBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final LinearLayout rootView;
 
   @NonNull
   public final Button btnConfig;
@@ -30,25 +31,70 @@ public final class ActivityFrmPerfilPageBinding implements ViewBinding {
   public final Button btnHome;
 
   @NonNull
+  public final Button btnLogoutPerfil;
+
+  @NonNull
   public final Button btnPerfil;
 
   @NonNull
-  public final TextView textView;
+  public final TextView colsultorPerfil;
 
-  private ActivityFrmPerfilPageBinding(@NonNull ConstraintLayout rootView,
-      @NonNull Button btnConfig, @NonNull Button btnDisponivel, @NonNull Button btnHome,
-      @NonNull Button btnPerfil, @NonNull TextView textView) {
+  @NonNull
+  public final TextView dataAdesaoPerfil;
+
+  @NonNull
+  public final TextView emailPerfil;
+
+  @NonNull
+  public final TextView enderecoPerfil;
+
+  @NonNull
+  public final ImageView fotoPerfil;
+
+  @NonNull
+  public final LinearLayout linearLayout;
+
+  @NonNull
+  public final TextView nomePerfil;
+
+  @NonNull
+  public final TextView pontuacaoPerfil;
+
+  @NonNull
+  public final TextView telefonePerfil;
+
+  @NonNull
+  public final TextView tipoPerfil;
+
+  private ActivityFrmPerfilPageBinding(@NonNull LinearLayout rootView, @NonNull Button btnConfig,
+      @NonNull Button btnDisponivel, @NonNull Button btnHome, @NonNull Button btnLogoutPerfil,
+      @NonNull Button btnPerfil, @NonNull TextView colsultorPerfil,
+      @NonNull TextView dataAdesaoPerfil, @NonNull TextView emailPerfil,
+      @NonNull TextView enderecoPerfil, @NonNull ImageView fotoPerfil,
+      @NonNull LinearLayout linearLayout, @NonNull TextView nomePerfil,
+      @NonNull TextView pontuacaoPerfil, @NonNull TextView telefonePerfil,
+      @NonNull TextView tipoPerfil) {
     this.rootView = rootView;
     this.btnConfig = btnConfig;
     this.btnDisponivel = btnDisponivel;
     this.btnHome = btnHome;
+    this.btnLogoutPerfil = btnLogoutPerfil;
     this.btnPerfil = btnPerfil;
-    this.textView = textView;
+    this.colsultorPerfil = colsultorPerfil;
+    this.dataAdesaoPerfil = dataAdesaoPerfil;
+    this.emailPerfil = emailPerfil;
+    this.enderecoPerfil = enderecoPerfil;
+    this.fotoPerfil = fotoPerfil;
+    this.linearLayout = linearLayout;
+    this.nomePerfil = nomePerfil;
+    this.pontuacaoPerfil = pontuacaoPerfil;
+    this.telefonePerfil = telefonePerfil;
+    this.tipoPerfil = tipoPerfil;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public LinearLayout getRoot() {
     return rootView;
   }
 
@@ -91,20 +137,82 @@ public final class ActivityFrmPerfilPageBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btnLogout_perfil;
+      Button btnLogoutPerfil = ViewBindings.findChildViewById(rootView, id);
+      if (btnLogoutPerfil == null) {
+        break missingId;
+      }
+
       id = R.id.btnPerfil;
       Button btnPerfil = ViewBindings.findChildViewById(rootView, id);
       if (btnPerfil == null) {
         break missingId;
       }
 
-      id = R.id.textView;
-      TextView textView = ViewBindings.findChildViewById(rootView, id);
-      if (textView == null) {
+      id = R.id.colsultor_perfil;
+      TextView colsultorPerfil = ViewBindings.findChildViewById(rootView, id);
+      if (colsultorPerfil == null) {
         break missingId;
       }
 
-      return new ActivityFrmPerfilPageBinding((ConstraintLayout) rootView, btnConfig, btnDisponivel,
-          btnHome, btnPerfil, textView);
+      id = R.id.dataAdesao_perfil;
+      TextView dataAdesaoPerfil = ViewBindings.findChildViewById(rootView, id);
+      if (dataAdesaoPerfil == null) {
+        break missingId;
+      }
+
+      id = R.id.email_perfil;
+      TextView emailPerfil = ViewBindings.findChildViewById(rootView, id);
+      if (emailPerfil == null) {
+        break missingId;
+      }
+
+      id = R.id.endereco_perfil;
+      TextView enderecoPerfil = ViewBindings.findChildViewById(rootView, id);
+      if (enderecoPerfil == null) {
+        break missingId;
+      }
+
+      id = R.id.foto_perfil;
+      ImageView fotoPerfil = ViewBindings.findChildViewById(rootView, id);
+      if (fotoPerfil == null) {
+        break missingId;
+      }
+
+      id = R.id.linearLayout;
+      LinearLayout linearLayout = ViewBindings.findChildViewById(rootView, id);
+      if (linearLayout == null) {
+        break missingId;
+      }
+
+      id = R.id.nome_perfil;
+      TextView nomePerfil = ViewBindings.findChildViewById(rootView, id);
+      if (nomePerfil == null) {
+        break missingId;
+      }
+
+      id = R.id.pontuacao_perfil;
+      TextView pontuacaoPerfil = ViewBindings.findChildViewById(rootView, id);
+      if (pontuacaoPerfil == null) {
+        break missingId;
+      }
+
+      id = R.id.telefone_perfil;
+      TextView telefonePerfil = ViewBindings.findChildViewById(rootView, id);
+      if (telefonePerfil == null) {
+        break missingId;
+      }
+
+      id = R.id.tipo_perfil;
+      TextView tipoPerfil = ViewBindings.findChildViewById(rootView, id);
+      if (tipoPerfil == null) {
+        break missingId;
+      }
+
+      return new ActivityFrmPerfilPageBinding((LinearLayout) rootView, btnConfig, btnDisponivel,
+          btnHome, btnLogoutPerfil, btnPerfil, colsultorPerfil, dataAdesaoPerfil, emailPerfil,
+          enderecoPerfil, fotoPerfil, linearLayout, nomePerfil, pontuacaoPerfil, telefonePerfil,
+          tipoPerfil);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
