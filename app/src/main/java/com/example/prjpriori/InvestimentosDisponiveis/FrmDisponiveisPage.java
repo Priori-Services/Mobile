@@ -90,7 +90,6 @@ public class FrmDisponiveisPage extends AppCompatActivity {
             investimento.valor_minimo = objA.RS.getString(9);
             investimento.vencimento = objA.RS.getString(8);
             investimentos.add(investimento);
-             investimentos.size();
         }
         ListView lista = findViewById(R.id.lista);
         lista.setOnItemClickListener(new AdapterView.OnItemClickListener() {
