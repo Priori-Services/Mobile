@@ -38,7 +38,7 @@ public class FrmPerfilPage extends AppCompatActivity {
         consultor = findViewById(R.id.colsultor_perfil);
         email = findViewById(R.id.email_perfil);
         telefone = findViewById(R.id.endereco_perfil);
-        endereco = findViewById(R.id.endereco_perfil);
+        endereco = findViewById(R.id.telefone_perfil);
         dataAdesao = findViewById(R.id.dataAdesao_perfil);
 
         entrar();
