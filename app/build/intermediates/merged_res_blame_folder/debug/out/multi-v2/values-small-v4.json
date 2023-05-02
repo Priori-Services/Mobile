@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.prjpriori.app-mergeDebugResources-39:/values-small-v4/values-small-v4.xml",
+            "outputFile": "com.example.prjpriori.app-mergeDebugResources-3:/values-small-v4/values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\erick\\.gradle\\caches\\transforms-3\\dfe455107600617cfcbe36a5c8cee19f\\transformed\\material-1.8.0\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "C:\\Users\\Gabriel\\.gradle\\caches\\transforms-3\\dfe455107600617cfcbe36a5c8cee19f\\transformed\\material-1.8.0\\res\\values-small-v4\\values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
