@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -85,6 +86,7 @@ public class FrmDisponiveisPage extends AppCompatActivity {
 
         while (objA.RS.next()) {
             Investimentos investimento = new Investimentos();
+            investimento.id_riscoInvestimento = objA.RS.getString(2);
             investimento.nome = objA.RS.getString(3);
             investimento.rentabilidade_fixa = objA.RS.getString(5);
             investimento.valor_minimo = objA.RS.getString(9);
