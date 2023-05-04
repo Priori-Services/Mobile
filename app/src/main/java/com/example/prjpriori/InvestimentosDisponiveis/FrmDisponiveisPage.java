@@ -26,7 +26,7 @@ import java.util.ArrayList;
 public class FrmDisponiveisPage extends AppCompatActivity {
 
     Button btnHome, btnPerfil, btnConfig;
-    public static String idInvestimento;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -71,6 +71,7 @@ public class FrmDisponiveisPage extends AppCompatActivity {
     ArrayList<Investimentos> investimentos = new ArrayList<Investimentos>();
     Acessa objA = new Acessa();
 
+
     public Connection consultar() {
         objA.entBanco(this);
         try {
@@ -84,22 +85,24 @@ public class FrmDisponiveisPage extends AppCompatActivity {
 
     public void preencher() throws SQLException {
 
-        while (objA.RS.next()) {
+        do {
             Investimentos investimento = new Investimentos();
-            investimento.id_riscoInvestimento = objA.RS.getString(2);
-            investimento.nome = objA.RS.getString(3);
-            investimento.rentabilidade_fixa = objA.RS.getString(5);
-            investimento.valor_minimo = objA.RS.getString(9);
-            investimento.vencimento = objA.RS.getString(8);
+            investimento.id_investimento = objA.RS.getString("id_investimento");
+            investimento.id_riscoInvestimento = objA.RS.getString("id_riscoinvestimento");
+            investimento.nome = objA.RS.getString("nome");
+            investimento.rentabilidade_fixa = objA.RS.getString("rentabilidade_fixa");
+            investimento.valor_minimo = objA.RS.getString("valor_minimo");
+            investimento.vencimento = objA.RS.getString("vencimento");
             investimentos.add(investimento);
-        }
+        } while (objA.RS.next());
+
         ListView lista = findViewById(R.id.lista);
         lista.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-               Intent intent = new Intent(getApplicationContext(), FrmDetalhesInvestimento.class);
-               intent.putExtra("id", id);
-               startActivity(intent);
+                Intent intent = new Intent(getApplicationContext(), FrmDetalhesInvestimento.class);
+                intent.putExtra("id",investimentos.get(position).getId_investimento());
+                startActivity(intent);
             }
         });
         lista.setAdapter(new InvestimentoAdapter(this, investimentos));

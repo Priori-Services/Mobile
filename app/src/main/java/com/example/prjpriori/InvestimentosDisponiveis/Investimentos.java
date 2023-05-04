@@ -19,5 +19,7 @@ public class Investimentos implements Serializable {
     public String valor_minimo;
     public String tempo_minimo;
 
-
+    public String getId_investimento() {
+        return id_investimento;
+    }
 }

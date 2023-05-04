@@ -49,7 +49,6 @@
                     android:layout_height="25dp"
                     android:gravity="left"
                     android:paddingLeft="7dp"
-                    android:text="Tesouro Prefixado 2026"
                     android:textColor="#2B2A2A"
                     android:textSize="21sp"
                     android:textStyle="bold" />
@@ -61,7 +60,6 @@
                     android:layout_marginTop="3dp"
                     android:gravity="left"
                     android:paddingLeft="7dp"
-                    android:text="12,05% (a.a.)"
                     android:textColor="#2B2A2A"
                     android:textSize="13sp" />
 
@@ -102,7 +100,6 @@
                             android:layout_marginTop="4dp"
                             android:gravity="left"
                             android:paddingLeft="7dp"
-                            android:text="R$ 36,48"
                             android:textColor="#000000"
                             android:textSize="20sp" />
                     </LinearLayout>
@@ -129,7 +126,6 @@
                             android:layout_marginTop="4dp"
                             android:gravity="left"
                             android:paddingLeft="7dp"
-                            android:text="01/01/2026"
                             android:textColor="#000000"
                             android:textSize="20sp" />
                     </LinearLayout>
