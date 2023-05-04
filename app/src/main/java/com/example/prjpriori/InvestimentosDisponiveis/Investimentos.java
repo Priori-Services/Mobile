@@ -8,7 +8,7 @@ import java.util.Date;
 
 public class Investimentos implements Serializable {
 
-    public Long id_investimento;
+    public String id_investimento;
     public String id_riscoInvestimento;
     public String nome;
     public String tipo_investimento;
@@ -19,5 +19,7 @@ public class Investimentos implements Serializable {
     public String valor_minimo;
     public String tempo_minimo;
 
-
+    public String getId_investimento() {
+        return id_investimento;
+    }
 }

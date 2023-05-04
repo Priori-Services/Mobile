@@ -32,9 +32,8 @@ public class FrmDetalhesInvestimento extends AppCompatActivity {
         vencimento = findViewById(R.id.vencimento);
 
 
-        int idSelected = getIntent().getIntExtra("id", 0);
-
-        entrar(String.valueOf(idSelected));
+        String idSelected = getIntent().getStringExtra("id");
+        entrar(idSelected);
 
     }
     Acessa objA = new Acessa();

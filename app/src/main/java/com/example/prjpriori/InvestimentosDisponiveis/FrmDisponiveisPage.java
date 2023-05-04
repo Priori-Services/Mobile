@@ -87,6 +87,7 @@ public class FrmDisponiveisPage extends AppCompatActivity {
 
         do {
             Investimentos investimento = new Investimentos();
+            investimento.id_investimento = objA.RS.getString("id_investimento");
             investimento.id_riscoInvestimento = objA.RS.getString("id_riscoinvestimento");
             investimento.nome = objA.RS.getString("nome");
             investimento.rentabilidade_fixa = objA.RS.getString("rentabilidade_fixa");
@@ -100,7 +101,7 @@ public class FrmDisponiveisPage extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Intent intent = new Intent(getApplicationContext(), FrmDetalhesInvestimento.class);
-                intent.putExtra("id",position);
+                intent.putExtra("id",investimentos.get(position).getId_investimento());
                 startActivity(intent);
             }
         });
