@@ -32,7 +32,7 @@ public class FrmDetalhesInvestimento extends AppCompatActivity {
         vencimento = findViewById(R.id.vencimento);
 
 
-        long idSelected = getIntent().getLongExtra("id", 0);
+        int idSelected = getIntent().getIntExtra("id", 0);
 
         entrar(String.valueOf(idSelected));
 

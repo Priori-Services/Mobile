@@ -88,14 +88,15 @@ public class FrmHomePage extends AppCompatActivity {
 
     public void preencher() throws SQLException {
 
-        while (objA.RS.next()) {
+        do{
             CarteiraInvestimentos carteiraInvestimentos = new CarteiraInvestimentos();
             carteiraInvestimentos.nome = objA.RS.getString(1);
             carteiraInvestimentos.rentabilidade_fixa = objA.RS.getString(5);
             carteiraInvestimentos.data_efetuacao = objA.RS.getString(7);
             carteiraInvestimentos.valor_aplicado = objA.RS.getString(8);
             carteira.add(carteiraInvestimentos);
-        }
+        } while (objA.RS.next());
+
         ListView lista = findViewById(R.id.investimentosRealizados);
         lista.setAdapter(new CarteiraInvestimentoAdapter(this, carteira));
     }
