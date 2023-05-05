@@ -20,7 +20,7 @@ import java.sql.SQLException;
 public class FrmPerfilPage extends AppCompatActivity {
 
     Button btnHome, btnDisponivel, btnConfig, btnLogout_perfil;
-    TextView pontuacao, tipo, consultor, email, telefone, endereco, dataAdesao;
+    TextView pontuacao, tipo, consultor, email, telefone, endereco, dataAdesao, nomePerfil;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,6 +40,7 @@ public class FrmPerfilPage extends AppCompatActivity {
         telefone = findViewById(R.id.endereco_perfil);
         endereco = findViewById(R.id.telefone_perfil);
         dataAdesao = findViewById(R.id.dataAdesao_perfil);
+        nomePerfil = findViewById(R.id.nome_perfil);
 
         entrar();
 
@@ -79,51 +80,53 @@ public class FrmPerfilPage extends AppCompatActivity {
 
     Acessa objA = new Acessa();
 
-    public Connection consultar(){
+    public Connection consultar() {
         objA.entBanco(this);
-        try{
+        try {
             objA.RS = objA.stmt.executeQuery
-                    ( "select consultor.nome, Cliente.* from tblClientes as Cliente" +
+                    ("select consultor.nome, Cliente.* from tblClientes as Cliente" +
                             " inner join tblConsultores as consultor on consultor.id_consultor = Cliente.id_consultor" +
                             " where id_cliente = " + idCliente + " ");
-        }catch (SQLException ex){
-            Toast.makeText(this, "erro"+ex, Toast.LENGTH_SHORT).show();
+        } catch (SQLException ex) {
+            Toast.makeText(this, "erro" + ex, Toast.LENGTH_SHORT).show();
         }
         return objA.con;
     }
 
-    public void preencher(){
-        try{
-           pontuacao.setText(objA.RS.getString("pontuacao"));
-           consultor.setText(objA.RS.getString("nome"));
-           email.setText(objA.RS.getString("email"));
-           telefone.setText(objA.RS.getString("telefone"));
-           endereco.setText(objA.RS.getString("endereco"));
-           dataAdesao.setText(objA.RS.getString("data_adesao"));
+    public void preencher() {
+        try {
+            consultor.setText(objA.RS.getString(1));
+            nomePerfil.setText(objA.RS.getString(5));
+            dataAdesao.setText(objA.RS.getString(8));
+            pontuacao.setText(objA.RS.getString(9));
+            email.setText(objA.RS.getString(13));
+            telefone.setText(objA.RS.getString(12));
+            endereco.setText(objA.RS.getString(11));
+
 
             Integer tipoInvestidor = Integer.valueOf(objA.RS.getString("id_tipoinvestidor"));
-            if(tipoInvestidor == 1){
+            if (tipoInvestidor == 1) {
                 tipo.setText("conservador");
             } else if (tipoInvestidor == 2) {
                 tipo.setText("moderado");
-            }else{
+            } else {
                 tipo.setText("arrojado");
             }
 
-        }catch (SQLException ex){
+        } catch (SQLException ex) {
             ex.printStackTrace();
         }
     }
 
-    public void entrar( ){
+    public void entrar() {
         objA.entBanco(this);
         consultar();
 
-        try{
-            if(objA.RS.next()){
+        try {
+            if (objA.RS.next()) {
                 preencher();
             }
-        }catch (SQLException ex){
+        } catch (SQLException ex) {
             ex.printStackTrace();
         }
     }
