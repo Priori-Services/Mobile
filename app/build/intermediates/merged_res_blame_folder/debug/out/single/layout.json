@@ -1,46 +1,42 @@
 [
     {
-        "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-mergeDebugResources-4:\\layout\\activity_frm_perfil_page.xml",
-        "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-7:\\layout\\activity_frm_perfil_page.xml"
+        "merged": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-mergeDebugResources-40:\\layout\\activity_frm_login.xml",
+        "source": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-43:\\layout\\activity_frm_login.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-mergeDebugResources-4:\\layout\\activity_frm_login.xml",
-        "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-7:\\layout\\activity_frm_login.xml"
+        "merged": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-mergeDebugResources-40:\\layout\\activity_frm_disponiveis_page.xml",
+        "source": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-43:\\layout\\activity_frm_disponiveis_page.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-mergeDebugResources-4:\\layout\\activity_detalhes_investimentos.xml",
-        "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-7:\\layout\\activity_detalhes_investimentos.xml"
+        "merged": "com.example.prjpriori.app-mergeDebugResources-40:/layout/activity_frm_disponiveis_page.xml",
+        "source": "com.example.prjpriori.app-main-43:/layout/activity_frm_disponiveis_page.xml"
     },
     {
-        "merged": "com.example.prjpriori.app-mergeDebugResources-4:/layout/activity_frm_detalhes_investimentos_realizados.xml",
-        "source": "com.example.prjpriori.app-main-7:/layout/activity_frm_detalhes_investimentos_realizados.xml"
+        "merged": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-mergeDebugResources-40:\\layout\\activity_frm_perfil_page.xml",
+        "source": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-43:\\layout\\activity_frm_perfil_page.xml"
     },
     {
-        "merged": "com.example.prjpriori.app-mergeDebugResources-4:/layout/activity_detalhes_investimentos.xml",
-        "source": "com.example.prjpriori.app-main-7:/layout/activity_detalhes_investimentos.xml"
+        "merged": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-mergeDebugResources-40:\\layout\\modelo_investimentos_realizados.xml",
+        "source": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-43:\\layout\\modelo_investimentos_realizados.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-mergeDebugResources-4:\\layout\\activity_frm_detalhes_investimentos_realizados.xml",
-        "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-7:\\layout\\activity_frm_detalhes_investimentos_realizados.xml"
+        "merged": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-mergeDebugResources-40:\\layout\\activity_frm_config_page.xml",
+        "source": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-43:\\layout\\activity_frm_config_page.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-mergeDebugResources-4:\\layout\\modelo_investimentos.xml",
-        "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-7:\\layout\\modelo_investimentos.xml"
+        "merged": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-mergeDebugResources-40:\\layout\\activity_frm_home_page.xml",
+        "source": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-43:\\layout\\activity_frm_home_page.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-mergeDebugResources-4:\\layout\\activity_frm_config_page.xml",
-        "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-7:\\layout\\activity_frm_config_page.xml"
+        "merged": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-mergeDebugResources-40:\\layout\\modelo_investimentos.xml",
+        "source": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-43:\\layout\\modelo_investimentos.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-mergeDebugResources-4:\\layout\\activity_frm_home_page.xml",
-        "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-7:\\layout\\activity_frm_home_page.xml"
+        "merged": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-mergeDebugResources-40:\\layout\\activity_detalhes_investimentos.xml",
+        "source": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-43:\\layout\\activity_detalhes_investimentos.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-mergeDebugResources-4:\\layout\\activity_frm_disponiveis_page.xml",
-        "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-7:\\layout\\activity_frm_disponiveis_page.xml"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-mergeDebugResources-4:\\layout\\modelo_investimentos_realizados.xml",
-        "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-7:\\layout\\modelo_investimentos_realizados.xml"
+        "merged": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-mergeDebugResources-40:\\layout\\activity_frm_detalhes_investimentos_realizados.xml",
+        "source": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-43:\\layout\\activity_frm_detalhes_investimentos_realizados.xml"
     }
 ]

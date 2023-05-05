@@ -23,6 +23,7 @@ public class FrmDetalhesInvestimentosRealizados extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_frm_detalhes_investimentos_realizados);
+        getSupportActionBar().hide();
 
         nome = findViewById(R.id.nomeInvestimento);
         rentabilidadeFixa = findViewById(R.id.rentabildadeFixaInvestimento);
