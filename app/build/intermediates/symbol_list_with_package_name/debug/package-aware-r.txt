@@ -3213,6 +3213,7 @@ id neverCompleteToStart
 id noScroll
 id noState
 id nome
+id nomeInvestimento
 id nome_perfil
 id none
 id normal
@@ -3248,6 +3249,7 @@ id radio
 id ratio
 id rectangles
 id rentabildadeFixa
+id rentabildadeFixaInvestimento
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3394,7 +3396,9 @@ id unlabeled
 id up
 id useLogo
 id valorMinimo
+id valorMinimoInvesimento
 id vencimento
+id vencimentoInvestimento
 id vertical_only
 id view_offset_helper
 id view_transition

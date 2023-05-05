@@ -116,12 +116,12 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Ga
 		ADDED from C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:14:9-47
 	android:dataExtractionRules
 		ADDED from C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:9:9-65
-activity#com.example.prjpriori.FrmDetalhesInvestimentosRealizados
+activity#com.example.prjpriori.DetalhesInvestimentos.FrmDetalhesInvestimentosRealizados
 ADDED from C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:16:9-18:40
 	android:exported
 		ADDED from C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:18:13-37
 	android:name
-		ADDED from C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:17:13-63
+		ADDED from C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:17:13-85
 activity#com.example.prjpriori.DetalhesInvestimentos.FrmDetalhesInvestimento
 ADDED from C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:19:9-21:40
 	android:exported

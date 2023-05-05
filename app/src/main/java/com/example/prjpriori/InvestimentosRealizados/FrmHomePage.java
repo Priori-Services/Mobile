@@ -14,6 +14,7 @@ import android.widget.Toast;
 
 import com.example.prjpriori.Acessa;
 import com.example.prjpriori.DetalhesInvestimentos.FrmDetalhesInvestimento;
+import com.example.prjpriori.DetalhesInvestimentos.FrmDetalhesInvestimentosRealizados;
 import com.example.prjpriori.FrmConfigPage;
 import com.example.prjpriori.FrmPerfilPage;
 import com.example.prjpriori.InvestimentosDisponiveis.FrmDisponiveisPage;
@@ -104,7 +105,7 @@ public class FrmHomePage extends AppCompatActivity {
         lista.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Intent intent = new Intent(getApplicationContext(), FrmDetalhesInvestimento.class);
+                Intent intent = new Intent(getApplicationContext(), FrmDetalhesInvestimentosRealizados.class);
                 intent.putExtra("id",carteira.get(position).getId_investimento());
                 startActivity(intent);
             }

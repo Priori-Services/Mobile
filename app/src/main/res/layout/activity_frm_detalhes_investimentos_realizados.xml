@@ -44,7 +44,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/nome"
+                    android:id="@+id/nomeInvestimento"
                     android:layout_width="match_parent"
                     android:layout_height="25dp"
                     android:gravity="left"
@@ -54,7 +54,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/rentabildadeFixa"
+                    android:id="@+id/rentabildadeFixaInvestimento"
                     android:layout_width="match_parent"
                     android:layout_height="20dp"
                     android:layout_marginTop="3dp"
@@ -94,7 +94,7 @@
                             android:textSize="16sp" />
 
                         <TextView
-                            android:id="@+id/valorMinimo"
+                            android:id="@+id/valorMinimoInvesimento"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
@@ -120,7 +120,7 @@
                             android:textSize="16sp" />
 
                         <TextView
-                            android:id="@+id/vencimento"
+                            android:id="@+id/vencimentoInvestimento"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
