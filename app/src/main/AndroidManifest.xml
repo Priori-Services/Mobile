@@ -14,6 +14,9 @@
         android:theme="@style/Theme.PrjPriori"
         tools:targetApi="31">
         <activity
+            android:name=".FrmDetalhesInvestimentosRealizados"
+            android:exported="false" />
+        <activity
             android:name=".DetalhesInvestimentos.FrmDetalhesInvestimento"
             android:exported="false" />
         <activity

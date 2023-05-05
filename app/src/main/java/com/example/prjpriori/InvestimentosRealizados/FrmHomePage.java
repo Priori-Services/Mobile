@@ -7,11 +7,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Toast;
 
 import com.example.prjpriori.Acessa;
+import com.example.prjpriori.DetalhesInvestimentos.FrmDetalhesInvestimento;
 import com.example.prjpriori.FrmConfigPage;
 import com.example.prjpriori.FrmPerfilPage;
 import com.example.prjpriori.InvestimentosDisponiveis.FrmDisponiveisPage;
@@ -91,6 +93,7 @@ public class FrmHomePage extends AppCompatActivity {
         do{
             CarteiraInvestimentos carteiraInvestimentos = new CarteiraInvestimentos();
             carteiraInvestimentos.nome = objA.RS.getString(1);
+            carteiraInvestimentos.id_investimento = objA.RS.getString(4);
             carteiraInvestimentos.rentabilidade_fixa = objA.RS.getString(5);
             carteiraInvestimentos.data_efetuacao = objA.RS.getString(7);
             carteiraInvestimentos.valor_aplicado = objA.RS.getString(8);
@@ -98,6 +101,14 @@ public class FrmHomePage extends AppCompatActivity {
         } while (objA.RS.next());
 
         ListView lista = findViewById(R.id.investimentosRealizados);
+        lista.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Intent intent = new Intent(getApplicationContext(), FrmDetalhesInvestimento.class);
+                intent.putExtra("id",carteira.get(position).getId_investimento());
+                startActivity(intent);
+            }
+        });
         lista.setAdapter(new CarteiraInvestimentoAdapter(this, carteira));
     }
 

@@ -75,6 +75,7 @@ id valorMinimo
 id vencimento
 layout activity_detalhes_investimentos
 layout activity_frm_config_page
+layout activity_frm_detalhes_investimentos_realizados
 layout activity_frm_disponiveis_page
 layout activity_frm_home_page
 layout activity_frm_login
