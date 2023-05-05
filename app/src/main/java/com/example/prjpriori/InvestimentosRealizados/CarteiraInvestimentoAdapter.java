@@ -50,16 +50,16 @@ public class CarteiraInvestimentoAdapter extends BaseAdapter {
             LayoutModelo = convertView;
         }
 
-        TextView txtNome =LayoutModelo.findViewById(R.id.nome);
+        TextView txtNome =LayoutModelo.findViewById(R.id.nomeInvestimento);
         txtNome.setText(carteiraItens.nome);
 
-        TextView txtRentabilidae = LayoutModelo.findViewById(R.id.rentabildadeFixa);
+        TextView txtRentabilidae = LayoutModelo.findViewById(R.id.rentabildadeFixaInvestimento);
         txtRentabilidae.setText( carteiraItens.rentabilidade_fixa);
 
-        TextView txtValorAplicado = LayoutModelo.findViewById(R.id.valorMinimo);
+        TextView txtValorAplicado = LayoutModelo.findViewById(R.id.valorMinimoInvesimento);
         txtValorAplicado.setText(( carteiraItens.valor_aplicado));
 
-        TextView txtDataEfetuacao = LayoutModelo.findViewById(R.id.vencimento);
+        TextView txtDataEfetuacao = LayoutModelo.findViewById(R.id.vencimentoInvestimento);
         txtDataEfetuacao.setText( carteiraItens.data_efetuacao);
 
         return LayoutModelo;

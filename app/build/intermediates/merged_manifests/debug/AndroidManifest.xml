@@ -28,6 +28,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.PrjPriori" >
         <activity
+            android:name="com.example.prjpriori.DetalhesInvestimentos.FrmDetalhesInvestimentosRealizados"
+            android:exported="false" />
+        <activity
             android:name="com.example.prjpriori.DetalhesInvestimentos.FrmDetalhesInvestimento"
             android:exported="false" />
         <activity

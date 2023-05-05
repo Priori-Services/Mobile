@@ -59,9 +59,11 @@ id lista
 id logo
 id nav_graph
 id nome
+id nomeInvestimento
 id nome_perfil
 id pontuacao_perfil
 id rentabildadeFixa
+id rentabildadeFixaInvestimento
 id signin
 id telefone_perfil
 id textView
@@ -72,9 +74,12 @@ id tipo_perfil
 id txtEsqueceuSenha
 id txtSemCadastro
 id valorMinimo
+id valorMinimoInvesimento
 id vencimento
+id vencimentoInvestimento
 layout activity_detalhes_investimentos
 layout activity_frm_config_page
+layout activity_frm_detalhes_investimentos_realizados
 layout activity_frm_disponiveis_page
 layout activity_frm_home_page
 layout activity_frm_login

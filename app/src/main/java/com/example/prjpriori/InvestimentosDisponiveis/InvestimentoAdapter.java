@@ -5,7 +5,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.example.prjpriori.R;
@@ -52,16 +51,16 @@ public class InvestimentoAdapter extends BaseAdapter {
             LayoutModelo = convertView;
         }
 
-        TextView txtNome =LayoutModelo.findViewById(R.id.nome);
+        TextView txtNome =LayoutModelo.findViewById(R.id.nomeInvestimento);
         txtNome.setText(itens.nome);
 
-        TextView txtRentabilidae = LayoutModelo.findViewById(R.id.rentabildadeFixa);
+        TextView txtRentabilidae = LayoutModelo.findViewById(R.id.rentabildadeFixaInvestimento);
         txtRentabilidae.setText( itens.rentabilidade_fixa);
 
-        TextView txtValorMinimo = LayoutModelo.findViewById(R.id.valorMinimo);
+        TextView txtValorMinimo = LayoutModelo.findViewById(R.id.valorMinimoInvesimento);
         txtValorMinimo.setText(( itens.valor_minimo));
 
-        TextView txtVencimento = LayoutModelo.findViewById(R.id.vencimento);
+        TextView txtVencimento = LayoutModelo.findViewById(R.id.vencimentoInvestimento);
         txtVencimento.setText( itens.vencimento);
 
         return LayoutModelo;
