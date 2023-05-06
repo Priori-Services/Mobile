@@ -9,7 +9,7 @@ import java.util.Date;
 public class Investimentos implements Serializable {
 
     public String id_investimento;
-    public String id_riscoInvestimento;
+    public int id_riscoInvestimento;
     public String nome;
     public String tipo_investimento;
     public String rentabilidade_fixa;

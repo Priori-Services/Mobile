@@ -2787,6 +2787,7 @@ int drawable ic_mtrl_chip_close_circle 0x7f07009d
 int drawable ic_search_black_24 0x7f07009e
 int drawable lateral_green 0x7f07009f
 int drawable lateral_red 0x7f0700a0
+int drawable lateral_yellow 0x7f0700f3
 int drawable location_black 0x7f0700a1
 int drawable logo 0x7f0700a2
 int drawable m3_appbar_background 0x7f0700a3

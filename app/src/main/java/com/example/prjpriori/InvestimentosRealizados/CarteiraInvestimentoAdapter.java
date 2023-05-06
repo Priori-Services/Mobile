@@ -1,10 +1,12 @@
 package com.example.prjpriori.InvestimentosRealizados;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.example.prjpriori.R;
@@ -61,6 +63,8 @@ public class CarteiraInvestimentoAdapter extends BaseAdapter {
 
         TextView txtDataEfetuacao = LayoutModelo.findViewById(R.id.vencimentoInvestimento);
         txtDataEfetuacao.setText( carteiraItens.data_efetuacao);
+
+
 
         return LayoutModelo;
     }

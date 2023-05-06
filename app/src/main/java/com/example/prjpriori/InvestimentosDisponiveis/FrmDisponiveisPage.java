@@ -88,7 +88,7 @@ public class FrmDisponiveisPage extends AppCompatActivity {
         do {
             Investimentos investimento = new Investimentos();
             investimento.id_investimento = objA.RS.getString("id_investimento");
-            investimento.id_riscoInvestimento = objA.RS.getString("id_riscoinvestimento");
+            investimento.id_riscoInvestimento = objA.RS.getInt("id_riscoinvestimento");
             investimento.nome = objA.RS.getString("nome");
             investimento.rentabilidade_fixa = objA.RS.getString("rentabilidade_fixa");
             investimento.valor_minimo = objA.RS.getString("valor_minimo");

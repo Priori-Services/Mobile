@@ -1,10 +1,12 @@
 package com.example.prjpriori.InvestimentosDisponiveis;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.example.prjpriori.R;
@@ -62,6 +64,15 @@ public class InvestimentoAdapter extends BaseAdapter {
 
         TextView txtVencimento = LayoutModelo.findViewById(R.id.vencimentoInvestimento);
         txtVencimento.setText( itens.vencimento);
+
+        LinearLayout cor = LayoutModelo.findViewById(R.id.cor);
+        if(itens.id_riscoInvestimento == 1){
+            cor.setBackgroundResource(R.drawable.lateral_green);
+        } else if (itens.id_riscoInvestimento == 2) {
+            cor.setBackgroundResource(R.drawable.lateral_yellow);
+        }else{
+            cor.setBackgroundResource(R.drawable.lateral_red);
+        }
 
         return LayoutModelo;
     }

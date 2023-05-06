@@ -2788,6 +2788,7 @@ drawable ic_mtrl_chip_close_circle
 drawable ic_search_black_24
 drawable lateral_green
 drawable lateral_red
+drawable lateral_yellow
 drawable location_black
 drawable logo
 drawable m3_appbar_background

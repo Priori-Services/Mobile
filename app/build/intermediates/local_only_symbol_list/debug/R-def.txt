@@ -22,6 +22,7 @@ drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable lateral_green
 drawable lateral_red
+drawable lateral_yellow
 drawable location_black
 drawable logo
 drawable perfil
