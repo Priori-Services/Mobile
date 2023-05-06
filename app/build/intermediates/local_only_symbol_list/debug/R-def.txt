@@ -68,9 +68,11 @@ id rentabildadeFixaInvestimento
 id signin
 id telefone_perfil
 id textView
+id textView100
 id textView2
 id textView5
 id textView7
+id textView9
 id tipo_perfil
 id txtEsqueceuSenha
 id txtSemCadastro

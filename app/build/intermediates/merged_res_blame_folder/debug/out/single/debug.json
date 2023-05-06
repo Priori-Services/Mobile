@@ -8,10 +8,6 @@
         "source": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-43:\\layout\\modelo_investimentos_realizados.xml"
     },
     {
-        "merged": "com.example.prjpriori.app-merged_res-41:/layout_activity_frm_detalhes_investimentos_realizados.xml.flat",
-        "source": "com.example.prjpriori.app-main-43:/layout/activity_frm_detalhes_investimentos_realizados.xml"
-    },
-    {
         "merged": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-merged_res-41:\\layout_activity_detalhes_investimentos.xml.flat",
         "source": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-43:\\layout\\activity_detalhes_investimentos.xml"
     },
@@ -20,28 +16,24 @@
         "source": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-43:\\layout\\activity_frm_disponiveis_page.xml"
     },
     {
-        "merged": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-merged_res-41:\\drawable_person.xml.flat",
-        "source": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-43:\\drawable\\person.xml"
-    },
-    {
         "merged": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-merged_res-41:\\drawable_ic_baseline_info_24.xml.flat",
         "source": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-43:\\drawable\\ic_baseline_info_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-merged_res-41:\\drawable_person.xml.flat",
+        "source": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-43:\\drawable\\person.xml"
     },
     {
         "merged": "com.example.prjpriori.app-merged_res-41:/layout_activity_detalhes_investimentos.xml.flat",
         "source": "com.example.prjpriori.app-main-43:/layout/activity_detalhes_investimentos.xml"
     },
     {
-        "merged": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-merged_res-41:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-43:\\drawable\\ic_launcher_background.xml"
-    },
-    {
         "merged": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-merged_res-41:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-pngs-36:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.prjpriori.app-merged_res-41:/layout_activity_frm_home_page.xml.flat",
-        "source": "com.example.prjpriori.app-main-43:/layout/activity_frm_home_page.xml"
+        "merged": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-merged_res-41:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-43:\\drawable\\ic_launcher_background.xml"
     },
     {
         "merged": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-merged_res-41:\\drawable_lateral_yellow.xml.flat",
@@ -52,12 +44,12 @@
         "source": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-43:\\layout\\activity_frm_perfil_page.xml"
     },
     {
-        "merged": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-merged_res-41:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-43:\\mipmap-mdpi\\ic_launcher.webp"
-    },
-    {
         "merged": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-merged_res-41:\\drawable_home.xml.flat",
         "source": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-43:\\drawable\\home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-merged_res-41:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-43:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-merged_res-41:\\drawable_background.xml.flat",
@@ -76,12 +68,12 @@
         "source": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-43:\\layout\\activity_frm_detalhes_investimentos_realizados.xml"
     },
     {
-        "merged": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-merged_res-41:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-43:\\mipmap-xhdpi\\ic_launcher.webp"
-    },
-    {
         "merged": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-merged_res-41:\\drawable_email.xml.flat",
         "source": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-43:\\drawable\\email.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-merged_res-41:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-43:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-merged_res-41:\\xml_data_extraction_rules.xml.flat",
@@ -100,12 +92,12 @@
         "source": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-43:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-merged_res-41:\\drawable_phone_black.xml.flat",
-        "source": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-43:\\drawable\\phone_black.xml"
-    },
-    {
         "merged": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-merged_res-41:\\layout_activity_frm_home_page.xml.flat",
         "source": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-43:\\layout\\activity_frm_home_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-merged_res-41:\\drawable_phone_black.xml.flat",
+        "source": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-43:\\drawable\\phone_black.xml"
     },
     {
         "merged": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-merged_res-41:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
@@ -164,16 +156,8 @@
         "source": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-43:\\drawable\\calendar_black.xml"
     },
     {
-        "merged": "com.example.prjpriori.app-merged_res-41:/layout_activity_frm_disponiveis_page.xml.flat",
-        "source": "com.example.prjpriori.app-main-43:/layout/activity_frm_disponiveis_page.xml"
-    },
-    {
         "merged": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-merged_res-41:\\mipmap-anydpi-v33_ic_launcher.xml.flat",
         "source": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-43:\\mipmap-anydpi-v33\\ic_launcher.xml"
-    },
-    {
-        "merged": "com.example.prjpriori.app-merged_res-41:/layout_activity_frm_perfil_page.xml.flat",
-        "source": "com.example.prjpriori.app-main-43:/layout/activity_frm_perfil_page.xml"
     },
     {
         "merged": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-merged_res-41:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -194,6 +178,10 @@
     {
         "merged": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-merged_res-41:\\drawable_perfil.xml.flat",
         "source": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-43:\\drawable\\perfil.xml"
+    },
+    {
+        "merged": "com.example.prjpriori.app-merged_res-41:/layout_modelo_investimentos.xml.flat",
+        "source": "com.example.prjpriori.app-main-43:/layout/modelo_investimentos.xml"
     },
     {
         "merged": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-merged_res-41:\\navigation_nav_graph.xml.flat",
