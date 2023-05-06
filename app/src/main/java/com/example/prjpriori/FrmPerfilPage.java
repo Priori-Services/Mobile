@@ -37,8 +37,8 @@ public class FrmPerfilPage extends AppCompatActivity {
         tipo = findViewById(R.id.tipo_perfil);
         consultor = findViewById(R.id.colsultor_perfil);
         email = findViewById(R.id.email_perfil);
-        telefone = findViewById(R.id.endereco_perfil);
-        endereco = findViewById(R.id.telefone_perfil);
+        endereco = findViewById(R.id.endereco_perfil);
+        telefone = findViewById(R.id.telefone_perfil);
         dataAdesao = findViewById(R.id.dataAdesao_perfil);
         nomePerfil = findViewById(R.id.nome_perfil);
 
@@ -99,9 +99,9 @@ public class FrmPerfilPage extends AppCompatActivity {
             nomePerfil.setText(objA.RS.getString(5));
             dataAdesao.setText(objA.RS.getString(8));
             pontuacao.setText(objA.RS.getString(9));
-            email.setText(objA.RS.getString(13));
-            telefone.setText(objA.RS.getString(12));
-            endereco.setText(objA.RS.getString(11));
+            email.setText(objA.RS.getString(15));
+            telefone.setText(objA.RS.getString(14));
+            endereco.setText(objA.RS.getString(12));
 
 
             Integer tipoInvestidor = Integer.valueOf(objA.RS.getString("id_tipoinvestidor"));
@@ -110,7 +110,7 @@ public class FrmPerfilPage extends AppCompatActivity {
             } else if (tipoInvestidor == 2) {
                 tipo.setText("moderado");
             } else {
-                tipo.setText("arrojado");
+                tipo.setText("Audacioso");
             }
 
         } catch (SQLException ex) {

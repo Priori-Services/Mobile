@@ -20,7 +20,7 @@
             android:layout_height="300dp"
             android:layout_alignParentTop="true"
 
-            android:background="#5627FD"
+            android:background="#290E77"
             android:orientation="vertical">
 
             <androidx.cardview.widget.CardView
@@ -85,7 +85,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="aqui"
-                        android:textColor="#5627FD"
+                        android:textColor="#290E77"
                         android:textSize="15dp"
                         android:textStyle="bold" />
 
@@ -101,7 +101,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Tipo"
+                        android:text="Investidor"
                         android:textColor="#000"
                         android:textSize="17dp" />
 
@@ -110,7 +110,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="aqui"
-                        android:textColor="#5627FD"
+                        android:textColor="#290E77"
                         android:textSize="15dp"
                         android:textStyle="bold" />
 
@@ -136,7 +136,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:text="aqui"
-                        android:textColor="#5627FD"
+                        android:textColor="#290E77"
                         android:textSize="15dp"
                         android:textStyle="bold" />
 
@@ -257,11 +257,11 @@
         android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="41dp"
+        android:layout_marginBottom="5dp"
         android:backgroundTint="#5627FD"
         android:text="Logout"
         android:textAllCaps="false"
-        android:textSize="18dp" />
+        android:textSize="15dp" />
 
     <LinearLayout
         android:id="@+id/linearLayout"

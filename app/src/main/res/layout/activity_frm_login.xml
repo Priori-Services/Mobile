@@ -113,7 +113,7 @@
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="10dp"
             android:indeterminate="true"
-            android:indeterminateTint="#559CD3"
+            android:indeterminateTint="#FFFFFF"
             android:visibility="invisible" />
 
         <TextView

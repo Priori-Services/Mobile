@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
 import android.view.View;
+import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import com.example.prjpriori.InvestimentosRealizados.FrmHomePage;
@@ -17,6 +18,7 @@ public class FrmLogin extends AppCompatActivity {
 
     EditText lblEmail, lblSenha;
     Button btnLogin;
+    ProgressBar barraProgresso;
 
     public static String idCliente;
 
@@ -28,6 +30,7 @@ public class FrmLogin extends AppCompatActivity {
         btnLogin = findViewById(R.id.btnLogin);
         lblSenha = findViewById(R.id.lblSenha);
         lblEmail = findViewById(R.id.lblEmail);
+        barraProgresso = findViewById(R.id.barraProgresso);
 
         assert getSupportActionBar() != null;
         getSupportActionBar().hide();
@@ -39,6 +42,7 @@ public class FrmLogin extends AppCompatActivity {
         obj.entBanco(this);
         String email = lblEmail.getText().toString();
         String senha = lblSenha.getText().toString();
+        barraProgresso.setVisibility(View.VISIBLE);
         try {
             obj.RS = obj.stmt.executeQuery
                     ("select * from tblClientes where email='" + email + "'and nome='" + senha + "'");
@@ -55,5 +59,6 @@ public class FrmLogin extends AppCompatActivity {
         } catch (SQLException ex) {
             Toast.makeText(getApplicationContext(), "erro no acesso", Toast.LENGTH_SHORT).show();
         }
+
     }
 }
