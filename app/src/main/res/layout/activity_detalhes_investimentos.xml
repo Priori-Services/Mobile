@@ -172,7 +172,7 @@
 
     </LinearLayout>
     <LinearLayout
-        android:id="@+id/linearLayout"
+        android:id="@+id/linearLayout3"
         android:layout_width="match_parent"
         android:layout_height="55dp"
         android:background="#5627FD"
@@ -187,15 +187,11 @@
 
         <Button
             android:id="@+id/btnHome"
-            android:layout_width="150dp"
+            android:layout_width="80dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:backgroundTint="#A5DDEA"
-            android:drawableLeft="@drawable/home"
-            android:text="Home"
-            android:textAllCaps="false"
-            android:textColor="#020F22"
-            android:textSize="18sp" />
+            android:backgroundTint="#5627FD"
+            android:drawableTop="@drawable/home_white" />
 
         <Space
             android:layout_width="10dp"
@@ -204,12 +200,15 @@
 
         <Button
             android:id="@+id/btnDisponivel"
-            android:layout_width="80dp"
+            android:layout_width="200dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:backgroundTint="#5627FD"
-            android:drawableTop="@drawable/graph"
-            android:textSize="12sp" />
+            android:backgroundTint="#A5DDEA"
+            android:drawableLeft="@drawable/graph_black"
+            android:text="Disponíveis"
+            android:textAllCaps="false"
+            android:textColor="#020F22"
+            android:textSize="18sp" />
 
         <Space
             android:layout_width="10dp"
@@ -229,12 +228,6 @@
             android:layout_height="match_parent"
             android:layout_weight="1" />
 
-        <Button
-            android:id="@+id/btnConfig"
-            android:layout_width="80dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:backgroundTint="#5627FD"
-            android:drawableTop="@drawable/settings" />
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

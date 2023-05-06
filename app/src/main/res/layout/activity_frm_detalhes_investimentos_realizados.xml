@@ -231,12 +231,6 @@
             android:layout_height="match_parent"
             android:layout_weight="1" />
 
-        <Button
-            android:id="@+id/btnConfig"
-            android:layout_width="80dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:backgroundTint="#5627FD"
-            android:drawableTop="@drawable/settings" />
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

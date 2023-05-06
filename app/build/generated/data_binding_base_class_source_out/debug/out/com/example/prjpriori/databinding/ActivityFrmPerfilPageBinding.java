@@ -22,9 +22,6 @@ public final class ActivityFrmPerfilPageBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
-  public final Button btnConfig;
-
-  @NonNull
   public final Button btnDisponivel;
 
   @NonNull
@@ -66,7 +63,7 @@ public final class ActivityFrmPerfilPageBinding implements ViewBinding {
   @NonNull
   public final TextView tipoPerfil;
 
-  private ActivityFrmPerfilPageBinding(@NonNull LinearLayout rootView, @NonNull Button btnConfig,
+  private ActivityFrmPerfilPageBinding(@NonNull LinearLayout rootView,
       @NonNull Button btnDisponivel, @NonNull Button btnHome, @NonNull Button btnLogoutPerfil,
       @NonNull Button btnPerfil, @NonNull TextView colsultorPerfil,
       @NonNull TextView dataAdesaoPerfil, @NonNull TextView emailPerfil,
@@ -75,7 +72,6 @@ public final class ActivityFrmPerfilPageBinding implements ViewBinding {
       @NonNull TextView pontuacaoPerfil, @NonNull TextView telefonePerfil,
       @NonNull TextView tipoPerfil) {
     this.rootView = rootView;
-    this.btnConfig = btnConfig;
     this.btnDisponivel = btnDisponivel;
     this.btnHome = btnHome;
     this.btnLogoutPerfil = btnLogoutPerfil;
@@ -119,12 +115,6 @@ public final class ActivityFrmPerfilPageBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btnConfig;
-      Button btnConfig = ViewBindings.findChildViewById(rootView, id);
-      if (btnConfig == null) {
-        break missingId;
-      }
-
       id = R.id.btnDisponivel;
       Button btnDisponivel = ViewBindings.findChildViewById(rootView, id);
       if (btnDisponivel == null) {
@@ -209,8 +199,8 @@ public final class ActivityFrmPerfilPageBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityFrmPerfilPageBinding((LinearLayout) rootView, btnConfig, btnDisponivel,
-          btnHome, btnLogoutPerfil, btnPerfil, colsultorPerfil, dataAdesaoPerfil, emailPerfil,
+      return new ActivityFrmPerfilPageBinding((LinearLayout) rootView, btnDisponivel, btnHome,
+          btnLogoutPerfil, btnPerfil, colsultorPerfil, dataAdesaoPerfil, emailPerfil,
           enderecoPerfil, fotoPerfil, linearLayout, nomePerfil, pontuacaoPerfil, telefonePerfil,
           tipoPerfil);
     }

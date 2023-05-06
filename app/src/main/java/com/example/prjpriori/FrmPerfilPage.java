@@ -19,7 +19,7 @@ import java.sql.SQLException;
 
 public class FrmPerfilPage extends AppCompatActivity {
 
-    Button btnHome, btnDisponivel, btnConfig, btnLogout_perfil;
+    Button btnHome, btnDisponivel, btnLogout_perfil;
     TextView pontuacao, tipo, consultor, email, telefone, endereco, dataAdesao, nomePerfil;
 
     @Override
@@ -30,7 +30,6 @@ public class FrmPerfilPage extends AppCompatActivity {
 
         btnDisponivel = (Button) findViewById(R.id.btnDisponivel);
         btnHome = (Button) findViewById(R.id.btnHome);
-        btnConfig = (Button) findViewById(R.id.btnConfig);
         btnLogout_perfil = (Button) findViewById(R.id.btnLogout_perfil);
 
         pontuacao = findViewById(R.id.pontuacao_perfil);
@@ -69,13 +68,7 @@ public class FrmPerfilPage extends AppCompatActivity {
             }
         });
 
-        btnConfig.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), FrmConfigPage.class);
-                startActivity(intent);
-            }
-        });
+
     }
 
     Acessa objA = new Acessa();

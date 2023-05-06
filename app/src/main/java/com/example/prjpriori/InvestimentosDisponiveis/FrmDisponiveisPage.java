@@ -25,7 +25,7 @@ import java.util.ArrayList;
 
 public class FrmDisponiveisPage extends AppCompatActivity {
 
-    Button btnHome, btnPerfil, btnConfig;
+    Button btnHome, btnPerfil;
 
 
     @Override
@@ -35,7 +35,6 @@ public class FrmDisponiveisPage extends AppCompatActivity {
         getSupportActionBar().hide();
 
         btnHome = (Button) findViewById(R.id.btnHome);
-        btnConfig = (Button) findViewById(R.id.btnConfig);
         btnPerfil = (Button) findViewById(R.id.btnPerfil);
 
 
@@ -57,13 +56,6 @@ public class FrmDisponiveisPage extends AppCompatActivity {
             }
         });
 
-        btnConfig.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), FrmConfigPage.class);
-                startActivity(intent);
-            }
-        });
 
     }
 

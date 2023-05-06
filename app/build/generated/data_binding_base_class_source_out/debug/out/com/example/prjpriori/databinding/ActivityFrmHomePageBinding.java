@@ -23,9 +23,6 @@ public final class ActivityFrmHomePageBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button btnConfig;
-
-  @NonNull
   public final Button btnDisponivel;
 
   @NonNull
@@ -49,13 +46,12 @@ public final class ActivityFrmHomePageBinding implements ViewBinding {
   @NonNull
   public final TextView textView2;
 
-  private ActivityFrmHomePageBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnConfig,
+  private ActivityFrmHomePageBinding(@NonNull ConstraintLayout rootView,
       @NonNull Button btnDisponivel, @NonNull Button btnHome, @NonNull Button btnPerfil,
       @NonNull Button btnPerfil2, @NonNull ListView investimentosRealizados,
       @NonNull LinearLayout linearLayout, @NonNull LinearLayout linearLayout2,
       @NonNull TextView textView2) {
     this.rootView = rootView;
-    this.btnConfig = btnConfig;
     this.btnDisponivel = btnDisponivel;
     this.btnHome = btnHome;
     this.btnPerfil = btnPerfil;
@@ -93,12 +89,6 @@ public final class ActivityFrmHomePageBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btnConfig;
-      Button btnConfig = ViewBindings.findChildViewById(rootView, id);
-      if (btnConfig == null) {
-        break missingId;
-      }
-
       id = R.id.btnDisponivel;
       Button btnDisponivel = ViewBindings.findChildViewById(rootView, id);
       if (btnDisponivel == null) {
@@ -147,9 +137,8 @@ public final class ActivityFrmHomePageBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityFrmHomePageBinding((ConstraintLayout) rootView, btnConfig, btnDisponivel,
-          btnHome, btnPerfil, btnPerfil2, investimentosRealizados, linearLayout, linearLayout2,
-          textView2);
+      return new ActivityFrmHomePageBinding((ConstraintLayout) rootView, btnDisponivel, btnHome,
+          btnPerfil, btnPerfil2, investimentosRealizados, linearLayout, linearLayout2, textView2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

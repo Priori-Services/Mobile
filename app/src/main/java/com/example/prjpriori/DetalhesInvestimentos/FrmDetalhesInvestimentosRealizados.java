@@ -3,11 +3,16 @@ package com.example.prjpriori.DetalhesInvestimentos;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.prjpriori.Acessa;
+import com.example.prjpriori.FrmPerfilPage;
+import com.example.prjpriori.InvestimentosDisponiveis.FrmDisponiveisPage;
 import com.example.prjpriori.R;
 
 import java.sql.Connection;
@@ -17,6 +22,8 @@ import java.sql.SQLException;
 public class FrmDetalhesInvestimentosRealizados extends AppCompatActivity {
 
     TextView nome, rentabilidadeFixa, valorMinimo, vencimento;
+
+    Button btnDisponivel, btnPerfil, btnPerfil2;
 
 
     @Override
@@ -29,11 +36,39 @@ public class FrmDetalhesInvestimentosRealizados extends AppCompatActivity {
         rentabilidadeFixa = findViewById(R.id.rentabildadeFixaInvestimento);
         valorMinimo = findViewById(R.id.valorMinimoInvesimento);
         vencimento = findViewById(R.id.vencimentoInvestimento);
+        btnDisponivel = (Button) findViewById(R.id.btnDisponivel);
+        btnPerfil = (Button) findViewById(R.id.btnPerfil);
+        btnPerfil2 = (Button) findViewById(R.id.btnPerfil2);
 
 
         String idSelected = getIntent().getStringExtra("id");
         entrar(idSelected);
 
+
+        btnDisponivel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), FrmDisponiveisPage.class);
+                startActivity(intent);
+            }
+        });
+
+        btnPerfil.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), FrmPerfilPage.class);
+                startActivity(intent);
+            }
+        });
+
+
+        btnPerfil2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), FrmPerfilPage.class);
+                startActivity(intent);
+            }
+        });
     }
 
     Acessa objA = new Acessa();
