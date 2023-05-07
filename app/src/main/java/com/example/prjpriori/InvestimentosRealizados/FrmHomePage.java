@@ -71,7 +71,7 @@ public class FrmHomePage extends AppCompatActivity {
         objA.entBanco(this);
         try {
             objA.RS = objA.stmt.executeQuery
-                    ("select inv.nome,Carteira. * from tblInvestimentos as inv" +
+                    ("select inv.nome,id_riscoInvestimento,Carteira. * from tblInvestimentos as inv" +
                             " inner join tblCarteiraInvestimentos as Carteira " +
                             "on inv.id_investimento = Carteira.id_investimento " +
                             "where id_cliente_carteira = " + idCliente + " ");
@@ -86,10 +86,11 @@ public class FrmHomePage extends AppCompatActivity {
         do{
             CarteiraInvestimentos carteiraInvestimentos = new CarteiraInvestimentos();
             carteiraInvestimentos.nome = objA.RS.getString(1);
-            carteiraInvestimentos.id_investimento = objA.RS.getString(4);
-            carteiraInvestimentos.rentabilidade_fixa = objA.RS.getString(5);
-            carteiraInvestimentos.data_efetuacao = objA.RS.getString(7);
-            carteiraInvestimentos.valor_aplicado = objA.RS.getString(8);
+            carteiraInvestimentos.id_riscoInvestimento = objA.RS.getInt(2);
+            carteiraInvestimentos.id_investimento = objA.RS.getString(5);
+            carteiraInvestimentos.rentabilidade_fixa = objA.RS.getString(7);
+            carteiraInvestimentos.data_efetuacao = objA.RS.getString(9);
+            carteiraInvestimentos.valor_aplicado = objA.RS.getString(10);
             carteira.add(carteiraInvestimentos);
         } while (objA.RS.next());
 
