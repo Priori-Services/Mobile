@@ -64,6 +64,15 @@ public class CarteiraInvestimentoAdapter extends BaseAdapter {
         TextView txtDataEfetuacao = LayoutModelo.findViewById(R.id.vencimentoInvestimento);
         txtDataEfetuacao.setText( carteiraItens.data_efetuacao);
 
+        LinearLayout cor = LayoutModelo.findViewById(R.id.cor);
+        if(carteiraItens.id_riscoInvestimento == 1){
+            cor.setBackgroundResource(R.drawable.lateral_green);
+        } else if (carteiraItens.id_riscoInvestimento == 2) {
+            cor.setBackgroundResource(R.drawable.lateral_yellow);
+        }else{
+            cor.setBackgroundResource(R.drawable.lateral_red);
+        }
+
 
 
         return LayoutModelo;

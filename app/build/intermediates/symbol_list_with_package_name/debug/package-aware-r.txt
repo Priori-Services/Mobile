@@ -2982,6 +2982,7 @@ id btnLogin
 id btnLogout_perfil
 id btnPerfil
 id btnPerfil2
+id button
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3131,7 +3132,7 @@ id linear
 id linearLayout
 id linearLayout2
 id linearLayout3
-id linearLayout4
+id linearLayout5
 id listMode
 id list_item
 id lista
@@ -3213,7 +3214,6 @@ id neverCompleteToEnd
 id neverCompleteToStart
 id noScroll
 id noState
-id nome
 id nomeInvestimento
 id nome_perfil
 id none
@@ -3249,7 +3249,6 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
-id rentabildadeFixa
 id rentabildadeFixaInvestimento
 id reverseSawtooth
 id right
@@ -3360,10 +3359,24 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textView10
 id textView100
+id textView11
+id textView12
+id textView13
+id textView14
+id textView15
+id textView16
+id textView17
 id textView2
+id textView20
+id textView21
+id textView3
+id textView4
 id textView5
+id textView6
 id textView7
+id textView8
 id textView9
 id text_input_end_icon
 id text_input_error_icon
@@ -3398,9 +3411,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
-id valorMinimo
 id valorMinimoInvesimento
-id vencimento
 id vencimentoInvestimento
 id vertical_only
 id view_offset_helper

@@ -3,9 +3,11 @@ package com.example.prjpriori.DetalhesInvestimentos;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -16,11 +18,13 @@ import com.example.prjpriori.InvestimentosRealizados.FrmHomePage;
 import com.example.prjpriori.R;
 
 import java.sql.Connection;
+import java.sql.Date;
 import java.sql.SQLException;
+import java.text.SimpleDateFormat;
 
 public class FrmDetalhesInvestimento extends AppCompatActivity {
 
-    TextView nome,rentabilidadeFixa,valorMinimo,vencimento;
+    TextView nome,rentabilidadeFixa,valorMinimo,vencimento, tipoInvestimento,rentabilidadeVariavel,atualizacao,tempoMinimo;
 
     Button btnHome, btnPerfil, btnPerfil2;
 
@@ -31,13 +35,20 @@ public class FrmDetalhesInvestimento extends AppCompatActivity {
         setContentView(R.layout.activity_detalhes_investimentos);
         getSupportActionBar().hide();
 
-        nome = findViewById(R.id.nome);
-        rentabilidadeFixa = findViewById(R.id.rentabildadeFixa);
-        valorMinimo = findViewById(R.id.valorMinimo);
-        vencimento = findViewById(R.id.vencimento);
+        nome = findViewById(R.id.nomeInvestimento);
+        rentabilidadeFixa = findViewById(R.id.rentabildadeFixaInvestimento);
+        valorMinimo = findViewById(R.id.valorMinimoInvesimento);
+        vencimento = findViewById(R.id.vencimentoInvestimento);
+        tipoInvestimento = findViewById(R.id.textView5);
+        rentabilidadeFixa = findViewById(R.id.textView8);
+        rentabilidadeVariavel = findViewById(R.id.textView14);
+        atualizacao = findViewById(R.id.textView15);
+        vencimento = findViewById(R.id.textView16);
+        valorMinimo = findViewById(R.id.textView17);
+        tempoMinimo = findViewById(R.id.textView21);
+
         btnHome = (Button) findViewById(R.id.btnHome);
         btnPerfil2 = (Button) findViewById(R.id.btnPerfil2);
-
         btnPerfil = (Button) findViewById(R.id.btnPerfil);
 
 
@@ -71,14 +82,7 @@ public class FrmDetalhesInvestimento extends AppCompatActivity {
 
     }
 
-
-
-
     Acessa objA = new Acessa();
-
-
-
-
 
     public Connection consultar(String id){
         objA.entBanco(this);
@@ -94,9 +98,29 @@ public class FrmDetalhesInvestimento extends AppCompatActivity {
     public void preencher(){
         try{
             nome.setText(objA.RS.getString("nome"));
+            tipoInvestimento.setText(objA.RS.getString("tipo_investimento"));
             rentabilidadeFixa.setText(objA.RS.getString("rentabilidade_fixa"));
+            rentabilidadeVariavel.setText(objA.RS.getString("rentabilidade_variavel"));
             valorMinimo.setText(objA.RS.getString("valor_minimo"));
-            vencimento.setText(objA.RS.getString("vencimento"));
+            tempoMinimo.setText(objA.RS.getString("tempo_minimo"));
+
+            Date dataAtualizacao = objA.RS.getDate("data_atualizacao");
+            Date dataVencimento = objA.RS.getDate("vencimento");
+            SimpleDateFormat DateFor = new SimpleDateFormat("dd/MM/yyyy");
+            String formatAtualizacao = DateFor.format(dataAtualizacao);
+            String formatVencimento = DateFor.format(dataVencimento);
+            atualizacao.setText(formatAtualizacao);
+            vencimento.setText(formatVencimento);
+
+            int id_riscoInvestmento = objA.RS.getInt("id_riscoInvestimento");
+            LinearLayout cor = findViewById(R.id.cor);
+            if(id_riscoInvestmento == 1){
+                cor.setBackgroundResource(R.drawable.lateral_green);
+            }else if(id_riscoInvestmento == 2){
+                cor.setBackgroundResource(R.drawable.lateral_yellow);
+            }else{
+                cor.setBackgroundResource(R.drawable.lateral_red);
+            }
         }catch (SQLException ex){
             ex.printStackTrace();
         }
@@ -113,6 +137,13 @@ public class FrmDetalhesInvestimento extends AppCompatActivity {
         }catch (SQLException ex){
             ex.printStackTrace();
         }
+    }
+
+    public void web(View view){
+        Uri uri = Uri.parse("http://google.com/");
+
+        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+        startActivity(intent);
     }
 
 }
