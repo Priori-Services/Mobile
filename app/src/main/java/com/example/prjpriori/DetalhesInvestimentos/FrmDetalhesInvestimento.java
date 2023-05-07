@@ -36,6 +36,7 @@ public class FrmDetalhesInvestimento extends AppCompatActivity {
         rentabilidadeFixa = findViewById(R.id.rentabildadeFixaInvestimento);
         valorMinimo = findViewById(R.id.valorMinimoInvesimento);
         vencimento = findViewById(R.id.vencimentoInvestimento);
+
         btnHome = (Button) findViewById(R.id.btnHome);
         btnPerfil2 = (Button) findViewById(R.id.btnPerfil2);
         btnPerfil = (Button) findViewById(R.id.btnPerfil);
