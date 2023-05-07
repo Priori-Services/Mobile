@@ -3131,7 +3131,7 @@ id linear
 id linearLayout
 id linearLayout2
 id linearLayout3
-id linearLayout4
+id linearLayout5
 id listMode
 id list_item
 id lista
@@ -3213,7 +3213,6 @@ id neverCompleteToEnd
 id neverCompleteToStart
 id noScroll
 id noState
-id nome
 id nomeInvestimento
 id nome_perfil
 id none
@@ -3249,7 +3248,6 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
-id rentabildadeFixa
 id rentabildadeFixaInvestimento
 id reverseSawtooth
 id right
@@ -3362,7 +3360,6 @@ id textTop
 id textView
 id textView100
 id textView2
-id textView5
 id textView7
 id textView9
 id text_input_end_icon
@@ -3398,9 +3395,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
-id valorMinimo
 id valorMinimoInvesimento
-id vencimento
 id vencimentoInvestimento
 id vertical_only
 id view_offset_helper

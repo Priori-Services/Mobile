@@ -31,10 +31,10 @@ public class FrmDetalhesInvestimento extends AppCompatActivity {
         setContentView(R.layout.activity_detalhes_investimentos);
         getSupportActionBar().hide();
 
-        nome = findViewById(R.id.nome);
-        rentabilidadeFixa = findViewById(R.id.rentabildadeFixa);
-        valorMinimo = findViewById(R.id.valorMinimo);
-        vencimento = findViewById(R.id.vencimento);
+        nome = findViewById(R.id.nomeInvestimento);
+        rentabilidadeFixa = findViewById(R.id.rentabildadeFixaInvestimento);
+        valorMinimo = findViewById(R.id.valorMinimoInvesimento);
+        vencimento = findViewById(R.id.vencimentoInvestimento);
         btnHome = (Button) findViewById(R.id.btnHome);
         btnPerfil2 = (Button) findViewById(R.id.btnPerfil2);
 
