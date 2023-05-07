@@ -20,28 +20,24 @@
         "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-7:\\navigation\\nav_graph.xml"
     },
     {
-        "merged": "com.example.prjpriori.app-merged_res-5:/layout_activity_frm_detalhes_investimentos_realizados.xml.flat",
-        "source": "com.example.prjpriori.app-main-7:/layout/activity_frm_detalhes_investimentos_realizados.xml"
+        "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-merged_res-5:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-7:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-merged_res-5:\\drawable_ic_baseline_info_24.xml.flat",
         "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-7:\\drawable\\ic_baseline_info_24.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-merged_res-5:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-7:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
-    },
-    {
         "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-merged_res-5:\\drawable_lateral_red.xml.flat",
         "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-7:\\drawable\\lateral_red.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-merged_res-5:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-7:\\mipmap-anydpi-v26\\ic_launcher.xml"
-    },
-    {
         "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-merged_res-5:\\drawable_home.xml.flat",
         "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-7:\\drawable\\home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-merged_res-5:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-7:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-merged_res-5:\\drawable_graph_black.xml.flat",
@@ -98,6 +94,10 @@
     {
         "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-merged_res-5:\\layout_modelo_investimentos.xml.flat",
         "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-7:\\layout\\modelo_investimentos.xml"
+    },
+    {
+        "merged": "com.example.prjpriori.app-merged_res-5:/layout_activity_detalhes_investimentos.xml.flat",
+        "source": "com.example.prjpriori.app-main-7:/layout/activity_detalhes_investimentos.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-merged_res-5:\\drawable_person_black.xml.flat",

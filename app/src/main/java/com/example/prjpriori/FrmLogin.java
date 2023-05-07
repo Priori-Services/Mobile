@@ -48,7 +48,7 @@ public class FrmLogin extends AppCompatActivity {
                     ("select * from tblClientes where email='" + email + "'and nome='" + senha + "'");
             if (obj.RS.next()) {
                 idCliente = obj.RS.getString("id_cliente");
-                Toast.makeText(getApplicationContext(), "Aprovado", Toast.LENGTH_SHORT).show();
+               // Toast.makeText(getApplicationContext(), "Aprovado", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(FrmLogin.this, FrmHomePage.class);
                 startActivity(intent);
                 finish();

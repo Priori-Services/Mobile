@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -37,7 +38,6 @@ public class FrmDetalhesInvestimento extends AppCompatActivity {
         vencimento = findViewById(R.id.vencimentoInvestimento);
         btnHome = (Button) findViewById(R.id.btnHome);
         btnPerfil2 = (Button) findViewById(R.id.btnPerfil2);
-
         btnPerfil = (Button) findViewById(R.id.btnPerfil);
 
 
@@ -71,14 +71,7 @@ public class FrmDetalhesInvestimento extends AppCompatActivity {
 
     }
 
-
-
-
     Acessa objA = new Acessa();
-
-
-
-
 
     public Connection consultar(String id){
         objA.entBanco(this);
@@ -97,6 +90,17 @@ public class FrmDetalhesInvestimento extends AppCompatActivity {
             rentabilidadeFixa.setText(objA.RS.getString("rentabilidade_fixa"));
             valorMinimo.setText(objA.RS.getString("valor_minimo"));
             vencimento.setText(objA.RS.getString("vencimento"));
+            int id_riscoInvestmento = objA.RS.getInt("id_riscoInvestimento");
+
+
+            LinearLayout cor = findViewById(R.id.cor);
+            if(id_riscoInvestmento == 1){
+                cor.setBackgroundResource(R.drawable.lateral_green);
+            }else if(id_riscoInvestmento == 2){
+                cor.setBackgroundResource(R.drawable.lateral_yellow);
+            }else{
+                cor.setBackgroundResource(R.drawable.lateral_red);
+            }
         }catch (SQLException ex){
             ex.printStackTrace();
         }

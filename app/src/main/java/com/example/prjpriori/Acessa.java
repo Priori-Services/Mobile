@@ -21,7 +21,7 @@ public class Acessa {
             StrictMode.setThreadPolicy(regra);
 
             Class.forName("net.sourceforge.jtds.jdbc.Driver").newInstance();
-            Toast.makeText(ctx.getApplicationContext(), "Drive correto", Toast.LENGTH_SHORT).show();
+           // Toast.makeText(ctx.getApplicationContext(), "Drive correto", Toast.LENGTH_SHORT).show();
         }catch (Exception ex) {
             Toast.makeText(ctx.getApplicationContext(), "Drive não correto", Toast.LENGTH_SHORT).show();
         }
@@ -30,7 +30,7 @@ public class Acessa {
             String url = "jdbc:jtds:sqlserver://192.168.0.93:1433;databaseName=Priori";
             con = DriverManager.getConnection(url, "sa", "root");
             stmt = con.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
-             Toast.makeText(ctx.getApplicationContext(), "Conectado", Toast.LENGTH_SHORT).show();
+            // Toast.makeText(ctx.getApplicationContext(), "Conectado", Toast.LENGTH_SHORT).show();
         }
         catch(SQLException ex){
             Toast.makeText(ctx.getApplicationContext(), "Erro de Conexão", Toast.LENGTH_SHORT).show();

@@ -200,7 +200,7 @@
             android:layout_height="match_parent"
             android:layout_weight="0.5"
             android:gravity="center"
-            android:text="Investimentos Realizados"
+            android:text="Investimentos Disponíveis"
             android:textColor="#FFFFFF"
             android:textSize="26sp" />
 
