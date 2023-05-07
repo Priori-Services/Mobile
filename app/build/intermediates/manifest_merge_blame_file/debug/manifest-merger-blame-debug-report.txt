@@ -42,96 +42,97 @@
 26-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:12:9-41
 27        android:supportsRtl="true"
 27-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:13:9-35
-28        android:theme="@style/Theme.PrjPriori" >
-28-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:14:9-47
-29        <activity
-29-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:16:9-18:40
-30            android:name="com.example.prjpriori.DetalhesInvestimentos.FrmDetalhesInvestimentosRealizados"
-30-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:17:13-85
-31            android:exported="false" />
-31-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:18:13-37
-32        <activity
-32-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:19:9-21:40
-33            android:name="com.example.prjpriori.DetalhesInvestimentos.FrmDetalhesInvestimento"
-33-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:20:13-74
-34            android:exported="false" />
-34-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:21:13-37
-35        <activity
-35-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:22:9-24:40
-36            android:name="com.example.prjpriori.FrmConfigPage"
-36-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:23:13-42
-37            android:exported="false" />
-37-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:24:13-37
-38        <activity
-38-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:25:9-27:40
-39            android:name="com.example.prjpriori.FrmPerfilPage"
-39-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:26:13-42
-40            android:exported="false" />
-40-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:27:13-37
-41        <activity
-41-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:28:9-30:40
-42            android:name="com.example.prjpriori.InvestimentosDisponiveis.FrmDisponiveisPage"
-42-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:29:13-72
-43            android:exported="false" />
-43-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:30:13-37
-44        <activity
-44-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:31:9-33:40
-45            android:name="com.example.prjpriori.InvestimentosRealizados.FrmHomePage"
-45-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:32:13-64
-46            android:exported="false" />
-46-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:33:13-37
-47        <activity
-47-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:34:9-42:20
-48            android:name="com.example.prjpriori.FrmLogin"
-48-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:35:13-37
-49            android:exported="true" >
-49-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:36:13-36
-50            <intent-filter>
-50-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:37:13-41:29
-51                <action android:name="android.intent.action.MAIN" />
-51-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:38:17-69
-51-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:38:25-66
-52
-53                <category android:name="android.intent.category.LAUNCHER" />
-53-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:40:17-77
-53-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:40:27-74
-54            </intent-filter>
-55        </activity>
-56
-57        <provider
-57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Gabriel\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-58            android:name="androidx.startup.InitializationProvider"
-58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Gabriel\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-59            android:authorities="com.example.prjpriori.androidx-startup"
-59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Gabriel\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-60            android:exported="false" >
-60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Gabriel\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-61            <meta-data
-61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Gabriel\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-62                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Gabriel\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-63                android:value="androidx.startup" />
-63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Gabriel\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-64            <meta-data
-64-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Gabriel\.gradle\caches\transforms-3\b0761d22b5c86c7f873b7a426ffce717\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-65                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-65-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Gabriel\.gradle\caches\transforms-3\b0761d22b5c86c7f873b7a426ffce717\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-66                android:value="androidx.startup" />
-66-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Gabriel\.gradle\caches\transforms-3\b0761d22b5c86c7f873b7a426ffce717\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-67        </provider>
-68
-69        <uses-library
-69-->[androidx.window:window:1.0.0] C:\Users\Gabriel\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
-70            android:name="androidx.window.extensions"
-70-->[androidx.window:window:1.0.0] C:\Users\Gabriel\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
-71            android:required="false" />
-71-->[androidx.window:window:1.0.0] C:\Users\Gabriel\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
-72        <uses-library
-72-->[androidx.window:window:1.0.0] C:\Users\Gabriel\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
-73            android:name="androidx.window.sidecar"
-73-->[androidx.window:window:1.0.0] C:\Users\Gabriel\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
-74            android:required="false" />
-74-->[androidx.window:window:1.0.0] C:\Users\Gabriel\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
-75    </application>
-76
-77</manifest>
+28        android:testOnly="true"
+29        android:theme="@style/Theme.PrjPriori" >
+29-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:14:9-47
+30        <activity
+30-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:16:9-18:40
+31            android:name="com.example.prjpriori.DetalhesInvestimentos.FrmDetalhesInvestimentosRealizados"
+31-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:17:13-85
+32            android:exported="false" />
+32-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:18:13-37
+33        <activity
+33-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:19:9-21:40
+34            android:name="com.example.prjpriori.DetalhesInvestimentos.FrmDetalhesInvestimento"
+34-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:20:13-74
+35            android:exported="false" />
+35-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:21:13-37
+36        <activity
+36-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:22:9-24:40
+37            android:name="com.example.prjpriori.FrmConfigPage"
+37-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:23:13-42
+38            android:exported="false" />
+38-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:24:13-37
+39        <activity
+39-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:25:9-27:40
+40            android:name="com.example.prjpriori.FrmPerfilPage"
+40-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:26:13-42
+41            android:exported="false" />
+41-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:27:13-37
+42        <activity
+42-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:28:9-30:40
+43            android:name="com.example.prjpriori.InvestimentosDisponiveis.FrmDisponiveisPage"
+43-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:29:13-72
+44            android:exported="false" />
+44-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:30:13-37
+45        <activity
+45-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:31:9-33:40
+46            android:name="com.example.prjpriori.InvestimentosRealizados.FrmHomePage"
+46-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:32:13-64
+47            android:exported="false" />
+47-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:33:13-37
+48        <activity
+48-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:34:9-42:20
+49            android:name="com.example.prjpriori.FrmLogin"
+49-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:35:13-37
+50            android:exported="true" >
+50-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:36:13-36
+51            <intent-filter>
+51-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:37:13-41:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:38:17-69
+52-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:38:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:40:17-77
+54-->C:\Users\Gabriel\.AndroidStudioProjects\Mobile_Priori\Mobile\app\src\main\AndroidManifest.xml:40:27-74
+55            </intent-filter>
+56        </activity>
+57
+58        <provider
+58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Gabriel\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+59            android:name="androidx.startup.InitializationProvider"
+59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Gabriel\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+60            android:authorities="com.example.prjpriori.androidx-startup"
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Gabriel\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+61            android:exported="false" >
+61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Gabriel\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+62            <meta-data
+62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Gabriel\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+63                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Gabriel\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+64                android:value="androidx.startup" />
+64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Gabriel\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+65            <meta-data
+65-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Gabriel\.gradle\caches\transforms-3\b0761d22b5c86c7f873b7a426ffce717\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+66                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+66-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Gabriel\.gradle\caches\transforms-3\b0761d22b5c86c7f873b7a426ffce717\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+67                android:value="androidx.startup" />
+67-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Gabriel\.gradle\caches\transforms-3\b0761d22b5c86c7f873b7a426ffce717\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+68        </provider>
+69
+70        <uses-library
+70-->[androidx.window:window:1.0.0] C:\Users\Gabriel\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+71            android:name="androidx.window.extensions"
+71-->[androidx.window:window:1.0.0] C:\Users\Gabriel\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+72            android:required="false" />
+72-->[androidx.window:window:1.0.0] C:\Users\Gabriel\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+73        <uses-library
+73-->[androidx.window:window:1.0.0] C:\Users\Gabriel\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+74            android:name="androidx.window.sidecar"
+74-->[androidx.window:window:1.0.0] C:\Users\Gabriel\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+75            android:required="false" />
+75-->[androidx.window:window:1.0.0] C:\Users\Gabriel\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+76    </application>
+77
+78</manifest>
