@@ -22,7 +22,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="145dp"
+            android:layout_height="109dp"
             android:layout_marginBottom="10dp"
             android:background="#FBFBFB"
             android:orientation="horizontal">
@@ -144,24 +144,7 @@
                     </LinearLayout>
                 </LinearLayout>
 
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_marginLeft="13dp"
-                    android:layout_marginTop="4dp"
-                    android:layout_marginRight="1dp"
-                    android:layout_marginBottom="4dp"
-                    android:background="#000000" />
 
-                <TextView
-                    android:id="@+id/textView9"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:paddingLeft="7dp"
-                    android:text="Emissor PRIORI SERVICE"
-                    android:textColor="#2B2A2A"
-                    android:textSize="16sp" />
 
 
             </LinearLayout>
@@ -177,6 +160,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="16dp"
         android:text="Características"
+        android:textColor="#000000"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -256,7 +240,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="150dp"
-        android:text="Data Efetuação"
+        android:text="Data contratação"
         app:layout_constraintEnd_toStartOf="@+id/textView15"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -344,38 +328,13 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="88dp"
         android:onClick="web"
         android:text="Resgatar"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView20" />
-
-    <TextView
-        android:id="@+id/textView20"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="16dp"
-        android:text="Saldo"
-        app:layout_constraintEnd_toStartOf="@+id/textView21"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.468"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView13" />
-
-    <TextView
-        android:id="@+id/textView21"
-        android:layout_width="80dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="150dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="32dp"
-        android:text="TextView"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/textView20"
-        app:layout_constraintTop_toBottomOf="@+id/textView17" />
 
     <LinearLayout
         android:id="@+id/linearLayout2"

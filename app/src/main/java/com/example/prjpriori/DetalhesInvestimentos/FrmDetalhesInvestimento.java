@@ -24,7 +24,7 @@ import java.text.SimpleDateFormat;
 
 public class FrmDetalhesInvestimento extends AppCompatActivity {
 
-    TextView nome,rentabilidadeFixa,valorMinimo,vencimento, tipoInvestimento,rentabilidadeVariavel,atualizacao,tempoMinimo;
+    TextView nome,rentabilidadeFixa,valorMinimo,vencimento, tipoInvestimento;
 
     Button btnHome, btnPerfil, btnPerfil2;
 
@@ -41,11 +41,9 @@ public class FrmDetalhesInvestimento extends AppCompatActivity {
         vencimento = findViewById(R.id.vencimentoInvestimento);
         tipoInvestimento = findViewById(R.id.textView5);
         rentabilidadeFixa = findViewById(R.id.textView8);
-        rentabilidadeVariavel = findViewById(R.id.textView14);
-        atualizacao = findViewById(R.id.textView15);
         vencimento = findViewById(R.id.textView16);
         valorMinimo = findViewById(R.id.textView17);
-        tempoMinimo = findViewById(R.id.textView21);
+
 
         btnHome = (Button) findViewById(R.id.btnHome);
         btnPerfil2 = (Button) findViewById(R.id.btnPerfil2);
@@ -98,24 +96,21 @@ public class FrmDetalhesInvestimento extends AppCompatActivity {
     public void preencher(){
         try{
             nome.setText(objA.RS.getString("nome"));
-            tipoInvestimento.setText(objA.RS.getString("tipo_investimento"));
+            tipoInvestimento.setText(objA.RS.getString("id_riscoInvestimento"));
             rentabilidadeFixa.setText(objA.RS.getString("rentabilidade_fixa"));
-            rentabilidadeVariavel.setText(objA.RS.getString("rentabilidade_variavel"));
             valorMinimo.setText(objA.RS.getString("valor_minimo"));
-            tempoMinimo.setText(objA.RS.getString("tempo_minimo"));
-
             Date dataAtualizacao = objA.RS.getDate("data_atualizacao");
             Date dataVencimento = objA.RS.getDate("vencimento");
             SimpleDateFormat DateFor = new SimpleDateFormat("dd/MM/yyyy");
             String formatAtualizacao = DateFor.format(dataAtualizacao);
             String formatVencimento = DateFor.format(dataVencimento);
-            atualizacao.setText(formatAtualizacao);
             vencimento.setText(formatVencimento);
 
             int id_riscoInvestmento = objA.RS.getInt("id_riscoInvestimento");
             LinearLayout cor = findViewById(R.id.cor);
             if(id_riscoInvestmento == 1){
                 cor.setBackgroundResource(R.drawable.lateral_green);
+
             }else if(id_riscoInvestmento == 2){
                 cor.setBackgroundResource(R.drawable.lateral_yellow);
             }else{
