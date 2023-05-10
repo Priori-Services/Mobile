@@ -46,7 +46,6 @@ public class FrmDetalhesInvestimentosRealizados extends AppCompatActivity {
         dataEfetuacao = findViewById(R.id.textView15);
         valorAplicado = findViewById(R.id.textView16);
         status = findViewById(R.id.textView17);
-        saldo = findViewById(R.id.textView21);
         btnDisponivel = (Button) findViewById(R.id.btnDisponivel);
         btnPerfil = (Button) findViewById(R.id.btnPerfil);
         btnPerfil2 = (Button) findViewById(R.id.btnPerfil2);
