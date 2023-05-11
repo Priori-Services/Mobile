@@ -2749,6 +2749,7 @@ int drawable abc_vector_test 0x7f070077
 int drawable avd_hide_password 0x7f070078
 int drawable avd_show_password 0x7f070079
 int drawable background 0x7f07007a
+int drawable baseline_cake_24 0x7f0700f4
 int drawable bordas 0x7f07007b
 int drawable btn_checkbox_checked_mtrl 0x7f07007c
 int drawable btn_checkbox_checked_to_unchecked_mtrl_animation 0x7f07007d
@@ -2874,6 +2875,7 @@ int id ALT 0x7f080000
 int id BOTTOM_END 0x7f080001
 int id BOTTOM_START 0x7f080002
 int id CTRL 0x7f080003
+int id DataNascimento_perfil 0x7f08022d
 int id FUNCTION 0x7f080004
 int id FirstFragment 0x7f080005
 int id META 0x7f080006
@@ -3349,7 +3351,6 @@ int id tag_transition_group 0x7f0801db
 int id tag_unhandled_key_event_manager 0x7f0801dc
 int id tag_unhandled_key_listeners 0x7f0801dd
 int id tag_window_insets_animation_callback 0x7f0801de
-int id telefone_perfil 0x7f0801df
 int id text 0x7f0801e0
 int id text2 0x7f0801e1
 int id textEnd 0x7f0801e2
@@ -3401,6 +3402,7 @@ int id transition_scene_layoutid_cache 0x7f08020f
 int id transition_transform 0x7f080210
 int id triangle 0x7f080211
 int id txtEsqueceuSenha 0x7f080212
+int id txtSaldo 0x7f08022e
 int id txtSemCadastro 0x7f080213
 int id unchecked 0x7f080214
 int id uniform 0x7f080215

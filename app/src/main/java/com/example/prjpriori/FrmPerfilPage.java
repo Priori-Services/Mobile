@@ -20,7 +20,7 @@ import java.sql.SQLException;
 public class FrmPerfilPage extends AppCompatActivity {
 
     Button btnHome, btnDisponivel, btnLogout_perfil;
-    TextView pontuacao, tipo, consultor, email, telefone, endereco, dataAdesao, nomePerfil;
+    TextView pontuacao, tipo, consultor, email, DataNascimento_perfil, endereco, dataAdesao, nomePerfil, txtSaldo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,13 +31,13 @@ public class FrmPerfilPage extends AppCompatActivity {
         btnDisponivel = (Button) findViewById(R.id.btnDisponivel);
         btnHome = (Button) findViewById(R.id.btnHome);
         btnLogout_perfil = (Button) findViewById(R.id.btnLogout_perfil);
-
         pontuacao = findViewById(R.id.pontuacao_perfil);
         tipo = findViewById(R.id.tipo_perfil);
+        txtSaldo = findViewById(R.id.txtSaldo);
         consultor = findViewById(R.id.colsultor_perfil);
         email = findViewById(R.id.email_perfil);
         endereco = findViewById(R.id.endereco_perfil);
-        telefone = findViewById(R.id.telefone_perfil);
+        DataNascimento_perfil = findViewById(R.id.DataNascimento_perfil);
         dataAdesao = findViewById(R.id.dataAdesao_perfil);
         nomePerfil = findViewById(R.id.nome_perfil);
 
@@ -93,8 +93,8 @@ public class FrmPerfilPage extends AppCompatActivity {
             dataAdesao.setText(objA.RS.getString(8));
             pontuacao.setText(objA.RS.getString(9));
             email.setText(objA.RS.getString(15));
-            telefone.setText(objA.RS.getString(14));
-            endereco.setText(objA.RS.getString(12));
+            DataNascimento_perfil.setText(objA.RS.getString(12));
+            endereco.setText(objA.RS.getString(11));
 
 
             Integer tipoInvestidor = Integer.valueOf(objA.RS.getString("id_tipoinvestidor"));

@@ -4,8 +4,8 @@
         "source": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-43:\\layout\\activity_frm_login.xml"
     },
     {
-        "merged": "com.example.prjpriori.app-mergeDebugResources-40:/layout/activity_frm_login.xml",
-        "source": "com.example.prjpriori.app-main-43:/layout/activity_frm_login.xml"
+        "merged": "com.example.prjpriori.app-mergeDebugResources-40:/layout/activity_frm_perfil_page.xml",
+        "source": "com.example.prjpriori.app-main-43:/layout/activity_frm_perfil_page.xml"
     },
     {
         "merged": "C:\\Users\\Lab_ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-mergeDebugResources-40:\\layout\\activity_frm_disponiveis_page.xml",

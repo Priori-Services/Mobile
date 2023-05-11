@@ -24,8 +24,8 @@
             android:orientation="vertical">
 
             <androidx.cardview.widget.CardView
-                android:layout_width="140dp"
-                android:layout_height="140dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="35dp"
                 android:foregroundGravity="center_horizontal"
@@ -48,6 +48,17 @@
                 android:textColor="#fff"
                 android:textSize="23dp"
                 android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtSaldo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="R$: 00,00" />
         </LinearLayout>
 
         <androidx.cardview.widget.CardView
@@ -189,15 +200,15 @@
             <ImageView
                 android:layout_width="45dp"
                 android:layout_height="45dp"
-                android:src="@drawable/phone_black" />
+                android:src="@drawable/baseline_cake_24" />
 
             <TextView
-                android:id="@+id/telefone_perfil"
+                android:id="@+id/DataNascimento_perfil"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:paddingLeft="15dp"
-                android:text="Telefone"
+                android:text="Data de Nascimento"
                 android:textColor="#000"
                 android:textSize="18dp" />
 

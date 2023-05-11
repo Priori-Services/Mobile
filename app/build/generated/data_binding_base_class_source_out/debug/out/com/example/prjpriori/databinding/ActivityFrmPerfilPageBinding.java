@@ -22,6 +22,9 @@ public final class ActivityFrmPerfilPageBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
+  public final TextView DataNascimentoPerfil;
+
+  @NonNull
   public final Button btnDisponivel;
 
   @NonNull
@@ -58,20 +61,21 @@ public final class ActivityFrmPerfilPageBinding implements ViewBinding {
   public final TextView pontuacaoPerfil;
 
   @NonNull
-  public final TextView telefonePerfil;
-
-  @NonNull
   public final TextView tipoPerfil;
 
+  @NonNull
+  public final TextView txtSaldo;
+
   private ActivityFrmPerfilPageBinding(@NonNull LinearLayout rootView,
-      @NonNull Button btnDisponivel, @NonNull Button btnHome, @NonNull Button btnLogoutPerfil,
-      @NonNull Button btnPerfil, @NonNull TextView colsultorPerfil,
-      @NonNull TextView dataAdesaoPerfil, @NonNull TextView emailPerfil,
-      @NonNull TextView enderecoPerfil, @NonNull ImageView fotoPerfil,
-      @NonNull LinearLayout linearLayout, @NonNull TextView nomePerfil,
-      @NonNull TextView pontuacaoPerfil, @NonNull TextView telefonePerfil,
-      @NonNull TextView tipoPerfil) {
+      @NonNull TextView DataNascimentoPerfil, @NonNull Button btnDisponivel,
+      @NonNull Button btnHome, @NonNull Button btnLogoutPerfil, @NonNull Button btnPerfil,
+      @NonNull TextView colsultorPerfil, @NonNull TextView dataAdesaoPerfil,
+      @NonNull TextView emailPerfil, @NonNull TextView enderecoPerfil,
+      @NonNull ImageView fotoPerfil, @NonNull LinearLayout linearLayout,
+      @NonNull TextView nomePerfil, @NonNull TextView pontuacaoPerfil, @NonNull TextView tipoPerfil,
+      @NonNull TextView txtSaldo) {
     this.rootView = rootView;
+    this.DataNascimentoPerfil = DataNascimentoPerfil;
     this.btnDisponivel = btnDisponivel;
     this.btnHome = btnHome;
     this.btnLogoutPerfil = btnLogoutPerfil;
@@ -84,8 +88,8 @@ public final class ActivityFrmPerfilPageBinding implements ViewBinding {
     this.linearLayout = linearLayout;
     this.nomePerfil = nomePerfil;
     this.pontuacaoPerfil = pontuacaoPerfil;
-    this.telefonePerfil = telefonePerfil;
     this.tipoPerfil = tipoPerfil;
+    this.txtSaldo = txtSaldo;
   }
 
   @Override
@@ -115,6 +119,12 @@ public final class ActivityFrmPerfilPageBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.DataNascimento_perfil;
+      TextView DataNascimentoPerfil = ViewBindings.findChildViewById(rootView, id);
+      if (DataNascimentoPerfil == null) {
+        break missingId;
+      }
+
       id = R.id.btnDisponivel;
       Button btnDisponivel = ViewBindings.findChildViewById(rootView, id);
       if (btnDisponivel == null) {
@@ -187,22 +197,22 @@ public final class ActivityFrmPerfilPageBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.telefone_perfil;
-      TextView telefonePerfil = ViewBindings.findChildViewById(rootView, id);
-      if (telefonePerfil == null) {
-        break missingId;
-      }
-
       id = R.id.tipo_perfil;
       TextView tipoPerfil = ViewBindings.findChildViewById(rootView, id);
       if (tipoPerfil == null) {
         break missingId;
       }
 
-      return new ActivityFrmPerfilPageBinding((LinearLayout) rootView, btnDisponivel, btnHome,
-          btnLogoutPerfil, btnPerfil, colsultorPerfil, dataAdesaoPerfil, emailPerfil,
-          enderecoPerfil, fotoPerfil, linearLayout, nomePerfil, pontuacaoPerfil, telefonePerfil,
-          tipoPerfil);
+      id = R.id.txtSaldo;
+      TextView txtSaldo = ViewBindings.findChildViewById(rootView, id);
+      if (txtSaldo == null) {
+        break missingId;
+      }
+
+      return new ActivityFrmPerfilPageBinding((LinearLayout) rootView, DataNascimentoPerfil,
+          btnDisponivel, btnHome, btnLogoutPerfil, btnPerfil, colsultorPerfil, dataAdesaoPerfil,
+          emailPerfil, enderecoPerfil, fotoPerfil, linearLayout, nomePerfil, pontuacaoPerfil,
+          tipoPerfil, txtSaldo);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
