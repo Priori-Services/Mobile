@@ -92,9 +92,12 @@ public class FrmPerfilPage extends AppCompatActivity {
             nomePerfil.setText(objA.RS.getString(5));
             dataAdesao.setText(objA.RS.getString(8));
             pontuacao.setText(objA.RS.getString(9));
-            email.setText(objA.RS.getString(15));
-            DataNascimento_perfil.setText(objA.RS.getString(12));
-            endereco.setText(objA.RS.getString(11));
+            email.setText(objA.RS.getString(14));
+            DataNascimento_perfil.setText(objA.RS.getString(13));
+            endereco.setText(objA.RS.getString(12));
+
+
+
 
 
             Integer tipoInvestidor = Integer.valueOf(objA.RS.getString("id_tipoinvestidor"));
@@ -124,3 +127,13 @@ public class FrmPerfilPage extends AppCompatActivity {
         }
     }
 }
+
+
+
+/*/
+    SELECT saldo FROM tblCarteiraInvestimentos WHERE data_efetuacao IN
+    (SELECT MAX (data_efetuacao) FROM tblCarteiraInvestimentos GROUP BY id_cliente_carteira) AND
+    id_cliente_carteora = @X
+
+    @X = ID do cliente logado
+ */

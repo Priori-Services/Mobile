@@ -24,12 +24,11 @@
             android:orientation="vertical">
 
             <androidx.cardview.widget.CardView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="35dp"
-                android:foregroundGravity="center_horizontal"
-                app:cardCornerRadius="100dp">
+                app:cardCornerRadius="60dp">
 
                 <ImageView
                     android:id="@+id/foto_perfil"
