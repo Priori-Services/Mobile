@@ -16,6 +16,10 @@
         "source": "C:\\Users\\erick\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-43:\\navigation\\nav_graph.xml"
     },
     {
+        "merged": "com.example.prjpriori.app-merged_res-41:/layout_activity_frm_detalhes_investimentos_realizados.xml.flat",
+        "source": "com.example.prjpriori.app-main-43:/layout/activity_frm_detalhes_investimentos_realizados.xml"
+    },
+    {
         "merged": "C:\\Users\\erick\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-merged_res-41:\\drawable_lateral_green.xml.flat",
         "source": "C:\\Users\\erick\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-43:\\drawable\\lateral_green.xml"
     },
@@ -38,10 +42,6 @@
     {
         "merged": "C:\\Users\\erick\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-merged_res-41:\\drawable_bordas.xml.flat",
         "source": "C:\\Users\\erick\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-43:\\drawable\\bordas.xml"
-    },
-    {
-        "merged": "com.example.prjpriori.app-merged_res-41:/layout_activity_detalhes_investimentos.xml.flat",
-        "source": "com.example.prjpriori.app-main-43:/layout/activity_detalhes_investimentos.xml"
     },
     {
         "merged": "C:\\Users\\erick\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-merged_res-41:\\mipmap-anydpi-v33_ic_launcher.xml.flat",

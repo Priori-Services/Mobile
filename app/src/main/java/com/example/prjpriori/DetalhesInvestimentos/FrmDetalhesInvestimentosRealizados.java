@@ -106,7 +106,6 @@ public class FrmDetalhesInvestimentosRealizados extends AppCompatActivity {
             status.setText(objA.RS.getString("status"));
             saldo.setText(objA.RS.getString("saldo"));
 
-
             Date DataVencimento = objA.RS.getDate("vencimento");
             Date efetuacao = objA.RS.getDate("data_efetuacao");
             SimpleDateFormat DateFor = new SimpleDateFormat("dd/MM/yyyy");
@@ -142,11 +141,12 @@ public class FrmDetalhesInvestimentosRealizados extends AppCompatActivity {
             ex.printStackTrace();
         }
     }
-
+/*
     public void web(View view){
         Uri uri = Uri.parse("http://google.com/");
 
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);
         startActivity(intent);
     }
+    */
 }
