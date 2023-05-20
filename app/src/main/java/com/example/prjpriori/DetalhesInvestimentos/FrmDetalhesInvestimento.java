@@ -96,9 +96,6 @@ public class FrmDetalhesInvestimento extends AppCompatActivity {
     public void preencher(){
         try{
             nome.setText(objA.RS.getString("nome"));
-            // Essa linha em baixo:
-            tipoInvestimento.setText(objA.RS.getString("id_riscoInvestimento"));
-            //
             rentabilidadeFixa.setText(objA.RS.getString("rentabilidade_fixa"));
             valorMinimo.setText(objA.RS.getString("valor_minimo"));
             Date dataAtualizacao = objA.RS.getDate("data_atualizacao");
@@ -112,14 +109,14 @@ public class FrmDetalhesInvestimento extends AppCompatActivity {
             LinearLayout cor = findViewById(R.id.cor);
             if(id_riscoInvestmento == 1){
                 cor.setBackgroundResource(R.drawable.lateral_green);
-                //tipoInvestimento.setText("Baixo");
+                tipoInvestimento.setText("Baixo");
 
             }else if(id_riscoInvestmento == 2){
                 cor.setBackgroundResource(R.drawable.lateral_yellow);
-                //tipoInvestimento.setText("Moderado");
+                tipoInvestimento.setText("Moderado");
             }else{
                 cor.setBackgroundResource(R.drawable.lateral_red);
-                //tipoInvestimento.setText("Alto");
+                tipoInvestimento.setText("Alto");
             }
         }catch (SQLException ex){
             ex.printStackTrace();

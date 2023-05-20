@@ -21,7 +21,7 @@ public class FrmPerfilPage extends AppCompatActivity {
 
     Button btnHome, btnDisponivel, btnLogout_perfil;
     TextView pontuacao, tipo, consultor, email, DataNascimento_perfil, endereco, dataAdesao, nomePerfil, txtSaldo;
-
+//
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
