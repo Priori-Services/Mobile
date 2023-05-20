@@ -2984,7 +2984,6 @@ id btnLogin
 id btnLogout_perfil
 id btnPerfil
 id btnPerfil2
-id button
 id buttonPanel
 id cache_measures
 id callMeasure

@@ -12,6 +12,10 @@
         "source": "C:\\Users\\Lab ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-43:\\mipmap-anydpi-v33\\ic_launcher.xml"
     },
     {
+        "merged": "com.example.prjpriori.app-merged_res-41:/layout_activity_frm_detalhes_investimentos_realizados.xml.flat",
+        "source": "com.example.prjpriori.app-main-43:/layout/activity_frm_detalhes_investimentos_realizados.xml"
+    },
+    {
         "merged": "C:\\Users\\Lab ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-merged_res-41:\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Lab ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-43:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
@@ -32,12 +36,12 @@
         "source": "C:\\Users\\Lab ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-43:\\layout\\activity_frm_login.xml"
     },
     {
-        "merged": "C:\\Users\\Lab ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-merged_res-41:\\drawable_logo.png.flat",
-        "source": "C:\\Users\\Lab ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-43:\\drawable\\logo.png"
-    },
-    {
         "merged": "C:\\Users\\Lab ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-merged_res-41:\\layout_activity_frm_disponiveis_page.xml.flat",
         "source": "C:\\Users\\Lab ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-43:\\layout\\activity_frm_disponiveis_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lab ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-merged_res-41:\\drawable_logo.png.flat",
+        "source": "C:\\Users\\Lab ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-43:\\drawable\\logo.png"
     },
     {
         "merged": "C:\\Users\\Lab ETESP\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-merged_res-41:\\mipmap-xxxhdpi_ic_launcher.webp.flat",

@@ -45,7 +45,6 @@ id btnLogin
 id btnLogout_perfil
 id btnPerfil
 id btnPerfil2
-id button
 id colsultor_perfil
 id cor
 id dataAdesao_perfil

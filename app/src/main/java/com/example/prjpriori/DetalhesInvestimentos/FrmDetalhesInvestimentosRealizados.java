@@ -107,7 +107,7 @@ public class FrmDetalhesInvestimentosRealizados extends AppCompatActivity {
             saldo.setText(objA.RS.getString("saldo"));
 
 
-            Date DataVencimento = objA.RS.getDate("vencmento");
+            Date DataVencimento = objA.RS.getDate("vencimento");
             Date efetuacao = objA.RS.getDate("data_efetuacao");
             SimpleDateFormat DateFor = new SimpleDateFormat("dd/MM/yyyy");
             String formatEfetuacao = DateFor.format(efetuacao);

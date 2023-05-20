@@ -138,12 +138,12 @@ public class FrmDetalhesInvestimento extends AppCompatActivity {
             ex.printStackTrace();
         }
     }
-
+/*
     public void web(View view){
         Uri uri = Uri.parse("http://google.com/");
 
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);
         startActivity(intent);
     }
-
+*/
 }
