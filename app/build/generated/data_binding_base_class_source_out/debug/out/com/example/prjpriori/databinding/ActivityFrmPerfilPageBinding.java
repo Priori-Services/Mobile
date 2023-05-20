@@ -61,6 +61,9 @@ public final class ActivityFrmPerfilPageBinding implements ViewBinding {
   public final TextView pontuacaoPerfil;
 
   @NonNull
+  public final LinearLayout saldo;
+
+  @NonNull
   public final TextView tipoPerfil;
 
   @NonNull
@@ -72,8 +75,8 @@ public final class ActivityFrmPerfilPageBinding implements ViewBinding {
       @NonNull TextView colsultorPerfil, @NonNull TextView dataAdesaoPerfil,
       @NonNull TextView emailPerfil, @NonNull TextView enderecoPerfil,
       @NonNull ImageView fotoPerfil, @NonNull LinearLayout linearLayout,
-      @NonNull TextView nomePerfil, @NonNull TextView pontuacaoPerfil, @NonNull TextView tipoPerfil,
-      @NonNull TextView txtSaldo) {
+      @NonNull TextView nomePerfil, @NonNull TextView pontuacaoPerfil, @NonNull LinearLayout saldo,
+      @NonNull TextView tipoPerfil, @NonNull TextView txtSaldo) {
     this.rootView = rootView;
     this.DataNascimentoPerfil = DataNascimentoPerfil;
     this.btnDisponivel = btnDisponivel;
@@ -88,6 +91,7 @@ public final class ActivityFrmPerfilPageBinding implements ViewBinding {
     this.linearLayout = linearLayout;
     this.nomePerfil = nomePerfil;
     this.pontuacaoPerfil = pontuacaoPerfil;
+    this.saldo = saldo;
     this.tipoPerfil = tipoPerfil;
     this.txtSaldo = txtSaldo;
   }
@@ -197,6 +201,12 @@ public final class ActivityFrmPerfilPageBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.saldo;
+      LinearLayout saldo = ViewBindings.findChildViewById(rootView, id);
+      if (saldo == null) {
+        break missingId;
+      }
+
       id = R.id.tipo_perfil;
       TextView tipoPerfil = ViewBindings.findChildViewById(rootView, id);
       if (tipoPerfil == null) {
@@ -211,7 +221,7 @@ public final class ActivityFrmPerfilPageBinding implements ViewBinding {
 
       return new ActivityFrmPerfilPageBinding((LinearLayout) rootView, DataNascimentoPerfil,
           btnDisponivel, btnHome, btnLogoutPerfil, btnPerfil, colsultorPerfil, dataAdesaoPerfil,
-          emailPerfil, enderecoPerfil, fotoPerfil, linearLayout, nomePerfil, pontuacaoPerfil,
+          emailPerfil, enderecoPerfil, fotoPerfil, linearLayout, nomePerfil, pontuacaoPerfil, saldo,
           tipoPerfil, txtSaldo);
     }
     String missingId = rootView.getResources().getResourceName(id);

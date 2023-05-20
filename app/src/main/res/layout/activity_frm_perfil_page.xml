@@ -41,23 +41,49 @@
                 android:id="@+id/nome_perfil"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
+                android:layout_gravity="center|center_horizontal"
                 android:layout_marginTop="10dp"
+                android:foregroundGravity="center"
+                android:gravity="center"
                 android:text="Nome Completo"
                 android:textColor="#fff"
                 android:textSize="23dp"
                 android:textStyle="bold" />
 
-            <TextView
-                android:id="@+id/txtSaldo"
+            <LinearLayout
+                android:id="@+id/saldo"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="#FFFFFF"
-                android:textSize="20dp"
-                android:textStyle="bold"
-                android:layout_marginTop="15dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
                 android:gravity="center"
-                android:text="R$: 00,00" />
+                >
+
+                <TextView
+                    android:id="@+id/Rs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="R$: "
+                    android:layout_marginTop="-20dp"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    />
+
+
+                <TextView
+                    android:id="@+id/txtSaldo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="-20dp"
+                    android:text="00,00" />
+
+
+            </LinearLayout>
+
+
         </LinearLayout>
 
         <androidx.cardview.widget.CardView
