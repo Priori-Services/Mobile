@@ -27,7 +27,7 @@ public class Acessa {
         }
 
         try{
-            String url = "jdbc:jtds:sqlserver://192.168.159.238:1433;databaseName=Priori";
+            String url = "jdbc:jtds:sqlserver://192.168.20.245:1433;databaseName=Priori";
             con = DriverManager.getConnection(url, "sa", "12345");
             stmt = con.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
             // Toast.makeText(ctx.getApplicationContext(), "Conectado", Toast.LENGTH_SHORT).show();
