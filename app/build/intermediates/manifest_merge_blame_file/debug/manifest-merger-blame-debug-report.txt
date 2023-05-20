@@ -6,133 +6,135 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml
+8-->C:\Users\Lab ETESP\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="33" />
-9-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml
+9-->C:\Users\Lab ETESP\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:5:5-67
-11-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:5:22-64
+11-->C:\Users\Lab ETESP\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\Lab ETESP\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:5:22-64
 12
 13    <permission
-13-->[androidx.core:core:1.9.0] C:\Users\guzii\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+13-->[androidx.core:core:1.9.0] C:\Users\Lab ETESP\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
 14        android:name="com.example.prjpriori.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-14-->[androidx.core:core:1.9.0] C:\Users\guzii\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+14-->[androidx.core:core:1.9.0] C:\Users\Lab ETESP\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
 15        android:protectionLevel="signature" />
-15-->[androidx.core:core:1.9.0] C:\Users\guzii\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+15-->[androidx.core:core:1.9.0] C:\Users\Lab ETESP\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
 16
 17    <uses-permission android:name="com.example.prjpriori.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-17-->[androidx.core:core:1.9.0] C:\Users\guzii\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-17-->[androidx.core:core:1.9.0] C:\Users\guzii\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+17-->[androidx.core:core:1.9.0] C:\Users\Lab ETESP\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+17-->[androidx.core:core:1.9.0] C:\Users\Lab ETESP\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 18
 19    <application
-19-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:7:5-43:19
+19-->C:\Users\Lab ETESP\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:7:5-44:19
 20        android:allowBackup="true"
-20-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:8:9-35
+20-->C:\Users\Lab ETESP\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:8:9-35
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-21-->[androidx.core:core:1.9.0] C:\Users\guzii\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+21-->[androidx.core:core:1.9.0] C:\Users\Lab ETESP\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 22        android:dataExtractionRules="@xml/data_extraction_rules"
-22-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:9:9-65
+22-->C:\Users\Lab ETESP\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:9:9-65
 23        android:debuggable="true"
 24        android:fullBackupContent="@xml/backup_rules"
-24-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:10:9-54
+24-->C:\Users\Lab ETESP\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:10:9-54
 25        android:icon="@mipmap/ic_launcher"
-25-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:11:9-43
+25-->C:\Users\Lab ETESP\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:11:9-43
 26        android:label="@string/app_name"
-26-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:12:9-41
+26-->C:\Users\Lab ETESP\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:12:9-41
 27        android:supportsRtl="true"
-27-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:13:9-35
+27-->C:\Users\Lab ETESP\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:13:9-35
 28        android:testOnly="true"
-29        android:theme="@style/Theme.PrjPriori" >
-29-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:14:9-47
-30        <activity
-30-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:16:9-18:40
-31            android:name="com.example.prjpriori.DetalhesInvestimentos.FrmDetalhesInvestimentosRealizados"
-31-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:17:13-85
-32            android:exported="false" />
-32-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:18:13-37
-33        <activity
-33-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:19:9-21:40
-34            android:name="com.example.prjpriori.DetalhesInvestimentos.FrmDetalhesInvestimento"
-34-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:20:13-74
-35            android:exported="false" />
-35-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:21:13-37
-36        <activity
-36-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:22:9-24:40
-37            android:name="com.example.prjpriori.FrmConfigPage"
-37-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:23:13-42
-38            android:exported="false" />
-38-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:24:13-37
-39        <activity
-39-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:25:9-27:40
-40            android:name="com.example.prjpriori.FrmPerfilPage"
-40-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:26:13-42
-41            android:exported="false" />
-41-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:27:13-37
-42        <activity
-42-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:28:9-30:40
-43            android:name="com.example.prjpriori.InvestimentosDisponiveis.FrmDisponiveisPage"
-43-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:29:13-72
-44            android:exported="false" />
-44-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:30:13-37
-45        <activity
-45-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:31:9-33:40
-46            android:name="com.example.prjpriori.InvestimentosRealizados.FrmHomePage"
-46-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:32:13-64
-47            android:exported="false" />
-47-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:33:13-37
-48        <activity
-48-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:34:9-42:20
-49            android:name="com.example.prjpriori.FrmLogin"
-49-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:35:13-37
-50            android:exported="true" >
-50-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:36:13-36
-51            <intent-filter>
-51-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:37:13-41:29
-52                <action android:name="android.intent.action.MAIN" />
-52-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:38:17-69
-52-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:38:25-66
-53
-54                <category android:name="android.intent.category.LAUNCHER" />
-54-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:40:17-77
-54-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:40:27-74
-55            </intent-filter>
-56        </activity>
-57
-58        <provider
-58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\guzii\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-59            android:name="androidx.startup.InitializationProvider"
-59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\guzii\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-60            android:authorities="com.example.prjpriori.androidx-startup"
-60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\guzii\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-61            android:exported="false" >
-61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\guzii\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-62            <meta-data
-62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\guzii\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-63                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\guzii\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-64                android:value="androidx.startup" />
-64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\guzii\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-65            <meta-data
-65-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\guzii\.gradle\caches\transforms-3\b0761d22b5c86c7f873b7a426ffce717\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-66                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-66-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\guzii\.gradle\caches\transforms-3\b0761d22b5c86c7f873b7a426ffce717\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-67                android:value="androidx.startup" />
-67-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\guzii\.gradle\caches\transforms-3\b0761d22b5c86c7f873b7a426ffce717\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-68        </provider>
-69
-70        <uses-library
-70-->[androidx.window:window:1.0.0] C:\Users\guzii\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
-71            android:name="androidx.window.extensions"
-71-->[androidx.window:window:1.0.0] C:\Users\guzii\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
-72            android:required="false" />
-72-->[androidx.window:window:1.0.0] C:\Users\guzii\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
-73        <uses-library
-73-->[androidx.window:window:1.0.0] C:\Users\guzii\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
-74            android:name="androidx.window.sidecar"
-74-->[androidx.window:window:1.0.0] C:\Users\guzii\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
-75            android:required="false" />
-75-->[androidx.window:window:1.0.0] C:\Users\guzii\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
-76    </application>
-77
-78</manifest>
+29        android:theme="@style/Theme.PrjPriori"
+29-->C:\Users\Lab ETESP\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:15:9-47
+30        android:usesCleartextTraffic="true" >
+30-->C:\Users\Lab ETESP\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:14:9-44
+31        <activity
+31-->C:\Users\Lab ETESP\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:17:9-19:40
+32            android:name="com.example.prjpriori.DetalhesInvestimentos.FrmDetalhesInvestimentosRealizados"
+32-->C:\Users\Lab ETESP\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:18:13-85
+33            android:exported="false" />
+33-->C:\Users\Lab ETESP\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:19:13-37
+34        <activity
+34-->C:\Users\Lab ETESP\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:20:9-22:40
+35            android:name="com.example.prjpriori.DetalhesInvestimentos.FrmDetalhesInvestimento"
+35-->C:\Users\Lab ETESP\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:21:13-74
+36            android:exported="false" />
+36-->C:\Users\Lab ETESP\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:22:13-37
+37        <activity
+37-->C:\Users\Lab ETESP\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:23:9-25:40
+38            android:name="com.example.prjpriori.FrmConfigPage"
+38-->C:\Users\Lab ETESP\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:24:13-42
+39            android:exported="false" />
+39-->C:\Users\Lab ETESP\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:25:13-37
+40        <activity
+40-->C:\Users\Lab ETESP\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:26:9-28:40
+41            android:name="com.example.prjpriori.FrmPerfilPage"
+41-->C:\Users\Lab ETESP\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:27:13-42
+42            android:exported="false" />
+42-->C:\Users\Lab ETESP\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:28:13-37
+43        <activity
+43-->C:\Users\Lab ETESP\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:29:9-31:40
+44            android:name="com.example.prjpriori.InvestimentosDisponiveis.FrmDisponiveisPage"
+44-->C:\Users\Lab ETESP\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:30:13-72
+45            android:exported="false" />
+45-->C:\Users\Lab ETESP\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:31:13-37
+46        <activity
+46-->C:\Users\Lab ETESP\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:32:9-34:40
+47            android:name="com.example.prjpriori.InvestimentosRealizados.FrmHomePage"
+47-->C:\Users\Lab ETESP\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:33:13-64
+48            android:exported="false" />
+48-->C:\Users\Lab ETESP\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:34:13-37
+49        <activity
+49-->C:\Users\Lab ETESP\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:35:9-43:20
+50            android:name="com.example.prjpriori.FrmLogin"
+50-->C:\Users\Lab ETESP\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:36:13-37
+51            android:exported="true" >
+51-->C:\Users\Lab ETESP\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:37:13-36
+52            <intent-filter>
+52-->C:\Users\Lab ETESP\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:38:13-42:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->C:\Users\Lab ETESP\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:39:17-69
+53-->C:\Users\Lab ETESP\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:39:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->C:\Users\Lab ETESP\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:41:17-77
+55-->C:\Users\Lab ETESP\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:41:27-74
+56            </intent-filter>
+57        </activity>
+58
+59        <provider
+59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lab ETESP\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+60            android:name="androidx.startup.InitializationProvider"
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lab ETESP\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+61            android:authorities="com.example.prjpriori.androidx-startup"
+61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lab ETESP\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+62            android:exported="false" >
+62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lab ETESP\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+63            <meta-data
+63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lab ETESP\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+64                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lab ETESP\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+65                android:value="androidx.startup" />
+65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lab ETESP\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+66            <meta-data
+66-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Lab ETESP\.gradle\caches\transforms-3\b0761d22b5c86c7f873b7a426ffce717\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+67                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+67-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Lab ETESP\.gradle\caches\transforms-3\b0761d22b5c86c7f873b7a426ffce717\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+68                android:value="androidx.startup" />
+68-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Lab ETESP\.gradle\caches\transforms-3\b0761d22b5c86c7f873b7a426ffce717\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+69        </provider>
+70
+71        <uses-library
+71-->[androidx.window:window:1.0.0] C:\Users\Lab ETESP\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+72            android:name="androidx.window.extensions"
+72-->[androidx.window:window:1.0.0] C:\Users\Lab ETESP\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+73            android:required="false" />
+73-->[androidx.window:window:1.0.0] C:\Users\Lab ETESP\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+74        <uses-library
+74-->[androidx.window:window:1.0.0] C:\Users\Lab ETESP\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+75            android:name="androidx.window.sidecar"
+75-->[androidx.window:window:1.0.0] C:\Users\Lab ETESP\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+76            android:required="false" />
+76-->[androidx.window:window:1.0.0] C:\Users\Lab ETESP\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+77    </application>
+78
+79</manifest>

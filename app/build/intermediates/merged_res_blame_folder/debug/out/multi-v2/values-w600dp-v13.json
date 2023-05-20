@@ -4,7 +4,7 @@
             "outputFile": "com.example.prjpriori.app-mergeDebugResources-39:/values-w600dp-v13/values-w600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\guzii\\OneDrive - ifsp.edu.br\\IFSP - 2023\\Apagar\\WEB\\Mobile\\app\\src\\main\\res\\values-w600dp\\dimens.xml",
+                    "source": "C:\\Users\\Lab ETESP\\Documents\\GitHub\\Mobile\\app\\src\\main\\res\\values-w600dp\\dimens.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "6",
