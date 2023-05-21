@@ -2880,6 +2880,7 @@ int id FUNCTION 0x7f080005
 int id FirstFragment 0x7f080006
 int id META 0x7f080007
 int id NO_DEBUG 0x7f080008
+int id Rs 0x7f08022e
 int id SHIFT 0x7f080009
 int id SHOW_ALL 0x7f08000a
 int id SHOW_PATH 0x7f08000b

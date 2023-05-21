@@ -92,6 +92,13 @@ public class FrmPerfilPage extends AppCompatActivity {
             nomePerfil.setText(objA.RS.getString(5));
             dataAdesao.setText(objA.RS.getString(8));
             pontuacao.setText(objA.RS.getString(9));
+            //Lembrate para tentar concertar isso:
+            txtSaldo.setText(objA.RS.getString("SELECT saldo FROM tblCarteiraInvestimentos " +
+                    "WHERE data_efetuacao IN " +
+                    "(SELECT MAX (data_efetuacao) FROM " +
+                    "tblCarteiraInvestimentos GROUP BY id_cliente_carteira) " +
+                    "AND id_cliente_carteira =" +idCliente+""));
+            //fim
             email.setText(objA.RS.getString(14));
             DataNascimento_perfil.setText(objA.RS.getString(13));
             endereco.setText(objA.RS.getString(12));
@@ -131,9 +138,6 @@ public class FrmPerfilPage extends AppCompatActivity {
 
 
 /*/
-    SELECT saldo FROM tblCarteiraInvestimentos WHERE data_efetuacao IN
-    (SELECT MAX (data_efetuacao) FROM tblCarteiraInvestimentos GROUP BY id_cliente_carteira) AND
-    id_cliente_carteora = @X
-
+    SELECT saldo FROM tblCarteiraInvestimentos WHERE data_efetuacao IN (SELECT MAX (data_efetuacao) FROM tblCarteiraInvestimentos GROUP BY id_cliente_carteira) AND id_cliente_carteora = @X
     @X = ID do cliente logado
  */

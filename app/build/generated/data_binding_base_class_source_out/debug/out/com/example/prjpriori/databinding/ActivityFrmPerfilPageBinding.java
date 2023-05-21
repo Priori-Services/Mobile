@@ -25,6 +25,9 @@ public final class ActivityFrmPerfilPageBinding implements ViewBinding {
   public final TextView DataNascimentoPerfil;
 
   @NonNull
+  public final TextView Rs;
+
+  @NonNull
   public final Button btnDisponivel;
 
   @NonNull
@@ -70,7 +73,7 @@ public final class ActivityFrmPerfilPageBinding implements ViewBinding {
   public final TextView txtSaldo;
 
   private ActivityFrmPerfilPageBinding(@NonNull LinearLayout rootView,
-      @NonNull TextView DataNascimentoPerfil, @NonNull Button btnDisponivel,
+      @NonNull TextView DataNascimentoPerfil, @NonNull TextView Rs, @NonNull Button btnDisponivel,
       @NonNull Button btnHome, @NonNull Button btnLogoutPerfil, @NonNull Button btnPerfil,
       @NonNull TextView colsultorPerfil, @NonNull TextView dataAdesaoPerfil,
       @NonNull TextView emailPerfil, @NonNull TextView enderecoPerfil,
@@ -79,6 +82,7 @@ public final class ActivityFrmPerfilPageBinding implements ViewBinding {
       @NonNull TextView tipoPerfil, @NonNull TextView txtSaldo) {
     this.rootView = rootView;
     this.DataNascimentoPerfil = DataNascimentoPerfil;
+    this.Rs = Rs;
     this.btnDisponivel = btnDisponivel;
     this.btnHome = btnHome;
     this.btnLogoutPerfil = btnLogoutPerfil;
@@ -126,6 +130,12 @@ public final class ActivityFrmPerfilPageBinding implements ViewBinding {
       id = R.id.DataNascimento_perfil;
       TextView DataNascimentoPerfil = ViewBindings.findChildViewById(rootView, id);
       if (DataNascimentoPerfil == null) {
+        break missingId;
+      }
+
+      id = R.id.Rs;
+      TextView Rs = ViewBindings.findChildViewById(rootView, id);
+      if (Rs == null) {
         break missingId;
       }
 
@@ -219,7 +229,7 @@ public final class ActivityFrmPerfilPageBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityFrmPerfilPageBinding((LinearLayout) rootView, DataNascimentoPerfil,
+      return new ActivityFrmPerfilPageBinding((LinearLayout) rootView, DataNascimentoPerfil, Rs,
           btnDisponivel, btnHome, btnLogoutPerfil, btnPerfil, colsultorPerfil, dataAdesaoPerfil,
           emailPerfil, enderecoPerfil, fotoPerfil, linearLayout, nomePerfil, pontuacaoPerfil, saldo,
           tipoPerfil, txtSaldo);

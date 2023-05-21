@@ -2881,6 +2881,7 @@ id FUNCTION
 id FirstFragment
 id META
 id NO_DEBUG
+id Rs
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
