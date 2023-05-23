@@ -77,9 +77,13 @@ public class FrmPerfilPage extends AppCompatActivity {
         objA.entBanco(this);
         try {
             objA.RS = objA.stmt.executeQuery
-                    ("select consultor.nome, Cliente.* from tblClientes as Cliente" +
-                            " inner join tblConsultores as consultor on consultor.id_consultor = Cliente.id_consultor" +
-                            " where id_cliente = " + idCliente + " ");
+                    ("select carteira.saldo, consultor.nome, Cliente.* from tblClientes as Cliente\n" +
+                            "       inner join tblConsultores as consultor on consultor.id_consultor = Cliente.id_consultor\n" +
+                            "\t   inner join tblCarteiraInvestimentos as carteira on carteira.id_cliente_carteira = Cliente.id_cliente\n" +
+                            "                   where data_efetuacao in \n" +
+                            "\t\t\t\t   (SELECT MAX (data_efetuacao) FROM \n" +
+                            "                    tblCarteiraInvestimentos GROUP BY id_cliente_carteira) \n" +
+                            "                    AND id_cliente_carteira = " + idCliente + " ");
         } catch (SQLException ex) {
             Toast.makeText(this, "erro" + ex, Toast.LENGTH_SHORT).show();
         }
@@ -88,20 +92,14 @@ public class FrmPerfilPage extends AppCompatActivity {
 
     public void preencher() {
         try {
-            consultor.setText(objA.RS.getString(1));
-            nomePerfil.setText(objA.RS.getString(5));
-            dataAdesao.setText(objA.RS.getString(8));
-            pontuacao.setText(objA.RS.getString(9));
-            //Lembrate para tentar concertar isso:
-            txtSaldo.setText(objA.RS.getString("SELECT saldo FROM tblCarteiraInvestimentos " +
-                    "WHERE data_efetuacao IN " +
-                    "(SELECT MAX (data_efetuacao) FROM " +
-                    "tblCarteiraInvestimentos GROUP BY id_cliente_carteira) " +
-                    "AND id_cliente_carteira =" +idCliente+""));
-            //fim
-            email.setText(objA.RS.getString(14));
-            DataNascimento_perfil.setText(objA.RS.getString(13));
-            endereco.setText(objA.RS.getString(12));
+            consultor.setText(objA.RS.getString(2));
+            nomePerfil.setText(objA.RS.getString(6));
+            dataAdesao.setText(objA.RS.getString(9));
+            pontuacao.setText(objA.RS.getString(10));
+            txtSaldo.setText(objA.RS.getString(1));
+            email.setText(objA.RS.getString(15));
+            DataNascimento_perfil.setText(objA.RS.getString(14));
+            endereco.setText(objA.RS.getString(13));
 
 
 
