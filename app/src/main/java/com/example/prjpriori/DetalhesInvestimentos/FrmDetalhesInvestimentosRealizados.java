@@ -104,7 +104,7 @@ public class FrmDetalhesInvestimentosRealizados extends AppCompatActivity {
             rentabilidadeVariavel.setText(objA.RS.getString("rentabilidade_variavel"));
             valorAplicado.setText(objA.RS.getString("valor_aplicado"));
             status.setText(objA.RS.getString("status"));
-            saldo.setText(objA.RS.getString("saldo"));
+            //saldo.setText(objA.RS.getString("saldo"));
 
             Date DataVencimento = objA.RS.getDate("vencimento");
             Date efetuacao = objA.RS.getDate("data_efetuacao");
