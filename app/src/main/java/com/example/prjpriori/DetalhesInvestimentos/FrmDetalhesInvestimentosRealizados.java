@@ -104,6 +104,7 @@ public class FrmDetalhesInvestimentosRealizados extends AppCompatActivity {
             rentabilidadeVariavel.setText(objA.RS.getString("rentabilidade_variavel"));
             valorAplicado.setText(objA.RS.getString("valor_aplicado"));
             status.setText(objA.RS.getString("status"));
+            valorMinimo.setText(objA.RS.getString("valor_minimo"));
             //saldo.setText(objA.RS.getString("saldo"));
 
             Date DataVencimento = objA.RS.getDate("vencimento");
@@ -111,18 +112,21 @@ public class FrmDetalhesInvestimentosRealizados extends AppCompatActivity {
             SimpleDateFormat DateFor = new SimpleDateFormat("dd/MM/yyyy");
             String formatEfetuacao = DateFor.format(efetuacao);
             String formatVencimento = DateFor.format(DataVencimento);
-            valorMinimo.setText(formatVencimento);
-            vencimento.setText(formatEfetuacao);
+            dataEfetuacao.setText(formatEfetuacao);
 
             int id_riscoInvestmento = objA.RS.getInt("id_riscoInvestimento");
 
             LinearLayout cor = findViewById(R.id.cor);
             if(id_riscoInvestmento == 1){
                 cor.setBackgroundResource(R.drawable.lateral_green);
+                tipoInvestimento.setText("Baixo");
+
             }else if(id_riscoInvestmento == 2){
                 cor.setBackgroundResource(R.drawable.lateral_yellow);
+                tipoInvestimento.setText("Moderado");
             }else{
                 cor.setBackgroundResource(R.drawable.lateral_red);
+                tipoInvestimento.setText("Alto");
             }
         } catch (SQLException ex) {
             ex.printStackTrace();
