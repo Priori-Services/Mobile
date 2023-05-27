@@ -2789,6 +2789,9 @@ int drawable ic_search_black_24 0x7f07009f
 int drawable lateral_green 0x7f0700a0
 int drawable lateral_red 0x7f0700a1
 int drawable lateral_yellow 0x7f0700a2
+int drawable legenda_green 0x7f0700f5
+int drawable legenda_red 0x7f0700f6
+int drawable legenda_yellow 0x7f0700f7
 int drawable location_black 0x7f0700a3
 int drawable logo 0x7f0700a4
 int drawable m3_appbar_background 0x7f0700a5
@@ -3127,6 +3130,7 @@ int id lblSenha 0x7f0800fc
 int id left 0x7f0800fd
 int id leftToRight 0x7f0800fe
 int id legacy 0x7f0800ff
+int id legenda 0x7f08022f
 int id line1 0x7f080100
 int id line3 0x7f080101
 int id linear 0x7f080102
@@ -3376,6 +3380,7 @@ int id textView5 0x7f0801f5
 int id textView6 0x7f0801f6
 int id textView7 0x7f0801f7
 int id textView8 0x7f0801f8
+int id textView9 0x7f080230
 int id text_input_end_icon 0x7f0801f9
 int id text_input_error_icon 0x7f0801fa
 int id text_input_start_icon 0x7f0801fb
@@ -3413,6 +3418,9 @@ int id useLogo 0x7f08021a
 int id valorMinimoInvesimento 0x7f08021b
 int id vencimentoInvestimento 0x7f08021c
 int id vertical_only 0x7f08021d
+int id view1_amarelo 0x7f080231
+int id view1_verde 0x7f080232
+int id view1_vermelho 0x7f080233
 int id view_offset_helper 0x7f08021e
 int id view_transition 0x7f08021f
 int id view_tree_lifecycle_owner 0x7f080220

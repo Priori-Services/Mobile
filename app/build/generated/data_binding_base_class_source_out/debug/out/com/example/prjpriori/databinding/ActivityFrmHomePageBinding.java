@@ -38,28 +38,58 @@ public final class ActivityFrmHomePageBinding implements ViewBinding {
   public final ListView investimentosRealizados;
 
   @NonNull
+  public final LinearLayout legenda;
+
+  @NonNull
   public final LinearLayout linearLayout;
 
   @NonNull
   public final LinearLayout linearLayout2;
 
   @NonNull
+  public final TextView textView10;
+
+  @NonNull
+  public final TextView textView11;
+
+  @NonNull
   public final TextView textView2;
+
+  @NonNull
+  public final TextView textView9;
+
+  @NonNull
+  public final View view1Amarelo;
+
+  @NonNull
+  public final View view1Verde;
+
+  @NonNull
+  public final View view1Vermelho;
 
   private ActivityFrmHomePageBinding(@NonNull ConstraintLayout rootView,
       @NonNull Button btnDisponivel, @NonNull Button btnHome, @NonNull Button btnPerfil,
       @NonNull Button btnPerfil2, @NonNull ListView investimentosRealizados,
-      @NonNull LinearLayout linearLayout, @NonNull LinearLayout linearLayout2,
-      @NonNull TextView textView2) {
+      @NonNull LinearLayout legenda, @NonNull LinearLayout linearLayout,
+      @NonNull LinearLayout linearLayout2, @NonNull TextView textView10,
+      @NonNull TextView textView11, @NonNull TextView textView2, @NonNull TextView textView9,
+      @NonNull View view1Amarelo, @NonNull View view1Verde, @NonNull View view1Vermelho) {
     this.rootView = rootView;
     this.btnDisponivel = btnDisponivel;
     this.btnHome = btnHome;
     this.btnPerfil = btnPerfil;
     this.btnPerfil2 = btnPerfil2;
     this.investimentosRealizados = investimentosRealizados;
+    this.legenda = legenda;
     this.linearLayout = linearLayout;
     this.linearLayout2 = linearLayout2;
+    this.textView10 = textView10;
+    this.textView11 = textView11;
     this.textView2 = textView2;
+    this.textView9 = textView9;
+    this.view1Amarelo = view1Amarelo;
+    this.view1Verde = view1Verde;
+    this.view1Vermelho = view1Vermelho;
   }
 
   @Override
@@ -119,6 +149,12 @@ public final class ActivityFrmHomePageBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.legenda;
+      LinearLayout legenda = ViewBindings.findChildViewById(rootView, id);
+      if (legenda == null) {
+        break missingId;
+      }
+
       id = R.id.linearLayout;
       LinearLayout linearLayout = ViewBindings.findChildViewById(rootView, id);
       if (linearLayout == null) {
@@ -131,14 +167,51 @@ public final class ActivityFrmHomePageBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textView10;
+      TextView textView10 = ViewBindings.findChildViewById(rootView, id);
+      if (textView10 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView11;
+      TextView textView11 = ViewBindings.findChildViewById(rootView, id);
+      if (textView11 == null) {
+        break missingId;
+      }
+
       id = R.id.textView2;
       TextView textView2 = ViewBindings.findChildViewById(rootView, id);
       if (textView2 == null) {
         break missingId;
       }
 
+      id = R.id.textView9;
+      TextView textView9 = ViewBindings.findChildViewById(rootView, id);
+      if (textView9 == null) {
+        break missingId;
+      }
+
+      id = R.id.view1_amarelo;
+      View view1Amarelo = ViewBindings.findChildViewById(rootView, id);
+      if (view1Amarelo == null) {
+        break missingId;
+      }
+
+      id = R.id.view1_verde;
+      View view1Verde = ViewBindings.findChildViewById(rootView, id);
+      if (view1Verde == null) {
+        break missingId;
+      }
+
+      id = R.id.view1_vermelho;
+      View view1Vermelho = ViewBindings.findChildViewById(rootView, id);
+      if (view1Vermelho == null) {
+        break missingId;
+      }
+
       return new ActivityFrmHomePageBinding((ConstraintLayout) rootView, btnDisponivel, btnHome,
-          btnPerfil, btnPerfil2, investimentosRealizados, linearLayout, linearLayout2, textView2);
+          btnPerfil, btnPerfil2, investimentosRealizados, legenda, linearLayout, linearLayout2,
+          textView10, textView11, textView2, textView9, view1Amarelo, view1Verde, view1Vermelho);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

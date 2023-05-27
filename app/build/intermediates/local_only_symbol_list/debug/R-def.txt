@@ -24,6 +24,9 @@ drawable ic_launcher_foreground
 drawable lateral_green
 drawable lateral_red
 drawable lateral_yellow
+drawable legenda_green
+drawable legenda_red
+drawable legenda_yellow
 drawable location_black
 drawable logo
 drawable perfil
@@ -55,6 +58,7 @@ id foto_perfil
 id investimentosRealizados
 id lblEmail
 id lblSenha
+id legenda
 id linearLayout
 id linearLayout2
 id linearLayout3
@@ -85,12 +89,16 @@ id textView5
 id textView6
 id textView7
 id textView8
+id textView9
 id tipo_perfil
 id txtEsqueceuSenha
 id txtSaldo
 id txtSemCadastro
 id valorMinimoInvesimento
 id vencimentoInvestimento
+id view1_amarelo
+id view1_verde
+id view1_vermelho
 layout activity_detalhes_investimentos
 layout activity_frm_config_page
 layout activity_frm_detalhes_investimentos_realizados

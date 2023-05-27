@@ -2790,6 +2790,9 @@ drawable ic_search_black_24
 drawable lateral_green
 drawable lateral_red
 drawable lateral_yellow
+drawable legenda_green
+drawable legenda_red
+drawable legenda_yellow
 drawable location_black
 drawable logo
 drawable m3_appbar_background
@@ -3128,6 +3131,7 @@ id lblSenha
 id left
 id leftToRight
 id legacy
+id legenda
 id line1
 id line3
 id linear
@@ -3377,6 +3381,7 @@ id textView5
 id textView6
 id textView7
 id textView8
+id textView9
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3414,6 +3419,9 @@ id useLogo
 id valorMinimoInvesimento
 id vencimentoInvestimento
 id vertical_only
+id view1_amarelo
+id view1_verde
+id view1_vermelho
 id view_offset_helper
 id view_transition
 id view_tree_lifecycle_owner
