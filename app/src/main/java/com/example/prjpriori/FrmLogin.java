@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.view.View;
 import android.widget.ProgressBar;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.prjpriori.InvestimentosRealizados.FrmHomePage;
@@ -20,6 +21,8 @@ public class FrmLogin extends AppCompatActivity {
     Button btnLogin;
     ProgressBar barraProgresso;
 
+    TextView txtSemCadastro;
+
     public static String idCliente;
 
     @Override
@@ -31,9 +34,18 @@ public class FrmLogin extends AppCompatActivity {
         lblSenha = findViewById(R.id.lblSenha);
         lblEmail = findViewById(R.id.lblEmail);
         barraProgresso = findViewById(R.id.barraProgresso);
+        txtSemCadastro = findViewById(R.id.txtSemCadastro);
 
         assert getSupportActionBar() != null;
         getSupportActionBar().hide();
+
+        txtSemCadastro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(FrmLogin.this, FrmCadastro.class);
+                startActivity(intent);
+            }
+        });
     }
 
     Acessa obj = new Acessa();

@@ -42,15 +42,12 @@ public final class ActivityFrmLoginBinding implements ViewBinding {
   public final TextView signin;
 
   @NonNull
-  public final TextView txtEsqueceuSenha;
-
-  @NonNull
   public final TextView txtSemCadastro;
 
   private ActivityFrmLoginBinding(@NonNull NestedScrollView rootView,
       @NonNull ProgressBar barraProgresso, @NonNull Button btnLogin, @NonNull EditText lblEmail,
       @NonNull EditText lblSenha, @NonNull ImageView logo, @NonNull TextView signin,
-      @NonNull TextView txtEsqueceuSenha, @NonNull TextView txtSemCadastro) {
+      @NonNull TextView txtSemCadastro) {
     this.rootView = rootView;
     this.barraProgresso = barraProgresso;
     this.btnLogin = btnLogin;
@@ -58,7 +55,6 @@ public final class ActivityFrmLoginBinding implements ViewBinding {
     this.lblSenha = lblSenha;
     this.logo = logo;
     this.signin = signin;
-    this.txtEsqueceuSenha = txtEsqueceuSenha;
     this.txtSemCadastro = txtSemCadastro;
   }
 
@@ -125,12 +121,6 @@ public final class ActivityFrmLoginBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.txtEsqueceuSenha;
-      TextView txtEsqueceuSenha = ViewBindings.findChildViewById(rootView, id);
-      if (txtEsqueceuSenha == null) {
-        break missingId;
-      }
-
       id = R.id.txtSemCadastro;
       TextView txtSemCadastro = ViewBindings.findChildViewById(rootView, id);
       if (txtSemCadastro == null) {
@@ -138,7 +128,7 @@ public final class ActivityFrmLoginBinding implements ViewBinding {
       }
 
       return new ActivityFrmLoginBinding((NestedScrollView) rootView, barraProgresso, btnLogin,
-          lblEmail, lblSenha, logo, signin, txtEsqueceuSenha, txtSemCadastro);
+          lblEmail, lblSenha, logo, signin, txtSemCadastro);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -29,6 +29,9 @@
         android:theme="@style/Theme.PrjPriori"
         android:usesCleartextTraffic="true" >
         <activity
+            android:name="com.example.prjpriori.FrmCadastro"
+            android:exported="false" />
+        <activity
             android:name="com.example.prjpriori.DetalhesInvestimentos.FrmDetalhesInvestimentosRealizados"
             android:exported="false" />
         <activity

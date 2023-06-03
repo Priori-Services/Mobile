@@ -49,6 +49,7 @@ id btnLogin
 id btnLogout_perfil
 id btnPerfil
 id btnPerfil2
+id btnVoltar
 id colsultor_perfil
 id cor
 id dataAdesao_perfil
@@ -82,6 +83,7 @@ id textView14
 id textView15
 id textView16
 id textView17
+id textView19
 id textView2
 id textView3
 id textView4
@@ -91,15 +93,16 @@ id textView7
 id textView8
 id textView9
 id tipo_perfil
-id txtEsqueceuSenha
 id txtSaldo
 id txtSemCadastro
+id txtTexto
 id valorMinimoInvesimento
 id vencimentoInvestimento
 id view1_amarelo
 id view1_verde
 id view1_vermelho
 layout activity_detalhes_investimentos
+layout activity_frm_cadastro
 layout activity_frm_config_page
 layout activity_frm_detalhes_investimentos_realizados
 layout activity_frm_disponiveis_page
