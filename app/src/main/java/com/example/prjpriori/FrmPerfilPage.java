@@ -91,14 +91,15 @@ public class FrmPerfilPage extends AppCompatActivity {
 
     public void preencher() {
         try {
-            consultor.setText(objA.RS.getString(2));
-            nomePerfil.setText(objA.RS.getString(6));
-            dataAdesao.setText(objA.RS.getString(9));
-            pontuacao.setText(objA.RS.getString(10));
-            txtSaldo.setText(objA.RS.getString(1));
-            email.setText(objA.RS.getString(15));
-            DataNascimento_perfil.setText(objA.RS.getString(14));
-            endereco.setText(objA.RS.getString(13));
+            consultor.setText(objA.RS.getString("id_tipoinvestidor"));
+            nomePerfil.setText(objA.RS.getString("nome"));
+            dataAdesao.setText(objA.RS.getString("data_adesao"));
+            pontuacao.setText(objA.RS.getString("pontuacao"));
+            //para o txtSaldo, o indíce estava 1 para o Marcos Pontes, porém, estou tentando colocar apenas id_cliente_carteira para testar
+            txtSaldo.setText(objA.RS.getString("id_cliente_carteira"));
+            email.setText(objA.RS.getString("email"));
+            DataNascimento_perfil.setText(objA.RS.getString("dataNascimento"));
+            endereco.setText(objA.RS.getString("endereco"));
 
 
 
