@@ -72,44 +72,51 @@ public class FrmPerfilPage extends AppCompatActivity {
     }
 
     Acessa objA = new Acessa();
+    Acessa objB = new Acessa();
 
     public Connection consultar() {
         objA.entBanco(this);
         try {
             objA.RS = objA.stmt.executeQuery
-                    ("select carteira.saldo, consultor.nome, Cliente.* from tblClientes as Cliente \n" +
-                            "\tinner join tblConsultores as consultor on consultor.id_consultor = Cliente.id_consultor \n" +
-                            "\tinner join tblCarteiraInvestimentos as carteira on carteira.id_cliente_carteira = Cliente.id_cliente where data_efetuacao\n" +
-                            "\t\tin  (SELECT MAX (data_efetuacao) FROM\n" +
-                            "                    tblCarteiraInvestimentos GROUP BY id_cliente_carteira) \n" +
-                            "                    AND id_cliente_carteira = " + idCliente + "  ");
+                    ("select carteira.saldo, Cliente.* from tblClientes as Cliente inner join \n" +
+                            "tblCarteiraInvestimentos as carteira on carteira.id_cliente_carteira = Cliente.id_cliente where data_efetuacao\n" +
+                            "   in  (SELECT MAX (data_efetuacao) FROM tblCarteiraInvestimentos GROUP BY id_cliente_carteira)\n" +
+                            "                             AND id_cliente_carteira = " + idCliente + "  ");
         } catch (SQLException ex) {
             Toast.makeText(this, "erro" + ex, Toast.LENGTH_SHORT).show();
         }
         return objA.con;
     }
 
+    public Connection nome() {
+        objB.entBanco(this);
+        try {
+            objB.RS = objB.stmt.executeQuery
+                    ("select * from tblConsultores WHERE id_consultor = " + idCliente + "  ");
+        } catch (SQLException ex) {
+            Toast.makeText(this, "erro" + ex, Toast.LENGTH_SHORT).show();
+        }
+        return objB.con;
+    }
+
     public void preencher() {
         try {
-            consultor.setText(objA.RS.getString("id_tipoinvestidor"));
             nomePerfil.setText(objA.RS.getString("nome"));
             dataAdesao.setText(objA.RS.getString("data_adesao"));
             pontuacao.setText(objA.RS.getString("pontuacao"));
             //para o txtSaldo, o indíce estava 1 para o Marcos Pontes, porém, estou tentando colocar apenas id_cliente_carteira para testar
-            txtSaldo.setText(objA.RS.getString("id_cliente_carteira"));
+            txtSaldo.setText(objA.RS.getString("saldo"));
             email.setText(objA.RS.getString("email"));
             DataNascimento_perfil.setText(objA.RS.getString("dataNascimento"));
             endereco.setText(objA.RS.getString("endereco"));
-
-
-
+            consultor.setText(objB.RS.getString("nome"));
 
 
             Integer tipoInvestidor = Integer.valueOf(objA.RS.getString("id_tipoinvestidor"));
             if (tipoInvestidor == 1) {
-                tipo.setText("conservador");
+                tipo.setText("Conservador");
             } else if (tipoInvestidor == 2) {
-                tipo.setText("moderado");
+                tipo.setText("Moderado");
             } else {
                 tipo.setText("Audacioso");
             }
@@ -121,21 +128,9 @@ public class FrmPerfilPage extends AppCompatActivity {
 
     public void entrar() {
         objA.entBanco(this);
+        objB.entBanco(this);
         consultar();
-
-        try {
-            if (objA.RS.next()) {
-                preencher();
-            }
-        } catch (SQLException ex) {
-            ex.printStackTrace();
-        }
+        nome();
+        preencher();
     }
 }
-
-
-
-/*/
-    SELECT saldo FROM tblCarteiraInvestimentos WHERE data_efetuacao IN (SELECT MAX (data_efetuacao) FROM tblCarteiraInvestimentos GROUP BY id_cliente_carteira) AND id_cliente_carteora = @X
-    @X = ID do cliente logado
- */
