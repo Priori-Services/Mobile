@@ -78,14 +78,18 @@ public class FrmPerfilPage extends AppCompatActivity {
         try {
             objA.RS = objA.stmt.executeQuery
                     ("select carteira.saldo, consultor.nome, Cliente.* from tblClientes as Cliente \n" +
-                            "\tinner join tblConsultores as consultor on consultor.id_consultor = Cliente.id_consultor \n" +
-                            "\tinner join tblCarteiraInvestimentos as carteira on carteira.id_cliente_carteira = Cliente.id_cliente where data_efetuacao\n" +
-                            "\t\tin  (SELECT MAX (data_efetuacao) FROM\n" +
-                            "                    tblCarteiraInvestimentos GROUP BY id_cliente_carteira) \n" +
+                            "\tinner " +
+                            "join tblConsultores as consultor on consultor.id_consultor = Cliente.id_consultor \n" +
+                            "\tinner" +
+                            " join tblCarteiraInvestimentos as carteira on carteira.id_cliente_carteira = Cliente.id_cliente where data_efetuacao\n" +
+                            "\t\tin " +
+                            " (" +
+                            "SELECT MAX (data_efetuacao) FROM\n tblCarteiraInvestimentos GROUP BY id_cliente_carteira) \n" +
                             "                    AND id_cliente_carteira = " + idCliente + "  ");
         } catch (SQLException ex) {
             Toast.makeText(this, "erro" + ex, Toast.LENGTH_SHORT).show();
         }
+
         return objA.con;
     }
 
