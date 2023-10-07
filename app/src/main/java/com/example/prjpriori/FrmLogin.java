@@ -50,10 +50,13 @@ public class FrmLogin extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                if (lblSenha.getInputType() == InputType.TYPE_TEXT_VARIATION_VISIBLE_PASSWORD) {
+                int inputType = lblSenha.getInputType();
+                if (inputType == InputType.TYPE_TEXT_VARIATION_VISIBLE_PASSWORD) {
                     lblSenha.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_PASSWORD);
+                    eyeIcon.setImageResource(R.drawable.ic_eye); // Define o ícone do olho normal
                 } else {
                     lblSenha.setInputType(InputType.TYPE_TEXT_VARIATION_VISIBLE_PASSWORD);
+                    eyeIcon.setImageResource(R.drawable.ic_eye_crossed); // Define o ícone do olho riscado
                 }
                 lblSenha.setSelection(lblSenha.getText().length());
             }

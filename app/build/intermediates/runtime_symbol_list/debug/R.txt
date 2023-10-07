@@ -2776,6 +2776,7 @@ int drawable ic_baseline_info_24 0x7f070092
 int drawable ic_clear_black_24 0x7f070093
 int drawable ic_clock_black_24dp 0x7f070094
 int drawable ic_eye 0x7f070095
+int drawable ic_eye_crossed 0x7f0700f9
 int drawable ic_keyboard_black_24dp 0x7f070096
 int drawable ic_launcher_background 0x7f070097
 int drawable ic_launcher_foreground 0x7f070098

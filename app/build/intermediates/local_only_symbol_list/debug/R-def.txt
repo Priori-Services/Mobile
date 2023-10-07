@@ -20,6 +20,7 @@ drawable home
 drawable home_white
 drawable ic_baseline_info_24
 drawable ic_eye
+drawable ic_eye_crossed
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable lateral_green

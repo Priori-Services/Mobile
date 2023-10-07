@@ -100,10 +100,6 @@
         "source": "C:\\Users\\erick\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-43:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.prjpriori.app-merged_res-41:/layout_activity_frm_login.xml.flat",
-        "source": "com.example.prjpriori.app-main-43:/layout/activity_frm_login.xml"
-    },
-    {
         "merged": "C:\\Users\\erick\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-merged_res-41:\\layout_activity_frm_detalhes_investimentos_realizados.xml.flat",
         "source": "C:\\Users\\erick\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-43:\\layout\\activity_frm_detalhes_investimentos_realizados.xml"
     },
@@ -118,6 +114,10 @@
     {
         "merged": "C:\\Users\\erick\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-merged_res-41:\\layout_activity_frm_config_page.xml.flat",
         "source": "C:\\Users\\erick\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-43:\\layout\\activity_frm_config_page.xml"
+    },
+    {
+        "merged": "com.example.prjpriori.app-merged_res-41:/drawable_ic_eye_crossed.xml.flat",
+        "source": "com.example.prjpriori.app-main-43:/drawable/ic_eye_crossed.xml"
     },
     {
         "merged": "C:\\Users\\erick\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-merged_res-41:\\layout_activity_frm_cadastro.xml.flat",
@@ -154,6 +154,14 @@
     {
         "merged": "C:\\Users\\erick\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-merged_res-41:\\drawable_ic_eye.xml.flat",
         "source": "C:\\Users\\erick\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-43:\\drawable\\ic_eye.xml"
+    },
+    {
+        "merged": "com.example.prjpriori.app-merged_res-41:/drawable_ic_eye.xml.flat",
+        "source": "com.example.prjpriori.app-main-43:/drawable/ic_eye.xml"
+    },
+    {
+        "merged": "C:\\Users\\erick\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-merged_res-41:\\drawable_ic_eye_crossed.xml.flat",
+        "source": "C:\\Users\\erick\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-main-43:\\drawable\\ic_eye_crossed.xml"
     },
     {
         "merged": "C:\\Users\\erick\\.gradle\\daemon\\7.5\\com.example.prjpriori.app-merged_res-41:\\drawable_graph.xml.flat",
