@@ -1,3 +1,5 @@
+// backup FrmLogin. java 07/10 ás 16h32
+
 package com.example.prjpriori;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -13,7 +15,8 @@ import android.widget.Toast;
 import android.text.InputType;
 import android.widget.ImageView;
 
-
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 
 import com.example.prjpriori.InvestimentosRealizados.FrmHomePage;
 
