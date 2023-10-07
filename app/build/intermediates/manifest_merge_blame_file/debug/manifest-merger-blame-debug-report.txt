@@ -6,141 +6,141 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml
+8-->C:\Users\erick\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="33" />
-9-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml
+9-->C:\Users\erick\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:5:5-67
-11-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:5:22-64
+11-->C:\Users\erick\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\erick\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:5:22-64
 12
 13    <permission
-13-->[androidx.core:core:1.9.0] C:\Users\guzii\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+13-->[androidx.core:core:1.9.0] C:\Users\erick\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
 14        android:name="com.example.prjpriori.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-14-->[androidx.core:core:1.9.0] C:\Users\guzii\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+14-->[androidx.core:core:1.9.0] C:\Users\erick\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
 15        android:protectionLevel="signature" />
-15-->[androidx.core:core:1.9.0] C:\Users\guzii\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+15-->[androidx.core:core:1.9.0] C:\Users\erick\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
 16
 17    <uses-permission android:name="com.example.prjpriori.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-17-->[androidx.core:core:1.9.0] C:\Users\guzii\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-17-->[androidx.core:core:1.9.0] C:\Users\guzii\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+17-->[androidx.core:core:1.9.0] C:\Users\erick\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+17-->[androidx.core:core:1.9.0] C:\Users\erick\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 18
 19    <application
-19-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:7:5-47:19
+19-->C:\Users\erick\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:7:5-47:19
 20        android:allowBackup="true"
-20-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:8:9-35
+20-->C:\Users\erick\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:8:9-35
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-21-->[androidx.core:core:1.9.0] C:\Users\guzii\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+21-->[androidx.core:core:1.9.0] C:\Users\erick\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 22        android:dataExtractionRules="@xml/data_extraction_rules"
-22-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:9:9-65
+22-->C:\Users\erick\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:9:9-65
 23        android:debuggable="true"
 24        android:fullBackupContent="@xml/backup_rules"
-24-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:10:9-54
+24-->C:\Users\erick\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:10:9-54
 25        android:icon="@mipmap/ic_launcher"
-25-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:11:9-43
+25-->C:\Users\erick\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:11:9-43
 26        android:label="@string/app_name"
-26-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:12:9-41
+26-->C:\Users\erick\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:12:9-41
 27        android:supportsRtl="true"
-27-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:13:9-35
+27-->C:\Users\erick\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:13:9-35
 28        android:testOnly="true"
 29        android:theme="@style/Theme.PrjPriori"
-29-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:14:9-47
+29-->C:\Users\erick\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:14:9-47
 30        android:usesCleartextTraffic="true" >
-30-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:15:9-44
+30-->C:\Users\erick\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:15:9-44
 31        <activity
-31-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:17:9-19:40
+31-->C:\Users\erick\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:17:9-19:40
 32            android:name="com.example.prjpriori.FrmCadastro"
-32-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:18:13-40
+32-->C:\Users\erick\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:18:13-40
 33            android:exported="false" />
-33-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:19:13-37
+33-->C:\Users\erick\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:19:13-37
 34        <activity
-34-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:20:9-22:40
+34-->C:\Users\erick\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:20:9-22:40
 35            android:name="com.example.prjpriori.DetalhesInvestimentos.FrmDetalhesInvestimentosRealizados"
-35-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:21:13-85
+35-->C:\Users\erick\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:21:13-85
 36            android:exported="false" />
-36-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:22:13-37
+36-->C:\Users\erick\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:22:13-37
 37        <activity
-37-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:23:9-25:40
+37-->C:\Users\erick\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:23:9-25:40
 38            android:name="com.example.prjpriori.DetalhesInvestimentos.FrmDetalhesInvestimento"
-38-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:24:13-74
+38-->C:\Users\erick\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:24:13-74
 39            android:exported="false" />
-39-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:25:13-37
+39-->C:\Users\erick\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:25:13-37
 40        <activity
-40-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:26:9-28:40
+40-->C:\Users\erick\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:26:9-28:40
 41            android:name="com.example.prjpriori.FrmConfigPage"
-41-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:27:13-42
+41-->C:\Users\erick\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:27:13-42
 42            android:exported="false" />
-42-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:28:13-37
+42-->C:\Users\erick\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:28:13-37
 43        <activity
-43-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:29:9-31:40
+43-->C:\Users\erick\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:29:9-31:40
 44            android:name="com.example.prjpriori.FrmPerfilPage"
-44-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:30:13-42
+44-->C:\Users\erick\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:30:13-42
 45            android:exported="false" />
-45-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:31:13-37
+45-->C:\Users\erick\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:31:13-37
 46        <activity
-46-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:32:9-34:40
+46-->C:\Users\erick\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:32:9-34:40
 47            android:name="com.example.prjpriori.InvestimentosDisponiveis.FrmDisponiveisPage"
-47-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:33:13-72
+47-->C:\Users\erick\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:33:13-72
 48            android:exported="false" />
-48-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:34:13-37
+48-->C:\Users\erick\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:34:13-37
 49        <activity
-49-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:35:9-37:40
+49-->C:\Users\erick\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:35:9-37:40
 50            android:name="com.example.prjpriori.InvestimentosRealizados.FrmHomePage"
-50-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:36:13-64
+50-->C:\Users\erick\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:36:13-64
 51            android:exported="false" />
-51-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:37:13-37
+51-->C:\Users\erick\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:37:13-37
 52        <activity
-52-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:38:9-46:20
+52-->C:\Users\erick\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:38:9-46:20
 53            android:name="com.example.prjpriori.FrmLogin"
-53-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:39:13-37
+53-->C:\Users\erick\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:39:13-37
 54            android:exported="true" >
-54-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:40:13-36
+54-->C:\Users\erick\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:40:13-36
 55            <intent-filter>
-55-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:41:13-45:29
+55-->C:\Users\erick\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:41:13-45:29
 56                <action android:name="android.intent.action.MAIN" />
-56-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:42:17-69
-56-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:42:25-66
+56-->C:\Users\erick\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:42:17-69
+56-->C:\Users\erick\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:42:25-66
 57
 58                <category android:name="android.intent.category.LAUNCHER" />
-58-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:44:17-77
-58-->C:\Users\guzii\OneDrive - ifsp.edu.br\IFSP - 2023\Apagar\WEB\Mobile\app\src\main\AndroidManifest.xml:44:27-74
+58-->C:\Users\erick\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:44:17-77
+58-->C:\Users\erick\Documents\GitHub\Mobile\app\src\main\AndroidManifest.xml:44:27-74
 59            </intent-filter>
 60        </activity>
 61
 62        <provider
-62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\guzii\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\erick\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
 63            android:name="androidx.startup.InitializationProvider"
-63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\guzii\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\erick\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
 64            android:authorities="com.example.prjpriori.androidx-startup"
-64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\guzii\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\erick\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
 65            android:exported="false" >
-65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\guzii\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\erick\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
 66            <meta-data
-66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\guzii\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\erick\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
 67                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\guzii\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\erick\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
 68                android:value="androidx.startup" />
-68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\guzii\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\erick\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
 69            <meta-data
-69-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\guzii\.gradle\caches\transforms-3\b0761d22b5c86c7f873b7a426ffce717\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+69-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\erick\.gradle\caches\transforms-3\b0761d22b5c86c7f873b7a426ffce717\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
 70                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-70-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\guzii\.gradle\caches\transforms-3\b0761d22b5c86c7f873b7a426ffce717\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+70-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\erick\.gradle\caches\transforms-3\b0761d22b5c86c7f873b7a426ffce717\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
 71                android:value="androidx.startup" />
-71-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\guzii\.gradle\caches\transforms-3\b0761d22b5c86c7f873b7a426ffce717\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+71-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\erick\.gradle\caches\transforms-3\b0761d22b5c86c7f873b7a426ffce717\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
 72        </provider>
 73
 74        <uses-library
-74-->[androidx.window:window:1.0.0] C:\Users\guzii\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+74-->[androidx.window:window:1.0.0] C:\Users\erick\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
 75            android:name="androidx.window.extensions"
-75-->[androidx.window:window:1.0.0] C:\Users\guzii\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+75-->[androidx.window:window:1.0.0] C:\Users\erick\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
 76            android:required="false" />
-76-->[androidx.window:window:1.0.0] C:\Users\guzii\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+76-->[androidx.window:window:1.0.0] C:\Users\erick\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
 77        <uses-library
-77-->[androidx.window:window:1.0.0] C:\Users\guzii\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+77-->[androidx.window:window:1.0.0] C:\Users\erick\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
 78            android:name="androidx.window.sidecar"
-78-->[androidx.window:window:1.0.0] C:\Users\guzii\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+78-->[androidx.window:window:1.0.0] C:\Users\erick\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
 79            android:required="false" />
-79-->[androidx.window:window:1.0.0] C:\Users\guzii\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+79-->[androidx.window:window:1.0.0] C:\Users\erick\.gradle\caches\transforms-3\366f50b211bd670aa2f01a4a938cfc95\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
 80    </application>
 81
 82</manifest>

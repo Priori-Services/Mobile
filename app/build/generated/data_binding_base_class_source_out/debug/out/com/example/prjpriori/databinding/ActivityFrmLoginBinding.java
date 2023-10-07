@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
@@ -15,6 +16,7 @@ import androidx.core.widget.NestedScrollView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.prjpriori.R;
+import com.google.android.material.textfield.TextInputEditText;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -30,13 +32,19 @@ public final class ActivityFrmLoginBinding implements ViewBinding {
   public final Button btnLogin;
 
   @NonNull
+  public final ImageView eyeIcon;
+
+  @NonNull
   public final EditText lblEmail;
 
   @NonNull
-  public final EditText lblSenha;
+  public final TextInputEditText lblSenha;
 
   @NonNull
   public final ImageView logo;
+
+  @NonNull
+  public final FrameLayout passwordInputContainer;
 
   @NonNull
   public final TextView signin;
@@ -45,15 +53,18 @@ public final class ActivityFrmLoginBinding implements ViewBinding {
   public final TextView txtSemCadastro;
 
   private ActivityFrmLoginBinding(@NonNull NestedScrollView rootView,
-      @NonNull ProgressBar barraProgresso, @NonNull Button btnLogin, @NonNull EditText lblEmail,
-      @NonNull EditText lblSenha, @NonNull ImageView logo, @NonNull TextView signin,
+      @NonNull ProgressBar barraProgresso, @NonNull Button btnLogin, @NonNull ImageView eyeIcon,
+      @NonNull EditText lblEmail, @NonNull TextInputEditText lblSenha, @NonNull ImageView logo,
+      @NonNull FrameLayout passwordInputContainer, @NonNull TextView signin,
       @NonNull TextView txtSemCadastro) {
     this.rootView = rootView;
     this.barraProgresso = barraProgresso;
     this.btnLogin = btnLogin;
+    this.eyeIcon = eyeIcon;
     this.lblEmail = lblEmail;
     this.lblSenha = lblSenha;
     this.logo = logo;
+    this.passwordInputContainer = passwordInputContainer;
     this.signin = signin;
     this.txtSemCadastro = txtSemCadastro;
   }
@@ -97,6 +108,12 @@ public final class ActivityFrmLoginBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.eyeIcon;
+      ImageView eyeIcon = ViewBindings.findChildViewById(rootView, id);
+      if (eyeIcon == null) {
+        break missingId;
+      }
+
       id = R.id.lblEmail;
       EditText lblEmail = ViewBindings.findChildViewById(rootView, id);
       if (lblEmail == null) {
@@ -104,7 +121,7 @@ public final class ActivityFrmLoginBinding implements ViewBinding {
       }
 
       id = R.id.lblSenha;
-      EditText lblSenha = ViewBindings.findChildViewById(rootView, id);
+      TextInputEditText lblSenha = ViewBindings.findChildViewById(rootView, id);
       if (lblSenha == null) {
         break missingId;
       }
@@ -112,6 +129,12 @@ public final class ActivityFrmLoginBinding implements ViewBinding {
       id = R.id.logo;
       ImageView logo = ViewBindings.findChildViewById(rootView, id);
       if (logo == null) {
+        break missingId;
+      }
+
+      id = R.id.passwordInputContainer;
+      FrameLayout passwordInputContainer = ViewBindings.findChildViewById(rootView, id);
+      if (passwordInputContainer == null) {
         break missingId;
       }
 
@@ -128,7 +151,7 @@ public final class ActivityFrmLoginBinding implements ViewBinding {
       }
 
       return new ActivityFrmLoginBinding((NestedScrollView) rootView, barraProgresso, btnLogin,
-          lblEmail, lblSenha, logo, signin, txtSemCadastro);
+          eyeIcon, lblEmail, lblSenha, logo, passwordInputContainer, signin, txtSemCadastro);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

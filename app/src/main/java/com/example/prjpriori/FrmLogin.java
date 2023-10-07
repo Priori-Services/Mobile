@@ -10,6 +10,10 @@ import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.text.InputType;
+import android.widget.ImageView;
+
+
 
 import com.example.prjpriori.InvestimentosRealizados.FrmHomePage;
 
@@ -23,6 +27,8 @@ public class FrmLogin extends AppCompatActivity {
 
     TextView txtSemCadastro;
 
+    ImageView eyeIcon;
+
     public static String idCliente;
 
     @Override
@@ -31,6 +37,7 @@ public class FrmLogin extends AppCompatActivity {
         setContentView(R.layout.activity_frm_login);
 
         btnLogin = findViewById(R.id.btnLogin);
+        eyeIcon = findViewById(R.id.eyeIcon);
         lblSenha = findViewById(R.id.lblSenha);
         lblEmail = findViewById(R.id.lblEmail);
         barraProgresso = findViewById(R.id.barraProgresso);
@@ -38,6 +45,19 @@ public class FrmLogin extends AppCompatActivity {
 
         assert getSupportActionBar() != null;
         getSupportActionBar().hide();
+
+        eyeIcon.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                if (lblSenha.getInputType() == InputType.TYPE_TEXT_VARIATION_VISIBLE_PASSWORD) {
+                    lblSenha.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_PASSWORD);
+                } else {
+                    lblSenha.setInputType(InputType.TYPE_TEXT_VARIATION_VISIBLE_PASSWORD);
+                }
+                lblSenha.setSelection(lblSenha.getText().length());
+            }
+        });
 
         txtSemCadastro.setOnClickListener(new View.OnClickListener() {
             @Override
